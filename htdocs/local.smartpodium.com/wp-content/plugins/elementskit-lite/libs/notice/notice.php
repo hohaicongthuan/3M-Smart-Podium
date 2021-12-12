@@ -417,7 +417,7 @@ class Notice{
             </script>
             <style>
                 .wpmet-notice{
-                    margin: 5px 0 15px;
+                    margin-bottom: 15px;
                     padding: 0!important;
                     display: flex;
                     flex-direction: row;

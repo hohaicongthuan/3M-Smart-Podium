@@ -2,46 +2,33 @@
 # This file is distributed under the same license as the Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-08 09:53:19+0000\n"
+"PO-Revision-Date: 2021-12-06 05:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
-"Language: vi_VN\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: vi\n"
 "Project-Id-Version: Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-06 04:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2"
 
-#: inc/admin/views/course/curriculum.php:14
-#: inc/admin/views/question/actions.php:12 inc/admin/views/quiz/editor.php:35
-#: inc/admin/views/quiz/question-meta.php:12
+#: inc/admin/views/course/curriculum.php:14 inc/admin/views/question/actions.php:12 inc/admin/views/quiz/editor.php:35 inc/admin/views/quiz/question-meta.php:12
 msgid "Details"
 msgstr "Chi tiết"
 
-#: inc/user/class-lp-user.php:349
+#: inc/user/class-lp-user.php:359
 msgid "This course is out of stock"
 msgstr "Khóa học đã hết"
 
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:38
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:64
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:89
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:114
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:670
-#: inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:32
-#: inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:58
-#: inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:379
-#: inc/jwt/rest-api/version1/class-lp-rest-questions-v1-controller.php:32
-#: inc/jwt/rest-api/version1/class-lp-rest-questions-v1-controller.php:197
-#: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:32
-#: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:544
-#: inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php:42
-#: inc/rest-api/v1/frontend/class-lp-rest-courses-controller.php:64
-#: inc/rest-api/v1/frontend/class-lp-rest-settings-controller.php:23
-#: inc/rest-api/v1/frontend/class-lp-rest-users-controller.php:90
+#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:38 inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:64 inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:89 inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:114 inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:748 inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:32 inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:58 inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:410 inc/jwt/rest-api/version1/class-lp-rest-questions-v1-controller.php:32 inc/jwt/rest-api/version1/class-lp-rest-questions-v1-controller.php:197 inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:32 inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:575 inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php:42 inc/rest-api/v1/frontend/class-lp-rest-courses-controller.php:64 inc/rest-api/v1/frontend/class-lp-rest-settings-controller.php:23 inc/rest-api/v1/frontend/class-lp-rest-users-controller.php:90
 msgid "Unique identifier for the resource."
 msgstr "Định danh duy nhất cho tài nguyên."
 
-#: inc/admin/views/course/section-item.php:27
-#: inc/admin/views/quiz/question-actions.php:31
+#: inc/admin/views/course/section-item.php:27 inc/admin/views/quiz/question-actions.php:31
 msgid "Edit item"
 msgstr "Sửa đối tượng"
 
@@ -49,11 +36,11 @@ msgstr "Sửa đối tượng"
 msgid "Dismiss"
 msgstr "Bỏ qua"
 
-#: inc/class-lp-repair-database.php:639
+#: inc/class-lp-repair-database.php:675
 msgid "The method %s is not callable."
 msgstr "Phương pháp %s không thể gọi được."
 
-#: inc/user/class-lp-user.php:500
+#: inc/user/class-lp-user.php:510
 msgid "Please enroll course before starting quiz."
 msgstr "Hãy ghi danh vào khóa học trước khi bắt đầu câu hỏi"
 
@@ -97,8 +84,7 @@ msgstr "Đã xóa"
 msgid "There is no item found!"
 msgstr "Không có khóa học nào được tìm thấy"
 
-#: inc/lp-deprecated.php:2291
-#: templates/global/become-teacher-form/form-fields.php:33
+#: inc/lp-deprecated.php:2291 templates/global/become-teacher-form/form-fields.php:33
 msgid "Your message"
 msgstr "Thông điệp của bạn"
 
@@ -142,8 +128,7 @@ msgstr "Đơn hàng vào {{order_date}} đã được hoàn thành"
 msgid "Send email to admin when an order has been completed."
 msgstr "Gửi e-mail đến quản trị viên khi một đơn đặt hàng đã được hoàn thành."
 
-#: inc/background-process/class-lp-background-query-items.php:156
-#: inc/background-process/class-lp-background-query-items.php:210
+#: inc/background-process/class-lp-background-query-items.php:156 inc/background-process/class-lp-background-query-items.php:210
 msgid "There is no items found!"
 msgstr "Không có khóa học nào được tìm thấy!"
 
@@ -172,21 +157,17 @@ msgstr "Từ chối"
 msgid "Available Courses"
 msgstr "Những khóa học khả dụng"
 
-#: inc/admin/class-lp-admin-ajax.php:403 inc/admin/class-lp-admin.php:740
+#: inc/admin/class-lp-admin.php:740
 msgid "Thank you for subscribing! Please check and click the confirmation link from the email we've just sent to your mail box."
 msgstr "Cảm ơn bạn đã đặt mua! Hãy kiểm tra email và bấm vào liên kết để xác nhận."
 
-#: inc/admin/class-lp-admin-ajax.php:400 inc/admin/class-lp-admin.php:738
+#: inc/admin/class-lp-admin.php:738
 msgid "Something went wrong: "
 msgstr "Ồ, có gì đó sai sót!"
 
-#: inc/admin/class-lp-admin-ajax.php:376 inc/admin/class-lp-admin.php:712
+#: inc/admin/class-lp-admin.php:712
 msgid "Fail while joining newsletter! Please try again!"
 msgstr "Không thành công khi tham gia bản tin! Vui lòng thử lại!"
-
-#: inc/admin/class-lp-admin-ajax.php:372
-msgid "Dismissed!"
-msgstr "Loại bỏ!"
 
 #: inc/custom-post-types/course.php:86
 msgid "Invalid date"
@@ -272,9 +253,7 @@ msgstr "Tác giả Khóa học "
 msgid "Order Total"
 msgstr "Toàn bộ đơn hàng "
 
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:31
-#: inc/admin/views/meta-boxes/order/exports-invoice.php:74
-#: inc/class-lp-gdpr.php:169
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:31 inc/admin/views/meta-boxes/order/exports-invoice.php:74 inc/class-lp-gdpr.php:169
 msgid "Order Date"
 msgstr "Ngày đặt hàng"
 
@@ -302,16 +281,15 @@ msgstr "Đặt hàng LearnPress"
 msgid "LearnPress Owned Courses"
 msgstr "Các khóa học do LearnPress sở hữu"
 
-#: inc/user/class-lp-user.php:21 inc/user/class-lp-user.php:67
+#: inc/user/class-lp-user.php:21 inc/user/class-lp-user.php:74
 msgid "This content is protected, please enroll course to view this content!"
 msgstr "Nội dung này được bảo vệ, vui lòng đăng ký khóa học để lượt xem nội dung này!"
 
-#: inc/user/class-lp-user.php:61 templates/global/block-content.php:16
+#: inc/user/class-lp-user.php:68 templates/global/block-content.php:16
 msgid "Content of this item has blocked because the course has exceeded duration."
 msgstr "Nội dung của cái này mục đã bị chặn vì khóa học đã vượt quá thời lượng."
 
-#: inc/user-item/class-lp-user-item.php:805
-#: inc/user-item/class-lp-user-item.php:816
+#: inc/user-item/class-lp-user-item.php:801 inc/user-item/class-lp-user-item.php:812
 msgid "Not Enrolled"
 msgstr "Chưa ghi danh."
 
@@ -355,14 +333,11 @@ msgstr "Cài lại mục tiến bộ cho một người sử dụng"
 msgid "Are you sure to reset course progress of all users enrolled this course?"
 msgstr "Chúng tôi/ bạn chắc chắn muốn cài lại tiến trình của tất cả người dùng đã đăng ký khóa học này?"
 
-#: inc/admin/views/meta-boxes/course/settings.php:107
-#: assets/js/dist/admin/pages/tools.js:1150
-#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:118
+#: inc/admin/views/meta-boxes/course/settings.php:107 assets/js/dist/admin/pages/tools.js:1150 assets/src/apps/js/admin/pages/tools/reset-data/course.js:118
 msgid "Reset course progress"
 msgstr "Cài lại tiến trình khóa học"
 
-#: inc/admin/lp-admin-functions.php:456 inc/admin/lp-admin-functions.php:502
-#: inc/admin/settings/class-lp-settings-emails.php:147
+#: inc/admin/lp-admin-functions.php:456 inc/admin/lp-admin-functions.php:502 inc/admin/settings/class-lp-settings-emails.php:148
 msgid "Plain Text"
 msgstr "Văn bản thô"
 
@@ -374,8 +349,7 @@ msgstr "Mục tiến độ đã bị xóa"
 msgid "Do you want to move question \"{{QUESTION_NAME}}\" to trash?"
 msgstr "Bạn có muốn chuyển câu hỏi  \"{{QUESTION_NAME}}\"  vào thùng rác?"
 
-#: inc/admin/views/meta-boxes/course/settings.php:256
-#: inc/custom-post-types/course.php:627
+#: inc/admin/views/meta-boxes/course/settings.php:256 inc/custom-post-types/course.php:627
 msgid "No requirement enroll"
 msgstr "Không yêu cầu đăng ký"
 
@@ -399,8 +373,7 @@ msgstr "Đề mục này đã được chỉ định vào khóa học. Nó sẽ 
 msgid "Choose an action"
 msgstr "Lựa chọn hành động"
 
-#: inc/admin/views/course/section-item.php:37
-#: inc/admin/views/quiz/question-actions.php:41
+#: inc/admin/views/course/section-item.php:37 inc/admin/views/quiz/question-actions.php:41
 msgid "Move to trash"
 msgstr "Chuyển vào thùng rác"
 
@@ -408,11 +381,11 @@ msgstr "Chuyển vào thùng rác"
 msgid "Courses per page"
 msgstr "Số khóa học mỗi trang"
 
-#: inc/admin/class-lp-admin-ajax.php:462
+#: inc/admin/class-lp-admin-ajax.php:479
 msgid "Duplicate post fail, please try again"
 msgstr "Bài đăng trùng lặp, vui lòng thử lại"
 
-#: inc/admin/class-lp-admin-ajax.php:419
+#: inc/admin/class-lp-admin-ajax.php:436
 msgid "Ops! ID not found"
 msgstr "Ops! ID không tồn tại"
 
@@ -420,8 +393,7 @@ msgstr "Ops! ID không tồn tại"
 msgid "Course name"
 msgstr "Tên khoá học"
 
-#: inc/admin/class-lp-install-sample-data.php:345
-#: inc/admin/views/tools/course/html-install-sample-data.php:25
+#: inc/admin/class-lp-install-sample-data.php:345 inc/admin/views/tools/course/html-install-sample-data.php:25
 msgid "Sample course"
 msgstr "Khoá học mẫu"
 
@@ -437,15 +409,11 @@ msgstr "Gửi e-mail đến người sử dụng khi họ đã đăng ký khóa 
 msgid "<p>Sorry! You don't have permission to duplicate this course</p>"
 msgstr "<p>Lấy làm tiếc! Bạn không có sự cho phép để nhân bản khóa học này</p>"
 
-#: inc/admin/class-lp-admin-ajax.php:636 inc/admin/class-lp-admin-ajax.php:686
-#: templates/order/order-details.php:15
+#: inc/admin/class-lp-admin-ajax.php:658 inc/admin/class-lp-admin-ajax.php:709 templates/order/order-details.php:15
 msgid "Invalid order"
 msgstr "đặt hàng không hợp lệ "
 
-#: templates/shortcode/list-courses.php:49
-#: templates/widgets/featured-courses.php:18
-#: templates/widgets/popular-courses.php:16
-#: templates/widgets/recent-courses.php:16
+#: templates/shortcode/list-courses.php:49 templates/widgets/featured-courses.php:18 templates/widgets/popular-courses.php:16 templates/widgets/recent-courses.php:16
 msgid "No courses"
 msgstr "Chưa có khoá nào"
 
@@ -467,9 +435,7 @@ msgctxt "course-item-navigation"
 msgid "Prev"
 msgstr "Trước"
 
-#: templates/profile/tabs/settings/basic-information.php:135
-#: templates/profile/tabs/settings/change-password.php:59
-#: templates/profile/tabs/settings/privacy.php:51
+#: templates/profile/tabs/settings/basic-information.php:135 templates/profile/tabs/settings/change-password.php:59 templates/profile/tabs/settings/privacy.php:51
 msgid "Save changes"
 msgstr "Lưu thay đổi"
 
@@ -547,18 +513,15 @@ msgstr "Đăng nhập"
 msgid "Submitting"
 msgstr "Báo cáo"
 
-#: templates/emails/order-items-table.php:76
-#: templates/emails/plain/order-items-table.php:39
+#: templates/emails/order-items-table.php:76 templates/emails/plain/order-items-table.php:60
 msgid "User Email"
 msgstr " E-mail người dùng"
 
-#: templates/emails/order-items-table.php:64
-#: templates/emails/plain/order-items-table.php:33
+#: templates/emails/order-items-table.php:64 templates/emails/plain/order-items-table.php:54
 msgid "Purchase Date"
 msgstr "Ngày thanh toán"
 
-#: templates/emails/order-items-table.php:55
-#: templates/emails/plain/order-items-table.php:29
+#: templates/emails/order-items-table.php:55 templates/emails/plain/order-items-table.php:50
 msgid "Order summary"
 msgstr "Tóm tắt theo thứ tự"
 
@@ -566,9 +529,7 @@ msgstr "Tóm tắt theo thứ tự"
 msgid "Ungraded"
 msgstr "Không được phân loại"
 
-#: inc/admin/views/meta-boxes/quiz/settings.php:86
-#: assets/js/dist/frontend/quiz.js:834
-#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:302
+#: inc/admin/views/meta-boxes/quiz/settings.php:86 assets/js/dist/frontend/quiz.js:834 assets/src/apps/js/frontend/quiz/components/buttons/index.js:302
 msgid "Review"
 msgstr "Đánh giá"
 
@@ -580,7 +541,7 @@ msgstr "Nội dung bài học trống."
 msgid "Note to administrator"
 msgstr "Lưu ý cho quản trị viên"
 
-#: inc/class-lp-ajax.php:158
+#: inc/class-lp-ajax.php:162
 msgid "Create new account with this email? Account information will be sent to this email."
 msgstr "Tạo mới tài khoản với e-mail đã chọn? Tài khoản thông tin sẽ được gửi đến e-mail đã chọn."
 
@@ -592,7 +553,7 @@ msgstr "Tiến trình khóa học"
 msgid "Course Info"
 msgstr "Thông tin khóa học"
 
-#: inc/user/class-lp-profile.php:823
+#: inc/user/class-lp-profile.php:832
 msgid "Not enrolled"
 msgstr "Chưa đăng ký"
 
@@ -608,39 +569,39 @@ msgstr "Hình đại diện của tài khoản đã cập nhật thành công."
 msgid "Account information updated successful."
 msgstr "Tài khoản cập nhật thông tin thành công."
 
-#: inc/user/abstract-lp-user.php:747
+#: inc/user/abstract-lp-user.php:751
 msgid "You can not hint question."
 msgstr "Bạn không thể gợi ý câu hỏi."
 
-#: inc/user/class-lp-user.php:643
+#: inc/user/class-lp-user.php:653
 msgid "You can not redo a quiz in a finished course."
 msgstr "Bạn không thể làm lại một bài kiểm tra khi một khóa học đã hoàn thành."
 
-#: inc/user/class-lp-user.php:628
+#: inc/user/class-lp-user.php:638
 msgid "Course does not exist or does not contain the quiz."
 msgstr "Khóa học không tồn tại hoặc không chứa bài kiểm tra."
 
-#: inc/user/class-lp-user.php:591
+#: inc/user/class-lp-user.php:601
 msgid "User has completed quiz"
 msgstr "Người sử dụng đã hoàn thành bài kiểm tra"
 
-#: inc/user/class-lp-user.php:582
+#: inc/user/class-lp-user.php:592
 msgid "User has already finished course of this quiz"
 msgstr "Người sử dụng đã hoàn thành khóa học của bài kiểm tra này"
 
-#: inc/user/class-lp-user.php:518
+#: inc/user/class-lp-user.php:528
 msgid "You have to login for starting quiz."
 msgstr "Bạn phải đăng nhập để bắt đầu bài kiểm tra."
 
-#: inc/user/class-lp-user.php:509
+#: inc/user/class-lp-user.php:519
 msgid "User has started or completed quiz"
 msgstr "Người sử dụng đã bắt đầu hoặc hoàn thành bài kiểm tra"
 
-#: inc/user/class-lp-user.php:492
+#: inc/user/class-lp-user.php:502
 msgid "You have already finished the course of this quiz"
 msgstr "Bạn đã hoàn thành khóa học chứa bài kiểm tra này"
 
-#: inc/user/class-lp-user.php:481
+#: inc/user/class-lp-user.php:491
 msgid "Course does not exist or does not contain the quiz"
 msgstr "Khóa học không tồn tại hoặc không chứa bài kiểm tra"
 
@@ -685,10 +646,6 @@ msgstr "Lựa chọn đầu tiên"
 msgid "New Option"
 msgstr "Lựa chọn khác"
 
-#: inc/order/lp-order-functions.php:65
-msgid "Invalid order ID when updating."
-msgstr "ID đơn hàng không hợp lệ"
-
 #: inc/order/class-lp-order.php:456
 msgid "%s (Guest)"
 msgstr "%s (Khách mời)"
@@ -701,7 +658,7 @@ msgstr "%s giây"
 #: inc/templates/class-lp-template-course.php:137
 msgctxt "duration"
 msgid "%s min"
-msgstr "%s nhỏ nhất"
+msgstr "%s phút"
 
 #: inc/templates/class-lp-template-course.php:136
 msgctxt "duration"
@@ -721,7 +678,7 @@ msgstr "Điền vào biểu mẫu và gửi yêu cầu của bạn cho chúng t�
 msgid "Course Search Results"
 msgstr "Kết quả tìm kiếm khóa học"
 
-#: inc/user/class-lp-user.php:365
+#: inc/user/class-lp-user.php:374
 msgid "Your order is waiting for processing"
 msgstr "Đơn đặt hàng của bạn đang chờ xử lý"
 
@@ -729,12 +686,12 @@ msgstr "Đơn đặt hàng của bạn đang chờ xử lý"
 msgid "Owned"
 msgstr "Chủ Sở hữu"
 
-#: inc/lp-core-functions.php:2775
+#: inc/lp-core-functions.php:2774
 msgctxt "static-page-name"
 msgid "Become a Teacher"
 msgstr "Trở thành một giáo viên"
 
-#: inc/lp-core-functions.php:2773
+#: inc/lp-core-functions.php:2772
 msgctxt "static-page-name"
 msgid "Courses"
 msgstr "Các khóa học"
@@ -1383,27 +1340,19 @@ msgstr "%s đã không được dùng nữa. Vui lòng sử dụng % thay vì."
 msgid "Send email to user who has purchased course as a Guest when the order is processing."
 msgstr "Gửi e-mail đến người sử dụng người đã mua khóa học với tư cách là Khách khi đơn đặt hàng đang được xử lý."
 
-#: inc/emails/guest/class-lp-email-new-order-guest.php:29
-#: inc/emails/guest/class-lp-email-processing-order-guest.php:26
-#: inc/emails/student/class-lp-email-new-order-user.php:29
-#: inc/emails/student/class-lp-email-processing-order-user.php:26
+#: inc/emails/guest/class-lp-email-new-order-guest.php:29 inc/emails/guest/class-lp-email-processing-order-guest.php:26 inc/emails/student/class-lp-email-new-order-user.php:29 inc/emails/student/class-lp-email-processing-order-user.php:26
 msgid "Thank you for your order"
 msgstr "Cảm ơn bạn đã tham gia khóa học"
 
-#: inc/emails/guest/class-lp-email-new-order-guest.php:28
-#: inc/emails/guest/class-lp-email-processing-order-guest.php:25
-#: inc/emails/student/class-lp-email-new-order-user.php:28
-#: inc/emails/student/class-lp-email-processing-order-user.php:25
+#: inc/emails/guest/class-lp-email-new-order-guest.php:28 inc/emails/guest/class-lp-email-processing-order-guest.php:25 inc/emails/student/class-lp-email-new-order-user.php:28 inc/emails/student/class-lp-email-processing-order-user.php:25
 msgid "Your order placed on {{order_date}}"
 msgstr "Đơn hàng của bạn được đặt vào {{order_date}}"
 
-#: inc/emails/admin/class-lp-email-new-order-admin.php:29
-#: inc/emails/instructor/class-lp-email-new-order-instructor.php:25
+#: inc/emails/admin/class-lp-email-new-order-admin.php:29 inc/emails/instructor/class-lp-email-new-order-instructor.php:25
 msgid "New user order"
 msgstr "Người đặt hàng mới"
 
-#: inc/emails/admin/class-lp-email-new-order-admin.php:28
-#: inc/emails/instructor/class-lp-email-new-order-instructor.php:24
+#: inc/emails/admin/class-lp-email-new-order-admin.php:28 inc/emails/instructor/class-lp-email-new-order-instructor.php:24
 msgid "New order placed on {{order_date}}"
 msgstr "Đơn hàng mới được đặt vào {{order_date}}"
 
@@ -1423,13 +1372,11 @@ msgstr "Bạn đã hoàn thành khóa học [{{site_title}}] "
 msgid "Send this email to instructor when they have finished course."
 msgstr "Gửi e-mail cho người hướng dẫn khi một người dùng kết thúc khóa học."
 
-#: inc/emails/admin/class-lp-email-finished-course-admin.php:29
-#: inc/emails/instructor/class-lp-email-finished-course-instructor.php:29
+#: inc/emails/admin/class-lp-email-finished-course-admin.php:29 inc/emails/instructor/class-lp-email-finished-course-instructor.php:29
 msgid "User has finished course"
 msgstr "Người sử dụng đã hoàn thành khóa học"
 
-#: inc/emails/admin/class-lp-email-finished-course-admin.php:28
-#: inc/emails/instructor/class-lp-email-finished-course-instructor.php:28
+#: inc/emails/admin/class-lp-email-finished-course-admin.php:28 inc/emails/instructor/class-lp-email-finished-course-instructor.php:28
 msgid "{{user_display_name}} has finished course"
 msgstr "{{user_display_name}} đã hoàn thành khóa học"
 
@@ -1449,13 +1396,11 @@ msgstr "Bạn đã đăng ký vào khóa học [{{site_title}}] "
 msgid "Send this email to instructor when they have enrolled course."
 msgstr "Gửi e-mail cho người hướng dẫn khi người dùng đã đăng ký khóa học."
 
-#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:31
-#: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:29
+#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:31 inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:29
 msgid "User has enrolled course"
 msgstr "Người sử dụng đã đăng ký khóa học"
 
-#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:30
-#: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:28
+#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:30 inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:28
 msgid "{{user_display_name}} has enrolled course"
 msgstr "{{user_display_name}} đã đăng ký khóa học"
 
@@ -1467,18 +1412,15 @@ msgstr "Gửi e-mail đến quản trị viên khi nào người sử dụng đ�
 msgid "Send email to the user who has bought course when order is completed."
 msgstr "Gửi e-mail đến người đã mua khóa học khi đơn đặt hàng hoàn thành."
 
-#: inc/emails/guest/class-lp-email-completed-order-guest.php:33
-#: inc/emails/student/class-lp-email-completed-order-user.php:36
+#: inc/emails/guest/class-lp-email-completed-order-guest.php:33 inc/emails/student/class-lp-email-completed-order-user.php:36
 msgid "Your order has completed"
 msgstr "Đơn hàng của bạn đã hoàn thành"
 
-#: inc/emails/guest/class-lp-email-completed-order-guest.php:32
-#: inc/emails/student/class-lp-email-completed-order-user.php:35
+#: inc/emails/guest/class-lp-email-completed-order-guest.php:32 inc/emails/student/class-lp-email-completed-order-user.php:35
 msgid "Your order on {{order_date}} has completed"
 msgstr "Đơn đặt hàng của bạn vào {{order_date}} đã hoàn thành"
 
-#: inc/emails/guest/class-lp-email-completed-order-guest.php:30
-#: inc/emails/guest/class-lp-email-new-order-guest.php:26
+#: inc/emails/guest/class-lp-email-completed-order-guest.php:30 inc/emails/guest/class-lp-email-new-order-guest.php:26
 msgid "Send email to the user who has bought course as guest."
 msgstr "Gửi e-mail đến người đã mua khóa học với tư cách là khách."
 
@@ -1490,13 +1432,11 @@ msgstr "Gửi e-mail đến người sử dụng khi đơn đặt hàng đã b�
 msgid "Send email to course instructor when order has been cancelled"
 msgstr "Gửi e-mail đến người hướng dẫn khóa học khi đơn đặt hàng đã bị hủy"
 
-#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:29
-#: inc/emails/student/class-lp-email-cancelled-order-user.php:29
+#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:29 inc/emails/student/class-lp-email-cancelled-order-user.php:29
 msgid "Your order has been cancelled"
 msgstr "Đơn đặt hàng của bạn  đã bị hủy"
 
-#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:28
-#: inc/emails/student/class-lp-email-cancelled-order-user.php:28
+#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:28 inc/emails/student/class-lp-email-cancelled-order-user.php:28
 msgid "Your order on {{order_date}} has been cancelled"
 msgstr "Đơn đặt hàng của bạn vào {{order_date}} đã bị hủy"
 
@@ -1504,13 +1444,11 @@ msgstr "Đơn đặt hàng của bạn vào {{order_date}} đã bị hủy"
 msgid "Send email to guest when order has been cancelled."
 msgstr "Gửi e-mail cho khách khi đơn đặt hàng đã bị hủy."
 
-#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:28
-#: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:29
+#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:28 inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:29
 msgid "User order has been cancelled"
 msgstr "Người sử dụng đơn đặt hàng đã bị hủy"
 
-#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:27
-#: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:28
+#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:27 inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:28
 msgid "Order placed on {{order_date}} has been cancelled"
 msgstr "Đơn hàng đặt vào {{order_date}} đã bị hủy"
 
@@ -1530,20 +1468,15 @@ msgstr "e-mail cho người trở thành người hướng dẫn "
 msgid "Request"
 msgstr "Yêu cầu"
 
-#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:25
-#: inc/emails/admin/class-lp-email-completed-order-admin.php:26
-#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:28
-#: inc/emails/admin/class-lp-email-finished-course-admin.php:26
-#: inc/emails/admin/class-lp-email-new-order-admin.php:25
+#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:25 inc/emails/admin/class-lp-email-completed-order-admin.php:26 inc/emails/admin/class-lp-email-enrolled-course-admin.php:28 inc/emails/admin/class-lp-email-finished-course-admin.php:26 inc/emails/admin/class-lp-email-new-order-admin.php:25
 msgid "Admin"
-msgstr "quản trị viên"
+msgstr "Quản trị viên"
 
-#: inc/custom-post-types/quiz.php:291
-#: inc/templates/class-lp-template-course.php:114
-#: inc/templates/class-lp-template-course.php:119
+#: inc/custom-post-types/quiz.php:291 inc/templates/class-lp-template-course.php:114 inc/templates/class-lp-template-course.php:119
 msgid "%d question"
 msgid_plural "%d questions"
 msgstr[0] "%d câu hỏi"
+msgstr[1] ""
 
 #: inc/custom-post-types/order.php:778 templates/checkout/order-received.php:80
 msgid "(No item)"
@@ -1557,8 +1490,7 @@ msgstr "(Khách mời)"
 msgid "View child orders"
 msgstr "Lượt xem đơn đặt hàng trẻ em"
 
-#: inc/custom-post-types/lesson.php:345 inc/custom-post-types/question.php:528
-#: inc/custom-post-types/quiz.php:464
+#: inc/custom-post-types/lesson.php:345 inc/custom-post-types/question.php:528 inc/custom-post-types/quiz.php:464
 msgid "Assigned"
 msgstr "Giao"
 
@@ -1570,16 +1502,15 @@ msgstr "Không xem trước %s"
 msgid "Preview %s"
 msgstr "Xem trước %s"
 
-#: inc/custom-post-types/lesson.php:112 inc/custom-post-types/question.php:80
-#: inc/custom-post-types/quiz.php:63
+#: inc/custom-post-types/lesson.php:112 inc/custom-post-types/question.php:80 inc/custom-post-types/quiz.php:63
 msgid "Unassigned %s"
 msgstr "Chưa hoàn thành %s"
 
-#: inc/lp-core-functions.php:3505
+#: inc/lp-core-functions.php:3504
 msgid "Evaluate via lessons"
 msgstr "Đánh giá qua bài học"
 
-#: inc/lp-core-functions.php:3463
+#: inc/lp-core-functions.php:3462
 msgid "E.g: Course has 10 lessons and user completed 5 lessons then the result = 5/10 = 50.%"
 msgstr "Vd: Khóa học có 10 bài học và người sử dụng học xong 5 bài thì kết quả = 5/10 = 50.%"
 
@@ -1599,37 +1530,35 @@ msgstr "Câu đố không hợp lệ."
 msgid "Quiz does not exists."
 msgstr "Câu đố không tồn tại."
 
-#: inc/curds/class-lp-user-curd.php:2142
+#: inc/curds/class-lp-user-curd.php:2111
 msgid "Failed to create user"
 msgstr "Không tạo được người dùng"
 
-#: inc/class-lp-forms-handler.php:235 inc/curds/class-lp-user-curd.php:2130
+#: inc/class-lp-forms-handler.php:235 inc/curds/class-lp-user-curd.php:2099
 msgid "An account is already registered with that username. Please choose another."
 msgstr "Tài khoản này đã được đăng ký. Vui lòng chọn tài khoản khác."
 
-#: inc/class-lp-forms-handler.php:30 inc/class-lp-forms-handler.php:231
-#: inc/curds/class-lp-user-curd.php:2126
+#: inc/class-lp-forms-handler.php:30 inc/class-lp-forms-handler.php:231 inc/curds/class-lp-user-curd.php:2095
 msgid "Please enter a valid account username."
 msgstr "Xin vui lòng nhập vào một tên tài khoản."
 
-#: inc/curds/class-lp-user-curd.php:2120
+#: inc/curds/class-lp-user-curd.php:2089
 msgid "An account is already registered with your email address. Please log in."
 msgstr "Tài khoản đã được đăng ký bởi địa chỉ e-mail của bạn. Vui lòng  đăng nhập bằng tài khoản đã đăng ký."
 
-#: inc/class-lp-forms-handler.php:37 inc/class-lp-forms-handler.php:221
-#: inc/curds/class-lp-user-curd.php:2116
+#: inc/class-lp-forms-handler.php:37 inc/class-lp-forms-handler.php:221 inc/curds/class-lp-user-curd.php:2085
 msgid "Please provide a valid email address."
 msgstr "Vui lòng cung cấp địa chỉ e-mail hợp lệ ."
 
-#: inc/curds/class-lp-user-curd.php:2048
+#: inc/curds/class-lp-user-curd.php:2017
 msgid "quizzes"
 msgstr "câu đố"
 
-#: inc/curds/class-lp-user-curd.php:2047
+#: inc/curds/class-lp-user-curd.php:2016
 msgid "quiz"
 msgstr "đố"
 
-#: inc/curds/class-lp-user-curd.php:1502 inc/curds/class-lp-user-curd.php:1823
+#: inc/curds/class-lp-user-curd.php:1504 inc/curds/class-lp-user-curd.php:1792
 msgid "courses"
 msgstr "các khóa học"
 
@@ -1669,15 +1598,11 @@ msgstr "<p>Op! Câu hỏi không tồn tại</p>"
 msgid "Question does not exist."
 msgstr "Câu hỏi không tồn tại."
 
-#: inc/curds/class-lp-order-curd.php:503
-msgid "User does not exist."
-msgstr "Người sử dụng không tồn tại."
-
-#: inc/curds/class-lp-order-curd.php:497
+#: inc/curds/class-lp-order-curd.php:500
 msgid "Order is already assigned."
 msgstr "Đơn hàng đã được chỉ định."
 
-#: inc/curds/class-lp-order-curd.php:434
+#: inc/curds/class-lp-order-curd.php:437
 msgid "Invalid order with ID \"%d\"."
 msgstr "Đặt hàng không hợp lệ \"%d\"."
 
@@ -1705,12 +1630,9 @@ msgstr "Bài học mới"
 msgid "<p>Sorry! Failed to duplicate course!</p>"
 msgstr "<p>Lấy làm tiếc! Không thể sao chép khóa học!</p>"
 
-#: inc/curds/class-lp-course-curd.php:131
-#: inc/curds/class-lp-lesson-curd.php:104
-#: inc/curds/class-lp-question-curd.php:150
-#: inc/curds/class-lp-quiz-curd.php:156
+#: inc/curds/class-lp-course-curd.php:131 inc/curds/class-lp-lesson-curd.php:104 inc/curds/class-lp-question-curd.php:150 inc/curds/class-lp-quiz-curd.php:156
 msgid "<p>Op! ID not found</p>"
-msgstr "<p>Op! không tìm thấy</p>"
+msgstr "<p>Op! Không tìm thấy ID</p>"
 
 #: inc/curds/class-lp-course-curd.php:27
 msgid "Course does not exist."
@@ -1788,15 +1710,15 @@ msgstr "Có vài thêm vào add-ons đã lỗi thời và có thể xung đột 
 msgid "Redirecting"
 msgstr "Chuyển hướng"
 
-#: inc/class-lp-ajax.php:309
+#: inc/class-lp-ajax.php:315
 msgid "Congrats! You have completed \"%s\"."
 msgstr "Chúc mừng! Bạn đã hoàn thành \"%s\"."
 
-#: inc/class-lp-ajax.php:298
+#: inc/class-lp-ajax.php:304
 msgid "Error! Invalid lesson or failed security check."
 msgstr "lỗi! không hợp lệ bài học hoặc kiểm tra bảo mật không thành công."
 
-#: inc/class-lp-ajax.php:126
+#: inc/class-lp-ajax.php:127
 msgid "The order %s has been successfully recovered."
 msgstr "Lệnh  %s đã được  phục hồi thành công."
 
@@ -1864,8 +1786,7 @@ msgstr "Tất cả (%d)"
 msgid "Cleaning..."
 msgstr "Làm sạch..."
 
-#: inc/admin/views/tools/html-cache.php:25
-#: inc/admin/views/tools/html-cache.php:28
+#: inc/admin/views/tools/html-cache.php:25 inc/admin/views/tools/html-cache.php:28
 msgid "Clear cache"
 msgstr "Xóa bộ nhớ cache"
 
@@ -1897,8 +1818,7 @@ msgstr "LearnPress hard cache"
 msgid "Deleting..."
 msgstr "Đang xóa ..."
 
-#: inc/admin/views/tools/course/html-install-sample-data.php:59
-#: inc/admin/views/tools/course/html-install-sample-data.php:60
+#: inc/admin/views/tools/course/html-install-sample-data.php:59 inc/admin/views/tools/course/html-install-sample-data.php:60
 msgid "Delete sample course"
 msgstr "Xóa bỏ khóa học mẫu"
 
@@ -1910,8 +1830,7 @@ msgstr "Tùy chọn"
 msgid "Installing..."
 msgstr "Đang cài đặt..."
 
-#: inc/admin/views/tools/course/html-install-sample-data.php:55
-#: inc/admin/views/tools/course/html-install-sample-data.php:56
+#: inc/admin/views/tools/course/html-install-sample-data.php:55 inc/admin/views/tools/course/html-install-sample-data.php:56
 msgid "Install"
 msgstr "Tải về"
 
@@ -1931,8 +1850,7 @@ msgstr "Số ngẫu nhiên của mặt hàng trong phạm vi (của hàng)"
 msgid "Random number of sections in range"
 msgstr "Số phần ngẫu nhiên trong phạm vi"
 
-#: inc/admin/views/question/fib-answer-editor.php:23
-#: inc/admin/views/tools/course/html-install-sample-data.php:20
+#: inc/admin/views/question/fib-answer-editor.php:23 inc/admin/views/tools/course/html-install-sample-data.php:20
 msgid "Options"
 msgstr "Tùy chọn"
 
@@ -2060,8 +1978,7 @@ msgstr "LearnPress & rsaquo; Các bước thiết lập."
 msgid "LearnPress %s. Designed by @ThimPress."
 msgstr "LearnPress %s. Bản quyền bởi @ThimPress."
 
-#: inc/admin/views/setup/footer.php:18
-#: inc/admin/views/setup/steps/finish.php:30
+#: inc/admin/views/setup/footer.php:18 inc/admin/views/setup/steps/finish.php:30
 msgid "Back to Dashboard"
 msgstr "Quay lại bảng điều khiển"
 
@@ -2081,8 +1998,7 @@ msgstr "Tạo một câu hỏi mới"
 msgid "In order to change the order item, please change the order status to 'Pending'."
 msgstr "Để thay đổi thứ tự mục, vui lòng thay đổi thứ tự trạng thái thành 'Đang chờ xử lý'."
 
-#: inc/admin/views/meta-boxes/order/child-order.php:22
-#: templates/order/recover-form.php:18
+#: inc/admin/views/meta-boxes/order/child-order.php:22 templates/order/recover-form.php:18
 msgid "Order key"
 msgstr "Khóa đặt hàng"
 
@@ -2094,14 +2010,11 @@ msgstr "Để thay đổi thứ tự người sử dụng, vui lòng thay đổi
 msgid "- Or -"
 msgstr "- Hoặc là -"
 
-#: inc/admin/views/meta-boxes/order/details.php:112
-#: inc/admin/views/meta-boxes/order/details.php:231
+#: inc/admin/views/meta-boxes/order/details.php:112 inc/admin/views/meta-boxes/order/details.php:231
 msgid "Change"
 msgstr "Thay đổi"
 
-#: inc/admin/views/meta-boxes/order/details.php:88
-#: inc/admin/views/meta-boxes/order/details.php:118
-#: inc/admin/views/meta-boxes/order/details.php:239
+#: inc/admin/views/meta-boxes/order/details.php:88 inc/admin/views/meta-boxes/order/details.php:118 inc/admin/views/meta-boxes/order/details.php:239
 msgid "Add multi users"
 msgstr "Thêm vào nhiều người dùng"
 
@@ -2109,9 +2022,7 @@ msgstr "Thêm vào nhiều người dùng"
 msgid "Trigger action of current order status"
 msgstr "Kích hoạt trạng thái hành động của đơn đặt hàng hiện tại "
 
-#: inc/admin/views/quiz/editor.php:49
-#: inc/admin/views/tools/course/html-user.php:31
-#: templates/profile/tabs/orders/list.php:33
+#: inc/admin/views/quiz/editor.php:49 inc/admin/views/tools/course/html-user.php:31 templates/profile/tabs/orders/list.php:33
 msgid "Actions"
 msgstr "Hoạt động"
 
@@ -2127,31 +2038,25 @@ msgstr "Lựa chọn mục"
 msgid "Remove from course"
 msgstr "Loại bỏ khóa học"
 
-#: inc/admin/views/course/pagination.php:20
-#: inc/admin/views/quiz/pagination.php:18
+#: inc/admin/views/course/pagination.php:20 inc/admin/views/quiz/pagination.php:18
 msgctxt "page-navigation"
 msgid "Next"
 msgstr "Kế tiếp"
 
-#: inc/admin/views/course/pagination.php:18
-#: inc/admin/views/quiz/pagination.php:16
+#: inc/admin/views/course/pagination.php:18 inc/admin/views/quiz/pagination.php:16
 msgctxt "page-navigation"
 msgid "Previous"
 msgstr "Trước"
 
-#: inc/admin/views/course/modal-choose-items.php:93
-#: inc/admin/views/quiz/modal-choose-items.php:84
+#: inc/admin/views/course/modal-choose-items.php:93 inc/admin/views/quiz/modal-choose-items.php:84
 msgid "Adding"
 msgstr "Thêm"
 
-#: inc/admin/views/course/modal-choose-items.php:76
-#: inc/admin/views/quiz/modal-choose-items.php:69
+#: inc/admin/views/course/modal-choose-items.php:76 inc/admin/views/quiz/modal-choose-items.php:69
 msgid "No item found."
 msgstr "Không mục tìm."
 
-#: inc/admin/views/course/modal-choose-items.php:54
-#: inc/admin/views/quiz/modal-choose-items.php:52
-#: inc/custom-post-types/course.php:76 inc/custom-post-types/quiz.php:175
+#: inc/admin/views/course/modal-choose-items.php:54 inc/admin/views/quiz/modal-choose-items.php:52 inc/custom-post-types/course.php:76 inc/custom-post-types/quiz.php:175
 msgid "Selected items"
 msgstr "Đã chọn mục"
 
@@ -2219,10 +2124,7 @@ msgstr "Đơn hàng đã hủy"
 msgid "Become an Instructor"
 msgstr "Trở thành người hướng dẫn"
 
-#: inc/admin/settings/class-lp-settings-profile.php:174
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:60
-#: inc/admin/views/meta-boxes/order/details.php:40
-#: inc/user/class-lp-profile.php:267
+#: inc/admin/settings/class-lp-settings-profile.php:174 inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:60 inc/admin/views/meta-boxes/order/details.php:40 inc/user/class-lp-profile.php:267
 msgid "Order details"
 msgstr "Chi tiết đơn hàng"
 
@@ -2254,7 +2156,7 @@ msgstr "Đang cài đặt đơn vị tiền tệ của bạn và định dạng 
 msgid "The page where user will be redirected to after logging out."
 msgstr "Các trang người sử dụng sẽ được chuyển hướng đến sau khi đăng xuất."
 
-#: inc/admin/settings/class-lp-settings-emails.php:137
+#: inc/admin/settings/class-lp-settings-emails.php:138
 msgid "Email template"
 msgstr "E-mail bản mẫu"
 
@@ -2262,15 +2164,11 @@ msgstr "E-mail bản mẫu"
 msgid "Thumbnail dimensions"
 msgstr " Kích thước Hình nhỏ "
 
-#: inc/admin/settings/class-lp-settings-advanced.php:16
-#: inc/admin/settings/class-lp-settings-advanced.php:107
+#: inc/admin/settings/class-lp-settings-advanced.php:16 inc/admin/settings/class-lp-settings-advanced.php:107
 msgid "Advanced"
 msgstr "Nâng cao"
 
-#: inc/admin/meta-box/fields/payment-order.php:8
-#: inc/admin/views/tools/course/html-user.php:28
-#: assets/js/dist/admin/pages/tools.js:1184
-#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:154
+#: inc/admin/meta-box/fields/payment-order.php:8 inc/admin/views/tools/course/html-user.php:28 assets/js/dist/admin/pages/tools.js:1184 assets/src/apps/js/admin/pages/tools/reset-data/course.js:154
 msgid "ID"
 msgstr "ID"
 
@@ -2282,10 +2180,7 @@ msgstr "Vô hiệu hóa tất cả"
 msgid "Enable all"
 msgstr "Kích hoạt tất cả"
 
-#: inc/admin/meta-box/fields/list-emails.php:8
-#: inc/admin/meta-box/fields/payment-order.php:9
-#: inc/admin/views/quiz/question-meta.php:18
-#: inc/admin/views/setup/setup-stripe.php:11
+#: inc/admin/meta-box/fields/list-emails.php:8 inc/admin/meta-box/fields/payment-order.php:9 inc/admin/views/quiz/question-meta.php:18 inc/admin/views/setup/setup-stripe.php:11
 msgid "Description"
 msgstr "Mô tả"
 
@@ -2325,19 +2220,15 @@ msgstr "Các khóa học LP"
 msgid "No data found"
 msgstr "Không tìm thấy dữ liệu nào"
 
-#: inc/admin/class-lp-modal-search-users.php:50
-#: inc/admin/views/modal-search-users.php:10
+#: inc/admin/class-lp-modal-search-users.php:50 inc/admin/views/modal-search-users.php:10
 msgid "Search users"
 msgstr "Tìm kiếm người dùng"
 
-#: inc/admin/class-lp-modal-search-items.php:337
-#: inc/admin/class-lp-modal-search-items.php:341
-#: inc/admin/class-lp-modal-search-items.php:345
+#: inc/admin/class-lp-modal-search-items.php:337 inc/admin/class-lp-modal-search-items.php:341 inc/admin/class-lp-modal-search-items.php:345
 msgid "Add new item"
 msgstr "Thêm mục"
 
-#: inc/admin/class-lp-modal-search-items.php:62
-#: inc/admin/views/modal-search-items.php:10
+#: inc/admin/class-lp-modal-search-items.php:62 inc/admin/views/modal-search-items.php:10
 msgid "Search items"
 msgstr "Tìm kiếm mặt hàng"
 
@@ -2353,8 +2244,7 @@ msgstr "Bạn chắc chắn rồi bạn muốn xóa bỏ dữ liệu khóa học
 msgid "Are you sure you want to install sample course data?"
 msgstr "Bạn muốn tải về dữ liệu khóa học mẫu?"
 
-#: inc/admin/class-lp-admin.php:539
-#: inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php:147
+#: inc/admin/class-lp-admin.php:539 inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php:163
 msgid "Sorry, you are not allowed to edit this user."
 msgstr "Lấy làm tiếc, bạn không được cho phép để biên tập điều này."
 
@@ -2395,8 +2285,7 @@ msgstr "Các thành viên"
 msgid "Levels"
 msgstr "Cấp độ"
 
-#: inc/admin/class-lp-admin.php:244
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:23
+#: inc/admin/class-lp-admin.php:244 inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:23
 msgid "Invoice"
 msgstr "Hóa đơn"
 
@@ -2444,46 +2333,27 @@ msgstr "Trước khi thực hiện hành động này, chúng tôi đặc biệt
 msgid "Ooops! Error."
 msgstr "Rất tiếc! lỗi."
 
-#: inc/admin/class-lp-admin-ajax.php:1166 inc/class-lp-ajax.php:188
+#: inc/admin/class-lp-admin-ajax.php:1218 inc/class-lp-ajax.php:194
 msgid "Profile picture upload failed"
 msgstr "Hồ sơ hình ảnh tải lên thất bại"
 
-#: inc/admin/class-lp-admin-ajax.php:990
-msgid "Failed to import sample data. Please try again."
-msgstr "Không nhập được dữ liệu mẫu. Vui lòng thử lại."
-
-#: inc/admin/class-lp-admin-ajax.php:986
-msgid "Successfully import sample data."
-msgstr "Thành công nhập dữ liệu mẫu."
-
-#: inc/admin/class-lp-admin-ajax.php:960
-msgid "Please try again."
-msgstr "Vui lòng thử lại."
-
-#: inc/admin/class-lp-admin-ajax.php:949
-msgid "The required pages are successfully created."
-msgstr "Khởi tạo  thành công."
-
-#: inc/admin/class-lp-admin-ajax.php:916
+#: inc/admin/class-lp-admin-ajax.php:948
 msgid "Error! Page creation failed. Please try again."
 msgstr "lỗi! Trang khởi tạo không thành công. Vui lòng thử lại."
 
-#: inc/admin/class-lp-admin-ajax.php:624
+#: inc/admin/class-lp-admin-ajax.php:646
 msgid "Access denied"
 msgstr "Quyền truy cập bị từ chối"
 
-#: inc/admin/editor/class-lp-admin-editor-quiz.php:164
-#: inc/admin/editor/class-lp-admin-editor-quiz.php:603
+#: inc/admin/editor/class-lp-admin-editor-quiz.php:164 inc/admin/editor/class-lp-admin-editor-quiz.php:603
 msgid "Quiz creation failed."
 msgstr "Không tạo được câu hỏi."
 
-#: inc/admin/editor/class-lp-admin-editor-question.php:113
-#: inc/curds/class-lp-question-curd.php:48
+#: inc/admin/editor/class-lp-admin-editor-question.php:113 inc/curds/class-lp-question-curd.php:48
 msgid "New Question"
 msgstr "Câu hỏi mới"
 
-#: inc/admin/editor/class-lp-admin-editor-course.php:77
-#: inc/curds/class-lp-course-curd.php:46
+#: inc/admin/editor/class-lp-admin-editor-course.php:77 inc/curds/class-lp-course-curd.php:46
 msgid "New Course"
 msgstr "Khóa học mới"
 
@@ -2495,16 +2365,13 @@ msgstr "%s Plugin file của lớp học không tồn tại."
 msgid "%s plugin file does not exist."
 msgstr "%s plugin file không tồn tại"
 
-#: inc/abstract-settings.php:89
-#: inc/admin/settings/abstract-settings-page.php:51
+#: inc/abstract-settings.php:89 inc/admin/settings/abstract-settings-page.php:51
 msgid "No setting available."
 msgstr "Không có cài đặt có sẵn."
 
-#: inc/admin/views/meta-boxes/fields/extra-faq.php:69
-#: inc/admin/views/meta-boxes/fields/extra.php:44
-#: inc/admin/views/meta-boxes/fields/repeater.php:48
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:69 inc/admin/views/meta-boxes/fields/extra.php:44 inc/admin/views/meta-boxes/fields/repeater.php:48
 msgid "+ Add more"
-msgstr "Thêm mục"
+msgstr "+ Thêm mục"
 
 #: inc/admin/views/html-admin-notice-templates.php:44
 msgid "This is not a bug, don't worry. Read more about Outdated template files notice <a href=\"%s\" target=\"_blank\">here</a>."
@@ -2522,7 +2389,7 @@ msgstr "Sửa Cơ sở dữ liệu"
 msgid "Update"
 msgstr "Cập nhật"
 
-#: inc/user/class-lp-profile.php:304
+#: inc/user/class-lp-profile.php:306
 msgid "Avatar"
 msgstr "Hình đại diện"
 
@@ -2530,8 +2397,7 @@ msgstr "Hình đại diện"
 msgid "New password does not match!"
 msgstr "Mật khẩu mới không khớp!"
 
-#: inc/admin/meta-box/fields/image.php:20
-#: templates/profile/tabs/settings/avatar.php:48
+#: inc/admin/meta-box/fields/image.php:20 templates/profile/tabs/settings/avatar.php:48
 msgid "Upload"
 msgstr "Tải lên"
 
@@ -2547,27 +2413,23 @@ msgstr "Vui lòng liên hệ với quản trị viên để thiết lập trang 
 msgid "LearnPress <strong>Checkout</strong> page is not set up. "
 msgstr "Trang <strong>Thanh toán</strong> chưa được thiết lập."
 
-#: inc/widgets/featured-courses.php:88 inc/widgets/popular-courses.php:62
-#: inc/widgets/popular-courses.php:81 inc/widgets/recent-courses.php:66
-#: inc/widgets/recent-courses.php:83
+#: inc/widgets/featured-courses.php:88 inc/widgets/popular-courses.php:62 inc/widgets/popular-courses.php:81 inc/widgets/recent-courses.php:66 inc/widgets/recent-courses.php:83
 msgid "Go to Courses"
 msgstr "Đi tới các Khoá học"
 
-#: inc/widgets/course-extra.php:46 inc/widgets/course-info.php:43
-#: inc/widgets/course-progress.php:40
+#: inc/widgets/course-extra.php:46 inc/widgets/course-info.php:43 inc/widgets/course-progress.php:40
 msgid "CSS Class"
 msgstr "CSS Class"
 
-#: inc/widgets/featured-courses.php:43 inc/widgets/popular-courses.php:39
-#: inc/widgets/recent-courses.php:44
+#: inc/widgets/featured-courses.php:43 inc/widgets/popular-courses.php:39 inc/widgets/recent-courses.php:44
 msgid "Limit"
 msgstr "Giới hạn"
 
-#: inc/user/lp-user-functions.php:1232
+#: inc/user/lp-user-functions.php:1244
 msgid "Confirmation password incorrect!"
 msgstr "Xác nhận mật khẩu không chính xác!"
 
-#: inc/order/class-lp-order.php:1037
+#: inc/order/class-lp-order.php:1036
 msgid "No user assigned"
 msgstr "Không có người dùng được chỉ định"
 
@@ -2579,31 +2441,15 @@ msgstr "Đã bỏ"
 msgid "LearnPress webhook %s process completed"
 msgstr "Quá trình hoàn thành của LearnPress webhook %s"
 
-#: inc/course/lp-course-functions.php:987 inc/lp-core-functions.php:2578
-#: inc/lp-deprecated.php:403 inc/user-item/class-lp-user-item-quiz.php:140
-#: inc/user-item/class-lp-user-item-quiz.php:141
-#: inc/user-item/class-lp-user-item.php:802
-#: inc/user-item/class-lp-user-item.php:803
-#: inc/user-item/class-lp-user-item.php:804
-#: templates/profile/tabs/courses.php:30
+#: inc/course/lp-course-functions.php:987 inc/lp-core-functions.php:2577 inc/lp-deprecated.php:403 inc/user-item/class-lp-user-item-quiz.php:140 inc/user-item/class-lp-user-item-quiz.php:141 inc/user-item/class-lp-user-item.php:798 inc/user-item/class-lp-user-item.php:799 inc/user-item/class-lp-user-item.php:800 templates/profile/tabs/courses.php:30
 msgid "In Progress"
 msgstr "Đang diễn ra"
 
-#: inc/course/lp-course-functions.php:984 inc/lp-core-functions.php:2575
-#: inc/user-item/class-lp-user-item-quiz.php:144
-#: inc/user-item/class-lp-user-item.php:809 inc/user/class-lp-profile.php:822
-#: inc/user/class-lp-profile.php:856 templates/profile/tabs/courses.php:33
-#: assets/js/dist/frontend/quiz.js:1931
-#: assets/src/apps/js/frontend/quiz/components/result/index.js:159
+#: inc/course/lp-course-functions.php:984 inc/lp-core-functions.php:2574 inc/user-item/class-lp-user-item-quiz.php:144 inc/user-item/class-lp-user-item.php:805 inc/user/class-lp-profile.php:831 inc/user/class-lp-profile.php:865 templates/profile/tabs/courses.php:33 assets/js/dist/frontend/quiz.js:1931 assets/src/apps/js/frontend/quiz/components/result/index.js:159
 msgid "Failed"
 msgstr "Không  đúng"
 
-#: inc/course/lp-course-functions.php:981 inc/lp-core-functions.php:2572
-#: inc/user-item/class-lp-user-item-quiz.php:143
-#: inc/user-item/class-lp-user-item.php:808 inc/user/class-lp-profile.php:821
-#: inc/user/class-lp-profile.php:855 templates/profile/tabs/courses.php:32
-#: assets/js/dist/frontend/quiz.js:1929
-#: assets/src/apps/js/frontend/quiz/components/result/index.js:157
+#: inc/course/lp-course-functions.php:981 inc/lp-core-functions.php:2571 inc/user-item/class-lp-user-item-quiz.php:143 inc/user-item/class-lp-user-item.php:804 inc/user/class-lp-profile.php:830 inc/user/class-lp-profile.php:864 templates/profile/tabs/courses.php:32 assets/js/dist/frontend/quiz.js:1929 assets/src/apps/js/frontend/quiz/components/result/index.js:157
 msgid "Passed"
 msgstr "Thông qua"
 
@@ -2611,24 +2457,19 @@ msgstr "Thông qua"
 msgid "Invalid field"
 msgstr "Trường không hợp lệ!"
 
-#: inc/admin/settings/class-lp-settings-advanced.php:56
-#: inc/admin/settings/class-lp-settings-general.php:133
-#: inc/admin/views/addons/html-themes.php:35
+#: inc/admin/settings/class-lp-settings-advanced.php:56 inc/admin/settings/class-lp-settings-general.php:133 inc/admin/views/addons/html-themes.php:35
 msgid "Other"
 msgstr "Khác"
 
-#: inc/admin/lp-admin-functions.php:704
-#: inc/admin/views/addons/html-loop-theme.php:46
+#: inc/admin/lp-admin-functions.php:704 inc/admin/views/addons/html-loop-theme.php:46
 msgid "View Demo"
 msgstr "Lượt xem Bản giới thiệu"
 
-#: inc/admin/lp-admin-functions.php:702
-#: inc/admin/views/addons/html-loop-theme.php:45
+#: inc/admin/lp-admin-functions.php:702 inc/admin/views/addons/html-loop-theme.php:45
 msgid "Get it now"
 msgstr "Bắt đầu ngay"
 
-#: inc/admin/class-lp-admin-dashboard.php:81
-#: inc/admin/views/addons/html-loop-theme.php:32
+#: inc/admin/class-lp-admin-dashboard.php:82 inc/admin/views/addons/html-loop-theme.php:32
 msgid " sales"
 msgstr "bán hàng"
 
@@ -2644,8 +2485,7 @@ msgstr "Tiện ích trả phí"
 msgid "Free add-ons"
 msgstr "Tiện ích miễn phí"
 
-#: inc/admin/views/meta-boxes/question/settings.php:31
-#: inc/admin/views/quiz/question-meta.php:44
+#: inc/admin/views/meta-boxes/question/settings.php:31 inc/admin/views/quiz/question-meta.php:44
 msgid "Instruction for user to select the right answer. The text will be shown when users click the 'Hint' button."
 msgstr "Chỉ dẫn cho người sử dụng lựa chọn đúng câu trả lời. Văn bản sẽ được hiển thị khi người dùng nhấp vào 'Hint' nút."
 
@@ -2713,8 +2553,7 @@ msgstr "Sửa &#8220;%s&#8221;"
 msgid "No terms found."
 msgstr "Không điều kiện tìm kiếm."
 
-#: inc/attributes/course.php:140 inc/attributes/course.php:306
-#: inc/attributes/course.php:319 inc/attributes/course.php:321
+#: inc/attributes/course.php:140 inc/attributes/course.php:306 inc/attributes/course.php:319 inc/attributes/course.php:321
 msgid "Attributes"
 msgstr "Thuộc tính"
 
@@ -2762,7 +2601,7 @@ msgstr "Cài lại"
 msgid "Search..."
 msgstr "Tìm kiếm..."
 
-#: inc/user/class-lp-profile.php:1056
+#: inc/user/class-lp-profile.php:1065
 msgid "User Avatar"
 msgstr "Hình đại diện của người dùng"
 
@@ -2790,21 +2629,19 @@ msgstr "Không có bài học nào có sẵn cho khóa học này, vui lòng s�
 msgid "Minutes"
 msgstr "Phút"
 
-#: inc/templates/class-lp-template-course.php:795
+#: inc/templates/class-lp-template-course.php:824
 msgid "%d lesson"
 msgid_plural "%d lessons"
 msgstr[0] "%d bài học"
+msgstr[1] ""
 
-#: inc/templates/class-lp-template-course.php:803
+#: inc/templates/class-lp-template-course.php:832
 msgid "%d student"
 msgid_plural "%d students"
 msgstr[0] "%d sinh viên"
+msgstr[1] ""
 
-#: inc/admin/views/meta-boxes/course/settings.php:50
-#: inc/admin/views/meta-boxes/course/settings.php:290
-#: inc/custom-post-types/course.php:525 inc/custom-post-types/course.php:542
-#: inc/custom-post-types/lesson.php:237 inc/custom-post-types/question.php:328
-#: inc/custom-post-types/quiz.php:241
+#: inc/admin/views/meta-boxes/course/settings.php:50 inc/admin/views/meta-boxes/course/settings.php:288 inc/custom-post-types/course.php:525 inc/custom-post-types/course.php:542 inc/custom-post-types/lesson.php:237 inc/custom-post-types/question.php:328 inc/custom-post-types/quiz.php:241
 msgid "Author"
 msgstr "Tác giả"
 
@@ -2828,8 +2665,7 @@ msgstr "Chọn danh mục khóa học"
 msgid "Select a course"
 msgstr "Chọn một khóa học"
 
-#: inc/admin/views/statistics/orders.php:49
-#: inc/custom-post-types/course.php:167
+#: inc/admin/views/statistics/orders.php:49 inc/custom-post-types/course.php:167
 msgid "Course Category"
 msgstr "Danh mục khóa học"
 
@@ -2837,11 +2673,11 @@ msgstr "Danh mục khóa học"
 msgid "Sale by"
 msgstr "Bán bởi"
 
-#: inc/admin/lp-admin-functions.php:2016
+#: inc/admin/lp-admin-functions.php:2031
 msgid "Quiz id %s does not exist."
 msgstr "Trắc nghiệm ID %s không tồn tại."
 
-#: inc/admin/lp-admin-functions.php:2012
+#: inc/admin/lp-admin-functions.php:2027
 msgid "Question id %s does not exist."
 msgstr "ID câu hỏi %s không tồn tại."
 
@@ -2873,12 +2709,11 @@ msgstr "Chia sẻ một ít thông tin tiểu sử để điền vào hồ sơ c
 msgid "Biographical Info"
 msgstr "Thông tin Tiểu sử"
 
-#: inc/admin/views/user/course-progress.php:54
-#: templates/single-course/sidebar/user-progress.php:53
+#: inc/admin/views/user/course-progress.php:54 templates/single-course/sidebar/user-progress.php:53
 msgid "Passing condition: %s%%"
 msgstr "Tình trạng vượt qua:%s%%"
 
-#: inc/user/class-lp-profile.php:295
+#: inc/user/class-lp-profile.php:297
 msgid "Logout"
 msgstr "Đăng xuất"
 
@@ -2894,19 +2729,19 @@ msgstr "Các khóa học phổ biến"
 msgid "Featured Courses"
 msgstr "Các khóa học nổi bật"
 
-#: inc/user/lp-user-functions.php:954
+#: inc/user/lp-user-functions.php:951
 msgid "You have already finished course"
 msgstr "Bạn đã hoàn thành khóa học"
 
-#: inc/user/lp-user-functions.php:936
+#: inc/user/lp-user-functions.php:933
 msgid "Please login to enroll this course"
 msgstr "Vui lòng đăng nhập để đăng ký khóa học này"
 
-#: inc/user/lp-user-functions.php:1226
+#: inc/user/lp-user-functions.php:1238
 msgid "Old password incorrect!"
 msgstr "Mật khẩu cũ không chính xác!"
 
-#: inc/user/abstract-lp-user.php:1557
+#: inc/user/abstract-lp-user.php:1561
 msgid "You have already completed this lesson."
 msgstr "Bạn đã hoàn thành bài học này."
 
@@ -2918,19 +2753,19 @@ msgstr "Bạn đã hoàn thành bài kiểm tra"
 msgid "Overview"
 msgstr "Tổng quan"
 
-#: inc/order/lp-order-functions.php:814
+#: inc/order/lp-order-functions.php:818
 msgid "Order number <strong>%s</strong> can not be cancelled"
 msgstr "Đơn đặt hàng <strong>%s</strong> không thể hủy"
 
-#: inc/order/lp-order-functions.php:811
+#: inc/order/lp-order-functions.php:815
 msgid "Order number <strong>%s</strong> has been cancelled"
 msgstr " Đơn đặt hàng<strong>%s</strong>đã bị hủy"
 
-#: inc/order/lp-order-functions.php:808
+#: inc/order/lp-order-functions.php:812
 msgid "Order cancelled by customer"
 msgstr "Đơn hàng đã hủy bởi khách hàng"
 
-#: inc/order/lp-order-functions.php:805
+#: inc/order/lp-order-functions.php:809
 msgid "Order number <strong>%s</strong> not found"
 msgstr "Không tìm thấy số đơn đặt hàng <strong>%s </strong>"
 
@@ -2978,11 +2813,11 @@ msgstr "Số đơn đặt hàng, tên người dùng, email người dùng, tên
 msgid "Schedule"
 msgstr "Lịch trình"
 
-#: inc/lp-core-functions.php:3509
+#: inc/lp-core-functions.php:3508
 msgid "Evaluate via results of the final quiz"
 msgstr "Đánh giá kết quả của bài kiểm tra cuối cùng"
 
-#: inc/admin/views/meta-boxes/course/settings.php:308
+#: inc/admin/views/meta-boxes/course/settings.php:306
 msgid "The method to assess the result of a student for a course."
 msgstr "Phương pháp đánh giá kết quả của một sinh viên cho một khóa học."
 
@@ -3024,8 +2859,7 @@ msgstr "Đã xóa trường tùy chỉnh."
 msgid "Custom field updated."
 msgstr "Đã cập nhật trường tùy chỉnh."
 
-#: inc/custom-post-types/abstract.php:898
-#: inc/custom-post-types/abstract.php:901
+#: inc/custom-post-types/abstract.php:898 inc/custom-post-types/abstract.php:901
 msgid "updated."
 msgstr "đã cập nhật."
 
@@ -3033,7 +2867,7 @@ msgstr "đã cập nhật."
 msgid "Are you sure you want to finish this quiz?"
 msgstr "Bạn có chắc chắn muốn kết thúc bài kiểm tra này không?"
 
-#: inc/class-lp-ajax.php:262
+#: inc/class-lp-ajax.php:268
 msgid "You have finished this course \"%s\""
 msgstr "Bạn đã hoàn thành khóa học này \"%s\""
 
@@ -3041,34 +2875,25 @@ msgstr "Bạn đã hoàn thành khóa học này \"%s\""
 msgid "Get cart should not be called before the wp_loaded action."
 msgstr "Không được mở giỏ hàng trước khi wp_loaded."
 
-#: inc/admin/views/meta-boxes/fields/extra-faq.php:37
-#: inc/admin/views/meta-boxes/fields/extra-faq.php:57
-#: inc/admin/views/setup/setup-stripe.php:7 inc/widgets/course-extra.php:25
-#: inc/widgets/course-info.php:32 inc/widgets/course-progress.php:29
-#: inc/widgets/featured-courses.php:28 inc/widgets/popular-courses.php:24
-#: inc/widgets/recent-courses.php:29
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:37 inc/admin/views/meta-boxes/fields/extra-faq.php:57 inc/admin/views/setup/setup-stripe.php:7 inc/widgets/course-extra.php:25 inc/widgets/course-info.php:32 inc/widgets/course-progress.php:29 inc/widgets/featured-courses.php:28 inc/widgets/popular-courses.php:24 inc/widgets/recent-courses.php:29
 msgid "Title"
 msgstr "Tiêu đề"
 
-#: inc/curds/class-lp-user-curd.php:1501 inc/curds/class-lp-user-curd.php:1822
+#: inc/curds/class-lp-user-curd.php:1503 inc/curds/class-lp-user-curd.php:1791
 msgid "course"
 msgstr "khóa học"
 
-#: inc/admin/class-lp-admin-dashboard.php:88
-#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:70
+#: inc/admin/class-lp-admin-dashboard.php:89 inc/admin/dashboard-statistics/class-lp-statistic-status.php:70
 msgid "Created by: "
 msgstr "Tạo bởi:"
 
-#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:51
-#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:56
-#: inc/admin/views/dashboard/html-orders.php:44
-#: inc/admin/views/dashboard/html-orders.php:46
+#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:51 inc/admin/dashboard-statistics/class-lp-statistic-status.php:56 inc/admin/views/dashboard/html-orders.php:44 inc/admin/views/dashboard/html-orders.php:46
 msgid "%d order"
 msgid_plural "%d orders"
 msgstr[0] " %d đơn hàng"
+msgstr[1] ""
 
-#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:32
-#: inc/admin/views/dashboard/html-orders.php:19
+#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:32 inc/admin/views/dashboard/html-orders.php:19
 msgid "Total Raised"
 msgstr "Tổng số tăng lên"
 
@@ -3108,48 +2933,48 @@ msgstr "Công cụ"
 msgid "<p>Op! The course does not exist</p>"
 msgstr "<p>Op! Khóa học không tồn tại</p>"
 
-#: inc/admin/class-lp-admin-ajax.php:919
+#: inc/admin/class-lp-admin-ajax.php:951
 msgid "Empty page name!"
 msgstr "Tên trang trống!"
 
-#: templates/emails/plain/order-items-table.php:57
+#: templates/emails/plain/order-items-table.php:78
 msgid "Cost: %s"
 msgstr "Giá: %s"
 
-#: templates/emails/plain/order-items-table.php:55
+#: templates/emails/plain/order-items-table.php:76
 msgid "Quantity: %s"
 msgstr "Định lượng: %s"
 
-#: inc/user/class-lp-user.php:472
+#: inc/user/class-lp-user.php:482
 msgid "You cannot start a quiz in preview mode."
 msgstr "Bạn không thể bắt đầu một bài kiểm tra trong chế độ xem trước."
 
-#: inc/order/lp-order-functions.php:767
+#: inc/order/lp-order-functions.php:771
 msgid "The order is cancelled by an admin or the customer."
 msgstr "Đơn đặt hàng bị hủy bởi quản trị viên hoặc khách hàng."
 
-#: inc/order/lp-order-functions.php:766
+#: inc/order/lp-order-functions.php:770
 msgid "Order fulfilled and complete."
 msgstr "Đơn đặt hàng được đầy đủ và hoàn thành."
 
-#: inc/order/lp-order-functions.php:765
+#: inc/order/lp-order-functions.php:769
 msgid "Payment received and the order is awaiting fulfillment."
 msgstr "Thanh toán đã nhận và đơn đặt hàng đang chờ hoàn thành."
 
-#: inc/order/lp-order-functions.php:764
+#: inc/order/lp-order-functions.php:768
 msgid "Order received in case user buy a course but doesn't finalise the order."
 msgstr "Đơn hàng nhận được trong trường hợp người mua mua một khóa học nhưng không hoàn thành đơn hàng."
 
-#: inc/order/class-lp-order.php:997
+#: inc/order/class-lp-order.php:995
 msgctxt "full name"
 msgid "%1$s"
 msgstr "%1$s"
 
-#: inc/course/abstract-course.php:1820
+#: inc/course/abstract-course.php:1839
 msgid "This course will end within next %s"
 msgstr "Khóa học này sẽ kết thúc trong %s"
 
-#: inc/lp-core-functions.php:2373
+#: inc/lp-core-functions.php:2372
 msgid "Cart"
 msgstr "Giỏ hàng"
 
@@ -3165,7 +2990,7 @@ msgstr "Vai trò của bạn được phép tạo ra một khóa học."
 msgid "Item \"%s\" is not purchasable."
 msgstr "Mục \"%s\" không thể mua được."
 
-#: inc/class-lp-ajax.php:248
+#: inc/class-lp-ajax.php:254
 msgid "Access denied!"
 msgstr "Truy nhập bị Cấm!"
 
@@ -3177,25 +3002,23 @@ msgstr "Lấy làm tiếc! Khóa học này không thể mua được"
 msgid "Send this email to user when they have finished course."
 msgstr "Gửi e-mail đến người sử dụng khi họ kết thúc khóa học."
 
-#: inc/class-lp-assets.php:75 inc/lp-core-functions.php:2168
-#: inc/lp-core-functions.php:3185 assets/js/dist/frontend/modal.js:171
-#: assets/src/apps/js/frontend/modal/index.js:41
+#: inc/class-lp-assets.php:75 inc/lp-core-functions.php:2167 inc/lp-core-functions.php:3184 assets/js/dist/frontend/modal.js:171 assets/src/apps/js/frontend/modal/index.js:41
 msgid "OK"
 msgstr "đồng ý"
 
-#: inc/custom-post-types/order.php:815
+#: inc/custom-post-types/order.php:817
 msgid "No order found in Trash"
 msgstr "Không tìm thấy đơn hàng nào trong Thùng rác"
 
-#: inc/custom-post-types/order.php:814
+#: inc/custom-post-types/order.php:816
 msgid "No order found"
 msgstr "Không tìm thấy đơn hàng"
 
-#: inc/custom-post-types/order.php:813
+#: inc/custom-post-types/order.php:815
 msgid "Search Orders"
 msgstr "Tìm kiếm đơn hàng"
 
-#: inc/custom-post-types/order.php:812
+#: inc/custom-post-types/order.php:814
 msgid "Update Order"
 msgstr "Cập nhật đơn hàng"
 
@@ -3211,8 +3034,7 @@ msgstr "Xóa tất cả các khóa học, bài học, bài kiểm tra, câu đ�
 msgid "Remove outdated Data"
 msgstr "Xóa dữ liệu đã lỗi thời"
 
-#: inc/admin/views/tools/database/html-remove-database.php:20
-#: inc/admin/views/tools/database/html-remove-outdated-data.php:20
+#: inc/admin/views/tools/database/html-remove-database.php:20 inc/admin/views/tools/database/html-remove-outdated-data.php:20
 msgid "Check this box and click this button again to confirm."
 msgstr "Chọn hộp này và nhấp lại vào nút này để xác nhận."
 
@@ -3256,30 +3078,23 @@ msgstr "LearnPress là một giải pháp hoàn thiện WordPress để tạo ra
 msgid "http://thimpress.com/learnpress"
 msgstr "http://thimpress.com/learnpress"
 
-#: inc/admin/class-lp-setup-wizard.php:245 inc/admin/views/setup/content.php:94
-#: inc/admin/views/setup/steps/finish.php:12
+#: inc/admin/class-lp-setup-wizard.php:245 inc/admin/views/setup/content.php:94 inc/admin/views/setup/steps/finish.php:12
 msgid "Finish"
 msgstr "Hoàn thành"
 
-#: inc/admin/views/setup/content.php:77 inc/custom-post-types/course.php:75
-#: inc/custom-post-types/quiz.php:174
+#: inc/admin/views/setup/content.php:77 inc/custom-post-types/course.php:75 inc/custom-post-types/quiz.php:174
 msgid "Back"
 msgstr "Trở lại"
 
-#: templates/profile/tabs/courses/course-list.php:19
-#: templates/profile/tabs/quizzes.php:38 assets/js/dist/frontend/quiz.js:167
-#: assets/js/dist/frontend/quiz.js:831
-#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:25
-#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:293
+#: templates/profile/tabs/courses/course-list.php:19 templates/profile/tabs/quizzes.php:38 assets/js/dist/frontend/quiz.js:167 assets/js/dist/frontend/quiz.js:831 assets/src/apps/js/frontend/quiz/components/attempts/index.js:25 assets/src/apps/js/frontend/quiz/components/buttons/index.js:293
 msgid "Result"
 msgstr "Kết quả"
 
-#: inc/course/abstract-course.php:1942
+#: inc/course/abstract-course.php:1961
 msgid "Tags: "
 msgstr "Từ khóa:"
 
-#: inc/lp-template-functions.php:1077 inc/lp-template-functions.php:1254
-#: inc/templates/class-lp-template-course.php:155
+#: inc/lp-template-functions.php:1077 inc/lp-template-functions.php:1254 inc/templates/class-lp-template-course.php:155
 msgid "Final"
 msgstr "Sau cùng"
 
@@ -3287,16 +3102,11 @@ msgstr "Sau cùng"
 msgid "No items in this section"
 msgstr "Không có mục nào trong phần này"
 
-#: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:25
-#: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:25
-#: inc/emails/instructor/class-lp-email-finished-course-instructor.php:25
-#: inc/emails/instructor/class-lp-email-new-order-instructor.php:21
-#: inc/lp-template-functions.php:73
-#: templates/single-course/meta/instructor.php:20
+#: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:25 inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:25 inc/emails/instructor/class-lp-email-finished-course-instructor.php:25 inc/emails/instructor/class-lp-email-new-order-instructor.php:21 inc/lp-template-functions.php:73 templates/single-course/meta/instructor.php:20
 msgid "Instructor"
 msgstr "Giảng viên:"
 
-#: inc/user/lp-user-functions.php:957
+#: inc/user/lp-user-functions.php:954
 msgid "You have already enrolled in this course"
 msgstr "Bạn đã ghi danh vào khóa học này"
 
@@ -3304,18 +3114,11 @@ msgstr "Bạn đã ghi danh vào khóa học này"
 msgid "Curriculum is empty"
 msgstr "Chương trình học trống"
 
-#: inc/admin/views/meta-boxes/question/settings.php:30
-#: inc/admin/views/quiz/question-meta.php:39
-#: assets/js/dist/frontend/quiz.js:462 assets/js/dist/frontend/quiz.js:1674
-#: assets/src/apps/js/frontend/quiz/components/buttons/button-hint.js:22
-#: assets/src/apps/js/frontend/quiz/components/questions/question.js:177
+#: inc/admin/views/meta-boxes/question/settings.php:30 inc/admin/views/quiz/question-meta.php:39 assets/js/dist/frontend/quiz.js:462 assets/js/dist/frontend/quiz.js:1674 assets/src/apps/js/frontend/quiz/components/buttons/button-hint.js:22 assets/src/apps/js/frontend/quiz/components/questions/question.js:177
 msgid "Hint"
 msgstr "Gợi ý"
 
-#: inc/admin/views/user/courses.php:36 inc/lp-deprecated.php:373
-#: inc/lp-deprecated.php:404 inc/user-item/class-lp-user-item.php:807
-#: inc/user/class-lp-profile.php:820 inc/user/class-lp-profile.php:854
-#: templates/profile/tabs/courses.php:31
+#: inc/admin/views/user/courses.php:36 inc/lp-deprecated.php:373 inc/lp-deprecated.php:404 inc/user-item/class-lp-user-item.php:803 inc/user/class-lp-profile.php:829 inc/user/class-lp-profile.php:863 templates/profile/tabs/courses.php:31
 msgid "Finished"
 msgstr "Đã xong"
 
@@ -3327,8 +3130,7 @@ msgstr "Đã mua"
 msgid "Learning"
 msgstr "Học tập"
 
-#: inc/admin/views/meta-boxes/order/details.php:60
-#: templates/order/confirm.php:70
+#: inc/admin/views/meta-boxes/order/details.php:60 templates/order/confirm.php:70
 msgid "Status:"
 msgstr "Hiện trạng:"
 
@@ -3336,8 +3138,7 @@ msgstr "Hiện trạng:"
 msgid "Payment Method:"
 msgstr "Phương thức thanh toán:"
 
-#: inc/admin/views/meta-boxes/order/details.php:191
-#: templates/order/confirm.php:57
+#: inc/admin/views/meta-boxes/order/details.php:191 templates/order/confirm.php:57
 msgid "Total:"
 msgstr "Tổng cộng:"
 
@@ -3373,8 +3174,7 @@ msgstr "Đơn hàng của bạn"
 msgid "No payment method is available."
 msgstr "Không có phương thức thanh toán nào."
 
-#: inc/class-lp-assets.php:87 inc/class-lp-assets.php:94
-#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:116
+#: inc/class-lp-assets.php:87 inc/class-lp-assets.php:94 inc/shortcodes/class-lp-shortcode-become-a-teacher.php:116
 msgid "Processing"
 msgstr "Đang xử lý"
 
@@ -3382,20 +3182,15 @@ msgstr "Đang xử lý"
 msgid "Place order"
 msgstr "Đặt hàng"
 
-#: templates/checkout/order-received.php:109
-#: templates/emails/order-items-table.php:68
-#: templates/emails/plain/order-items-table.php:35
+#: templates/checkout/order-received.php:109 templates/emails/order-items-table.php:68 templates/emails/plain/order-items-table.php:56
 msgid "Payment Method"
 msgstr "Phương thức thanh toán"
 
-#: templates/checkout/order-received.php:46
-#: templates/emails/order-items-table.php:60
-#: templates/emails/plain/order-items-table.php:31
+#: templates/checkout/order-received.php:46 templates/emails/order-items-table.php:60 templates/emails/plain/order-items-table.php:52
 msgid "Order Number"
 msgstr "Số đơn hàng"
 
-#: inc/order/class-lp-order.php:188 inc/order/class-lp-order.php:198
-#: templates/checkout/order-received.php:38
+#: inc/order/class-lp-order.php:188 inc/order/class-lp-order.php:198 templates/checkout/order-received.php:38
 msgid "Thank you. Your order has been received."
 msgstr "Cảm ơn bạn. Đơn hàng của bạn đã được nhận."
 
@@ -3403,8 +3198,7 @@ msgstr "Cảm ơn bạn. Đơn hàng của bạn đã được nhận."
 msgid "Additional Information"
 msgstr "Thông tin thêm"
 
-#: inc/admin/views/setup/content.php:88
-#: templates/single-course/buttons/continue.php:19
+#: inc/admin/views/setup/content.php:88 templates/single-course/buttons/continue.php:19
 msgid "Continue"
 msgstr "Tiếp tục"
 
@@ -3433,13 +3227,12 @@ msgid "Your cart is currently empty."
 msgstr "Chưa có sản phẩm nào trong giỏ hàng."
 
 #. translators: user role
-#: inc/user/lp-user-functions.php:168
+#: inc/user/lp-user-functions.php:165
 msgctxt "User role"
 msgid "LP Instructor"
 msgstr "Giảng viên"
 
-#: inc/user/abstract-lp-user.php:1005 inc/user/abstract-lp-user.php:1241
-#: inc/user/abstract-lp-user.php:1253
+#: inc/user/abstract-lp-user.php:1009 inc/user/abstract-lp-user.php:1245 inc/user/abstract-lp-user.php:1257
 msgid "The role %s for user doesn't exist"
 msgstr "Vai trò %s cho người dùng không tồn tại"
 
@@ -3495,7 +3288,7 @@ msgstr "Đúng hoặc sai"
 msgid "Option"
 msgstr "tùy chọn"
 
-#: inc/order/class-lp-order.php:1111
+#: inc/order/class-lp-order.php:1109
 msgid "Order on"
 msgstr "Đặt hàng vào"
 
@@ -3508,9 +3301,7 @@ msgctxt "breadcrumb"
 msgid "Home"
 msgstr "Trang chủ"
 
-#: inc/admin/class-lp-setup-wizard.php:237
-#: inc/admin/meta-box/fields/payment-order.php:7
-#: inc/admin/views/setup/steps/payment.php:16 templates/checkout/payment.php:25
+#: inc/admin/class-lp-setup-wizard.php:237 inc/admin/meta-box/fields/payment-order.php:7 inc/admin/views/setup/steps/payment.php:16 templates/checkout/payment.php:25
 msgid "Payment"
 msgstr "Thanh toán"
 
@@ -3530,52 +3321,27 @@ msgstr "Đúng"
 msgid "Left"
 msgstr "Trái"
 
-#: inc/user/lp-user-functions.php:406
+#: inc/user/lp-user-functions.php:403
 msgid "Want to become an instructor?"
 msgstr "muốn trở thành một giảng viên?"
 
-#: inc/admin/lp-admin-actions.php:78
-msgid "Trash"
-msgstr "Bỏ rác"
-
-#: inc/admin/lp-admin-actions.php:77
-msgid "Draft"
-msgstr "Nháp"
-
-#: inc/admin/lp-admin-actions.php:76
-msgid "Scheduled"
-msgstr "Đã lên lịch"
-
-#: inc/admin/lp-admin-actions.php:75
-msgid "Pending Review"
-msgstr "Chờ xét duyệt"
-
-#: inc/admin/lp-admin-actions.php:74
-msgid "Private"
-msgstr "Cá nhân"
-
-#: inc/admin/lp-admin-actions.php:73
 #: inc/admin/views/dashboard/plugin-status/html-results.php:36
 msgid "Published"
 msgstr "Đã xuất bản"
 
-#: inc/admin/class-lp-modal-search-items.php:184
-#: inc/admin/class-lp-modal-search-users.php:142 inc/lp-core-functions.php:801
+#: inc/admin/class-lp-modal-search-items.php:184 inc/admin/class-lp-modal-search-users.php:142 inc/lp-core-functions.php:801
 msgid ">"
 msgstr ">"
 
-#: inc/admin/class-lp-modal-search-items.php:183
-#: inc/admin/class-lp-modal-search-users.php:141 inc/lp-core-functions.php:800
+#: inc/admin/class-lp-modal-search-items.php:183 inc/admin/class-lp-modal-search-users.php:141 inc/lp-core-functions.php:800
 msgid "<"
 msgstr "<"
 
-#: inc/admin/lp-admin-functions.php:457 inc/admin/lp-admin-functions.php:503
-#: inc/admin/settings/class-lp-settings-emails.php:148
+#: inc/admin/lp-admin-functions.php:457 inc/admin/lp-admin-functions.php:503 inc/admin/settings/class-lp-settings-emails.php:149
 msgid "HTML"
 msgstr "HTML"
 
-#: inc/admin/helpers/class-lp-plugins-helper.php:271
-#: templates/single-course/buttons/purchase.php:33
+#: inc/admin/helpers/class-lp-plugins-helper.php:271 templates/single-course/buttons/purchase.php:33
 msgid "Buy Now"
 msgstr "Mua ngay"
 
@@ -3583,23 +3349,19 @@ msgstr "Mua ngay"
 msgid "Buy %s now"
 msgstr " Mua %s ngay bây giờ"
 
-#: inc/admin/helpers/class-lp-plugins-helper.php:257
-#: inc/admin/helpers/class-lp-plugins-helper.php:266
+#: inc/admin/helpers/class-lp-plugins-helper.php:257 inc/admin/helpers/class-lp-plugins-helper.php:266
 msgid "Enable Now"
 msgstr "Bật ngay bây giờ"
 
-#: inc/admin/helpers/class-lp-plugins-helper.php:257
-#: inc/admin/helpers/class-lp-plugins-helper.php:266
+#: inc/admin/helpers/class-lp-plugins-helper.php:257 inc/admin/helpers/class-lp-plugins-helper.php:266
 msgid "Enable %s now"
 msgstr "Bật %s ngay bây giờ"
 
-#: inc/admin/helpers/class-lp-plugins-helper.php:255
-#: inc/admin/helpers/class-lp-plugins-helper.php:264
+#: inc/admin/helpers/class-lp-plugins-helper.php:255 inc/admin/helpers/class-lp-plugins-helper.php:264
 msgid "Disable Now"
 msgstr "Vô hiệu hoá"
 
-#: inc/admin/helpers/class-lp-plugins-helper.php:255
-#: inc/admin/helpers/class-lp-plugins-helper.php:264
+#: inc/admin/helpers/class-lp-plugins-helper.php:255 inc/admin/helpers/class-lp-plugins-helper.php:264
 msgid "Disable %s now"
 msgstr "Vô hiệu  hoá %s"
 
@@ -3608,12 +3370,7 @@ msgstr "Vô hiệu  hoá %s"
 msgid "Install Now"
 msgstr "Cài đặt"
 
-#: inc/emails/student/class-lp-email-cancelled-order-user.php:25
-#: inc/emails/student/class-lp-email-completed-order-user.php:29
-#: inc/emails/student/class-lp-email-enrolled-course-user.php:27
-#: inc/emails/student/class-lp-email-finished-course-user.php:26
-#: inc/emails/student/class-lp-email-new-order-user.php:25
-#: inc/emails/student/class-lp-email-processing-order-user.php:22
+#: inc/emails/student/class-lp-email-cancelled-order-user.php:25 inc/emails/student/class-lp-email-completed-order-user.php:29 inc/emails/student/class-lp-email-enrolled-course-user.php:27 inc/emails/student/class-lp-email-finished-course-user.php:26 inc/emails/student/class-lp-email-new-order-user.php:25 inc/emails/student/class-lp-email-processing-order-user.php:22
 msgid "User"
 msgstr "Người dùng"
 
@@ -3649,8 +3406,7 @@ msgstr "tìm kiếm câu hỏi"
 msgid "Update Quiz"
 msgstr "Cập nhật câu đố"
 
-#: inc/admin/editor/class-lp-admin-editor-quiz.php:155
-#: inc/curds/class-lp-quiz-curd.php:88 inc/custom-post-types/quiz.php:97
+#: inc/admin/editor/class-lp-admin-editor-quiz.php:155 inc/curds/class-lp-quiz-curd.php:88 inc/custom-post-types/quiz.php:97
 msgid "New Quiz"
 msgstr "Câu đó mới"
 
@@ -3666,16 +3422,11 @@ msgstr "sửa câu đố"
 msgid "Add New Quiz"
 msgstr "Thêm bài kiểm tra mới"
 
-#: inc/admin/settings/class-lp-settings-profile.php:158
-#: inc/custom-post-types/quiz.php:90 inc/custom-post-types/quiz.php:91
-#: inc/custom-post-types/quiz.php:95 inc/user/class-lp-profile.php:253
-#: inc/user/class-lp-profile.php:593 templates/widgets/course-info.php:30
+#: inc/admin/settings/class-lp-settings-profile.php:158 inc/custom-post-types/quiz.php:90 inc/custom-post-types/quiz.php:91 inc/custom-post-types/quiz.php:95 inc/user/class-lp-profile.php:253 inc/user/class-lp-profile.php:602 templates/widgets/course-info.php:30
 msgid "Quizzes"
 msgstr "Câu đố"
 
-#: inc/admin/settings/class-lp-settings-profile.php:188
-#: inc/admin/sub-menus/class-lp-submenu-settings.php:18
-#: inc/class-lp-multi-language.php:30 inc/user/class-lp-profile.php:274
+#: inc/admin/settings/class-lp-settings-profile.php:188 inc/admin/sub-menus/class-lp-submenu-settings.php:18 inc/class-lp-multi-language.php:30 inc/user/class-lp-profile.php:274
 msgid "Settings"
 msgstr "Thiết lập"
 
@@ -3707,87 +3458,81 @@ msgstr "Thêm câu hỏi mới"
 msgid "View Question"
 msgstr "Xem câu hỏi"
 
-#: inc/admin/settings/class-lp-settings-advanced.php:86
-#: inc/custom-post-types/question.php:212 inc/custom-post-types/quiz.php:179
+#: inc/admin/settings/class-lp-settings-advanced.php:86 inc/custom-post-types/question.php:212 inc/custom-post-types/quiz.php:179
 msgid "Question"
 msgstr "Câu hỏi"
 
-#: inc/custom-post-types/question.php:210
-#: inc/custom-post-types/question.php:211
+#: inc/custom-post-types/question.php:210 inc/custom-post-types/question.php:211
 msgid "Question Bank"
 msgstr "Ngân hàng câu hỏi"
 
-#: inc/order/lp-order-functions.php:755
+#: inc/order/lp-order-functions.php:759
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] "Thất bại  <span class=\"count\">(%s)</span>"
+msgstr[1] ""
 
-#: inc/order/lp-order-functions.php:750
+#: inc/order/lp-order-functions.php:754
 msgctxt "Order status"
 msgid "Failed"
 msgstr "Thất bại"
 
-#: inc/order/lp-order-functions.php:747
+#: inc/order/lp-order-functions.php:751
 msgid "Cancelled <span class=\"count\">(%s)</span>"
 msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
 msgstr[0] "Đã hủy bỏ  <span class=\"count\">(%s)</span>"
+msgstr[1] ""
 
-#: inc/order/lp-order-functions.php:742
+#: inc/order/lp-order-functions.php:746
 msgctxt "Order status"
 msgid "Cancelled"
 msgstr "Đã hủy"
 
-#: inc/order/lp-order-functions.php:739
+#: inc/order/lp-order-functions.php:743
 msgid "Completed <span class=\"count\">(%s)</span>"
 msgid_plural "Completed <span class=\"count\">(%s)</span>"
 msgstr[0] "Đã hoàn tất  <span class=\"count\">(%s)</span>"
+msgstr[1] ""
 
-#: inc/order/lp-order-functions.php:734
+#: inc/order/lp-order-functions.php:738
 msgctxt "Order status"
 msgid "Completed"
 msgstr "Đã hoàn thành"
 
-#: inc/order/lp-order-functions.php:731
+#: inc/order/lp-order-functions.php:735
 msgid "Processing <span class=\"count\">(%s)</span>"
 msgid_plural "Processing <span class=\"count\">(%s)</span>"
 msgstr[0] "Đang xử lý  <span class=\"count\">(%s)</span>"
+msgstr[1] ""
 
-#: inc/order/lp-order-functions.php:726
+#: inc/order/lp-order-functions.php:730
 msgctxt "Order status"
 msgid "Processing"
 msgstr "Đang xử lý"
 
-#: inc/order/lp-order-functions.php:723
+#: inc/order/lp-order-functions.php:727
 msgid "Pending Payment <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
 msgstr[0] "Đang chờ thanh toán <span class=\"count\">(%s)</span>"
+msgstr[1] ""
 
-#: inc/custom-post-types/order.php:911
+#: inc/custom-post-types/order.php:982
 msgid "Order Actions"
 msgstr "Đặt hàng"
 
-#: inc/custom-post-types/order.php:808 inc/custom-post-types/order.php:910
-#: templates/order/order-details.php:20
+#: inc/custom-post-types/order.php:810 inc/custom-post-types/order.php:981 templates/order/order-details.php:20
 msgid "Order Details"
 msgstr "Chi tiết đơn hàng"
 
-#: inc/custom-post-types/order.php:807
+#: inc/custom-post-types/order.php:809
 msgid "Add New Order"
 msgstr "Thêm đơn hàng mới"
 
-#: inc/admin/views/meta-boxes/order/child-order.php:23
-#: inc/class-lp-gdpr.php:453 inc/custom-post-types/order.php:654
-#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:898
-#: templates/emails/order-items-table.php:72
-#: templates/emails/plain/order-items-table.php:37
-#: templates/profile/tabs/orders/list.php:31
+#: inc/admin/views/meta-boxes/order/child-order.php:23 inc/class-lp-gdpr.php:453 inc/custom-post-types/order.php:654 inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:1032 templates/emails/order-items-table.php:72 templates/emails/plain/order-items-table.php:58 templates/profile/tabs/orders/list.php:31
 msgid "Status"
 msgstr "Trạng thái"
 
-#: inc/admin/views/statistics/orders.php:47 inc/custom-post-types/order.php:652
-#: templates/checkout/order-received.php:86
-#: templates/profile/tabs/orders/list.php:32
-#: templates/profile/tabs/quizzes.php:40
+#: inc/admin/views/statistics/orders.php:47 inc/custom-post-types/order.php:652 templates/checkout/order-received.php:86 templates/profile/tabs/orders/list.php:32 templates/profile/tabs/quizzes.php:40
 msgid "Date"
 msgstr "Ngày tháng"
 
@@ -3795,12 +3540,11 @@ msgstr "Ngày tháng"
 msgid "Student"
 msgstr "Sinh viên"
 
-#: inc/custom-post-types/order.php:649 inc/custom-post-types/order.php:806
-#: templates/profile/tabs/orders/list.php:29
+#: inc/custom-post-types/order.php:649 inc/custom-post-types/order.php:808 templates/profile/tabs/orders/list.php:29
 msgid "Order"
 msgstr "Đặt hàng"
 
-#: inc/custom-post-types/order.php:566 inc/custom-post-types/order.php:810
+#: inc/custom-post-types/order.php:566 inc/custom-post-types/order.php:812
 msgid "View Order"
 msgstr "Xem đơn hàng"
 
@@ -3808,10 +3552,7 @@ msgstr "Xem đơn hàng"
 msgid "Standard"
 msgstr "Chuẩn"
 
-#: inc/admin/views/meta-boxes/course/assigned.php:29
-#: inc/admin/views/meta-boxes/quiz/assigned.php:48
-#: inc/custom-post-types/abstract.php:723
-#: inc/custom-post-types/question.php:378
+#: inc/admin/views/meta-boxes/course/assigned.php:29 inc/admin/views/meta-boxes/quiz/assigned.php:48 inc/custom-post-types/abstract.php:723 inc/custom-post-types/question.php:378
 msgid "Not assigned yet"
 msgstr "Chưa được chỉ định"
 
@@ -3819,21 +3560,11 @@ msgstr "Chưa được chỉ định"
 msgid "Remove Filter"
 msgstr "Xoá Bộ lọc"
 
-#: inc/admin/class-lp-install-sample-data.php:147
-#: inc/admin/views/meta-boxes/course/assigned.php:23
-#: inc/admin/views/meta-boxes/quiz/assigned.php:28
-#: inc/admin/views/meta-boxes/quiz/assigned.php:37
-#: inc/custom-post-types/abstract.php:705
-#: inc/custom-post-types/abstract.php:918
-#: inc/custom-post-types/abstract.php:927
-#: inc/custom-post-types/question.php:375 inc/order/class-lp-order.php:940
+#: inc/admin/class-lp-install-sample-data.php:147 inc/admin/views/meta-boxes/course/assigned.php:23 inc/admin/views/meta-boxes/quiz/assigned.php:28 inc/admin/views/meta-boxes/quiz/assigned.php:37 inc/custom-post-types/abstract.php:705 inc/custom-post-types/abstract.php:918 inc/custom-post-types/abstract.php:927 inc/custom-post-types/question.php:375 inc/order/class-lp-order.php:937
 msgid "View"
 msgstr "Lượt xem"
 
-#: inc/admin/views/meta-boxes/lesson/settings.php:29
-#: inc/custom-post-types/abstract.php:939 inc/custom-post-types/lesson.php:246
-#: inc/lp-template-functions.php:1086
-#: templates/single-course/section/item-meta.php:28
+#: inc/admin/views/meta-boxes/lesson/settings.php:29 inc/custom-post-types/abstract.php:939 inc/custom-post-types/lesson.php:246 inc/lp-template-functions.php:1086 templates/single-course/section/item-meta.php:28
 msgid "Preview"
 msgstr "Xem trước"
 
@@ -3841,9 +3572,7 @@ msgstr "Xem trước"
 msgid "Format"
 msgstr "Định dạng"
 
-#: inc/class-lp-assets.php:77 inc/class-lp-gdpr.php:464
-#: inc/lp-core-functions.php:2170 inc/lp-core-functions.php:3187
-#: templates/global/lp-modal-overlay.php:24
+#: inc/class-lp-assets.php:77 inc/class-lp-gdpr.php:464 inc/lp-core-functions.php:2169 inc/lp-core-functions.php:3186 templates/global/lp-modal-overlay.php:24
 msgid "Yes"
 msgstr "Không"
 
@@ -3887,8 +3616,7 @@ msgstr "Xem bài học"
 msgid "Add New Lesson"
 msgstr "Thêm bài học mới"
 
-#: inc/custom-post-types/lesson.php:171 inc/custom-post-types/lesson.php:172
-#: inc/custom-post-types/lesson.php:175 templates/widgets/course-info.php:25
+#: inc/custom-post-types/lesson.php:171 inc/custom-post-types/lesson.php:172 inc/custom-post-types/lesson.php:175 templates/widgets/course-info.php:25
 msgid "Lessons"
 msgstr "Các bài học"
 
@@ -3896,24 +3624,19 @@ msgstr "Các bài học"
 msgid "No content"
 msgstr "Không có nội dung"
 
-#: inc/admin/lp-admin-actions.php:212 inc/custom-post-types/course.php:548
+#: inc/admin/lp-admin-actions.php:216 inc/custom-post-types/course.php:548
 msgid "Categories"
 msgstr "Những Chuyên mục"
 
-#: inc/admin/views/meta-boxes/fields/extra-faq.php:41
-#: inc/admin/views/meta-boxes/fields/extra-faq.php:61
-#: inc/custom-post-types/course.php:526 inc/custom-post-types/course.php:543
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:41 inc/admin/views/meta-boxes/fields/extra-faq.php:61 inc/custom-post-types/course.php:526 inc/custom-post-types/course.php:543
 msgid "Content"
 msgstr "Nội dung"
 
-#: inc/class-lp-assets.php:78 inc/class-lp-gdpr.php:464
-#: inc/lp-core-functions.php:2171 inc/lp-core-functions.php:3188
-#: templates/global/lp-modal-overlay.php:23
+#: inc/class-lp-assets.php:78 inc/class-lp-gdpr.php:464 inc/lp-core-functions.php:2170 inc/lp-core-functions.php:3187 templates/global/lp-modal-overlay.php:23
 msgid "No"
 msgstr "Có"
 
-#: inc/custom-post-types/course.php:528 inc/custom-post-types/course.php:545
-#: templates/emails/order-items-table.php:87
+#: inc/custom-post-types/course.php:528 inc/custom-post-types/course.php:545 templates/emails/order-items-table.php:87
 msgid "Price"
 msgstr "Giá"
 
@@ -3921,7 +3644,7 @@ msgstr "Giá"
 msgid "Assessment"
 msgstr "Thẩm định, lượng định, đánh giá (thuế)"
 
-#: inc/admin/views/meta-boxes/course/settings.php:311
+#: inc/admin/views/meta-boxes/course/settings.php:309
 msgid "<br /><strong>Note! </strong>No final quiz in course, please add a final quiz"
 msgstr "<br /> <strong> Lưu ý! </strong> Không có câu đố cuối cùng nào trong khóa học, vui lòng thêm một câu đố cuối cùng"
 
@@ -3929,10 +3652,7 @@ msgstr "<br /> <strong> Lưu ý! </strong> Không có câu đố cuối cùng n�
 msgid "Re-take Course"
 msgstr "trở lại bài học"
 
-#: inc/admin/views/meta-boxes/course/settings.php:75
-#: inc/admin/views/meta-boxes/lesson/settings.php:17
-#: inc/admin/views/meta-boxes/quiz/settings.php:17
-#: inc/custom-post-types/lesson.php:243 inc/custom-post-types/quiz.php:244
+#: inc/admin/views/meta-boxes/course/settings.php:75 inc/admin/views/meta-boxes/lesson/settings.php:17 inc/admin/views/meta-boxes/quiz/settings.php:17 inc/custom-post-types/lesson.php:243 inc/custom-post-types/quiz.php:244 inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:828
 msgid "Duration"
 msgstr "Thời gian"
 
@@ -3941,7 +3661,7 @@ msgctxt "slug"
 msgid "course-tag"
 msgstr "Thẻ khóa học"
 
-#: inc/admin/lp-admin-actions.php:217
+#: inc/admin/lp-admin-actions.php:221
 msgid "Tags"
 msgstr "Các thẻ"
 
@@ -3985,8 +3705,7 @@ msgstr "Thẻ khóa học phổ biến"
 msgid "Search Course Tags"
 msgstr "Tìm kiếm thẻ khóa học"
 
-#: inc/custom-post-types/course.php:197 inc/custom-post-types/question.php:189
-#: inc/custom-post-types/question.php:190
+#: inc/custom-post-types/course.php:197 inc/custom-post-types/question.php:189 inc/custom-post-types/question.php:190
 msgid "Tag"
 msgstr "Thẻ"
 
@@ -4007,8 +3726,7 @@ msgstr "Tất cả danh mục"
 msgid "Add New Course Category"
 msgstr "Thêm chủ đề khóa học"
 
-#: inc/custom-post-types/course.php:168
-#: templates/single-course/meta/category.php:15
+#: inc/custom-post-types/course.php:168 templates/single-course/meta/category.php:15
 msgid "Category"
 msgstr "Chuyên mục"
 
@@ -4063,53 +3781,35 @@ msgctxt "slug"
 msgid "uncategorized"
 msgstr "chưa phân loại"
 
-#: inc/course/abstract-course.php:908 inc/course/abstract-course.php:928
-#: inc/lesson/class-lp-lesson.php:104 inc/quiz/class-lp-quiz.php:636
+#: inc/course/abstract-course.php:908 inc/course/abstract-course.php:928 inc/lesson/class-lp-lesson.php:104 inc/quiz/class-lp-quiz.php:636
 msgid "The function %s doesn't exist"
 msgstr "Chức năng %s không tồn tại"
 
-#: inc/lp-deprecated.php:2285
-#: templates/global/become-teacher-form/form-fields.php:29
+#: inc/lp-deprecated.php:2285 templates/global/become-teacher-form/form-fields.php:29
 msgid "Your phone number"
 msgstr "Số điện thoại của bạn"
 
-#: inc/lp-deprecated.php:2283
-#: templates/global/become-teacher-form/form-fields.php:28
+#: inc/lp-deprecated.php:2283 templates/global/become-teacher-form/form-fields.php:28
 msgid "Phone"
 msgstr "điện thoại"
 
-#: inc/lp-deprecated.php:2277
-#: templates/global/become-teacher-form/form-fields.php:25
+#: inc/lp-deprecated.php:2277 templates/global/become-teacher-form/form-fields.php:25
 msgid "Your email address"
 msgstr "Địa chỉ email của bạn"
 
-#: inc/admin/meta-box/fields/list-emails.php:7
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:40
-#: inc/admin/views/meta-boxes/order/exports-invoice.php:80
-#: inc/class-lp-checkout.php:301 inc/class-lp-checkout.php:309
-#: inc/lp-deprecated.php:2275 templates/checkout/account-register.php:25
-#: templates/global/become-teacher-form/form-fields.php:24
-#: templates/global/form-register.php:29
+#: inc/admin/meta-box/fields/list-emails.php:7 inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:40 inc/admin/views/meta-boxes/order/exports-invoice.php:80 inc/class-lp-checkout.php:301 inc/class-lp-checkout.php:309 inc/lp-deprecated.php:2275 templates/checkout/account-register.php:25 templates/global/become-teacher-form/form-fields.php:24 templates/global/form-register.php:29
 msgid "Email"
 msgstr "Email"
 
-#: inc/lp-deprecated.php:2269
-#: templates/global/become-teacher-form/form-fields.php:21
+#: inc/lp-deprecated.php:2269 templates/global/become-teacher-form/form-fields.php:21
 msgid "Your name"
 msgstr "Tên của bạn"
 
-#: inc/admin/settings/class-lp-settings-profile.php:112
-#: inc/admin/views/quiz/editor.php:47
-#: inc/admin/views/tools/course/html-user.php:29 inc/lp-deprecated.php:2267
-#: templates/global/become-teacher-form/form-fields.php:20
-#: templates/profile/tabs/courses/course-list.php:18
-#: assets/js/dist/admin/pages/tools.js:1184
-#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:155
+#: inc/admin/settings/class-lp-settings-profile.php:112 inc/admin/views/quiz/editor.php:47 inc/admin/views/tools/course/html-user.php:29 inc/lp-deprecated.php:2267 templates/global/become-teacher-form/form-fields.php:20 templates/profile/tabs/courses/course-list.php:18 assets/js/dist/admin/pages/tools.js:1184 assets/src/apps/js/admin/pages/tools/reset-data/course.js:155
 msgid "Name"
 msgstr "Họ tên"
 
-#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:115
-#: templates/global/become-teacher-form/button.php:16
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:115 templates/global/become-teacher-form/button.php:16
 msgid "Submit"
 msgstr "Gửi đi"
 
@@ -4117,8 +3817,7 @@ msgstr "Gửi đi"
 msgid "Fill in your information and send us to become a teacher."
 msgstr "Điền thông tin của bạn và gửi cho chúng tôi để trở thành một giáo viên."
 
-#: inc/admin/class-lp-admin.php:307 inc/admin/views/setup/steps/pages.php:49
-#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:113
+#: inc/admin/class-lp-admin.php:307 inc/admin/views/setup/steps/pages.php:49 inc/shortcodes/class-lp-shortcode-become-a-teacher.php:113
 msgid "Become a Teacher"
 msgstr "Trở thành một giáo viên"
 
@@ -4134,8 +3833,7 @@ msgstr "Vui lòng đăng nhập để điền vào mẫu này."
 msgid "You are a teacher now."
 msgstr "Bây giờ bạn là một giáo viên."
 
-#: inc/curds/class-lp-order-curd.php:493
-#: templates/checkout/order-received.php:25
+#: inc/curds/class-lp-order-curd.php:496 templates/checkout/order-received.php:25
 msgid "Invalid order."
 msgstr "Đơn hàng không hợp lệ!"
 
@@ -4151,7 +3849,7 @@ msgstr "Cảm ơn bạn đã sử dụng LearnPress"
 msgid "Upgrade now"
 msgstr "Nâng cấp ngay bây giờ"
 
-#: inc/class-lp-emails.php:115 inc/class-lp-emails.php:122
+#: inc/class-lp-emails.php:118 inc/class-lp-emails.php:125
 msgid "Cheatin&#8217; huh?"
 msgstr "Cheatin&#8217; huh?"
 
@@ -4159,27 +3857,15 @@ msgstr "Cheatin&#8217; huh?"
 msgid "Item does not exist!"
 msgstr "Mục không tồn tại!"
 
-#: inc/class-lp-checkout.php:362 inc/class-lp-checkout.php:372
-#: inc/class-lp-checkout.php:413
+#: inc/class-lp-checkout.php:362 inc/class-lp-checkout.php:372 inc/class-lp-checkout.php:413
 msgid "Error %d: Unable to create order. Please try again."
 msgstr "Lỗi %d: Không thể tạo đơn hàng. Vui lòng thử lại."
 
-#: inc/class-lp-checkout.php:303 inc/class-lp-checkout.php:307
-#: inc/user/class-lp-profile.php:285 templates/checkout/account-login.php:30
-#: templates/checkout/account-login.php:31
-#: templates/checkout/account-register.php:32
-#: templates/checkout/account-register.php:33
-#: templates/checkout/account-register.php:37
-#: templates/global/form-login.php:31 templates/global/form-login.php:32
-#: templates/global/form-register.php:36 templates/global/form-register.php:37
-#: templates/global/form-register.php:41
+#: inc/class-lp-checkout.php:303 inc/class-lp-checkout.php:307 inc/user/class-lp-profile.php:286 templates/checkout/account-login.php:30 templates/checkout/account-login.php:31 templates/checkout/account-register.php:32 templates/checkout/account-register.php:33 templates/checkout/account-register.php:37 templates/global/form-login.php:31 templates/global/form-login.php:32 templates/global/form-register.php:36 templates/global/form-register.php:37 templates/global/form-register.php:41
 msgid "Password"
 msgstr "Mật khẩu"
 
-#: inc/class-lp-checkout.php:302 inc/class-lp-checkout.php:306
-#: templates/checkout/account-register.php:28
-#: templates/checkout/account-register.php:29
-#: templates/global/form-register.php:32 templates/global/form-register.php:33
+#: inc/class-lp-checkout.php:302 inc/class-lp-checkout.php:306 templates/checkout/account-register.php:28 templates/checkout/account-register.php:29 templates/global/form-register.php:32 templates/global/form-register.php:33
 msgid "Username"
 msgstr "Tài khoản"
 
@@ -4207,12 +3893,11 @@ msgstr "Khóa học được gắn thẻ &ldquo;%s&rdquo;"
 msgid "Error 404"
 msgstr "Lỗi 404"
 
-#: templates/single-course/buttons/finish.php:15
-#: templates/single-course/buttons/finish.php:16
+#: templates/single-course/buttons/finish.php:15 templates/single-course/buttons/finish.php:16
 msgid "Finish course"
 msgstr "Kết thúc khóa học"
 
-#: inc/class-lp-ajax.php:265
+#: inc/class-lp-ajax.php:271
 msgid "Error! You cannot finish this course. Please contact your administrator for more information."
 msgstr " Lỗi! Bạn không thể hoàn thành khóa học này. Vui lòng liên hệ với quản trị viên của bạn để biết thêm thông tin."
 
@@ -4228,56 +3913,35 @@ msgstr "Trở lại lớp"
 msgid "Create a new course"
 msgstr "Tạo một khóa học mới"
 
-#: inc/admin/views/statistics/courses.php:43
-#: inc/admin/views/statistics/general.php:60
+#: inc/admin/views/statistics/courses.php:43 inc/admin/views/statistics/general.php:60
 msgid "Public"
 msgstr "Đăng công bố"
 
-#: inc/admin/views/statistics/courses.php:36
-#: inc/admin/views/statistics/general.php:53
-#: inc/admin/views/statistics/orders.php:38
-#: inc/admin/views/statistics/users.php:40
+#: inc/admin/views/statistics/courses.php:36 inc/admin/views/statistics/general.php:53 inc/admin/views/statistics/orders.php:38 inc/admin/views/statistics/users.php:40
 msgid "Go"
 msgstr "Đi"
 
-#: inc/admin/views/statistics/courses.php:33
-#: inc/admin/views/statistics/general.php:49
-#: inc/admin/views/statistics/orders.php:35
-#: inc/admin/views/statistics/users.php:36
+#: inc/admin/views/statistics/courses.php:33 inc/admin/views/statistics/general.php:49 inc/admin/views/statistics/orders.php:35 inc/admin/views/statistics/users.php:36
 msgid "To"
 msgstr "Để"
 
-#: inc/admin/views/statistics/courses.php:31
-#: inc/admin/views/statistics/general.php:47
-#: inc/admin/views/statistics/orders.php:33
-#: inc/admin/views/statistics/users.php:34
+#: inc/admin/views/statistics/courses.php:31 inc/admin/views/statistics/general.php:47 inc/admin/views/statistics/orders.php:33 inc/admin/views/statistics/users.php:34
 msgid "From"
 msgstr "Nơi khởi hành"
 
-#: inc/admin/views/statistics/courses.php:24
-#: inc/admin/views/statistics/general.php:40
-#: inc/admin/views/statistics/orders.php:26
-#: inc/admin/views/statistics/users.php:27
+#: inc/admin/views/statistics/courses.php:24 inc/admin/views/statistics/general.php:40 inc/admin/views/statistics/orders.php:26 inc/admin/views/statistics/users.php:27
 msgid "Last 12 Months"
 msgstr " sau 12 tháng"
 
-#: inc/admin/views/statistics/courses.php:21
-#: inc/admin/views/statistics/general.php:36
-#: inc/admin/views/statistics/orders.php:23
-#: inc/admin/views/statistics/users.php:23
+#: inc/admin/views/statistics/courses.php:21 inc/admin/views/statistics/general.php:36 inc/admin/views/statistics/orders.php:23 inc/admin/views/statistics/users.php:23
 msgid "Last 30 Days"
 msgstr "sau 30 ngày"
 
-#: inc/admin/views/statistics/courses.php:18
-#: inc/admin/views/statistics/general.php:33
-#: inc/admin/views/statistics/orders.php:20
-#: inc/admin/views/statistics/users.php:20
+#: inc/admin/views/statistics/courses.php:18 inc/admin/views/statistics/general.php:33 inc/admin/views/statistics/orders.php:20 inc/admin/views/statistics/users.php:20
 msgid "Last 7 Days"
 msgstr "sau 7 ngày"
 
-#: inc/admin/settings/class-lp-settings-profile.php:118
-#: inc/admin/views/quiz/editor.php:48 inc/custom-post-types/question.php:330
-#: inc/widgets/course-extra.php:30
+#: inc/admin/settings/class-lp-settings-profile.php:118 inc/admin/views/quiz/editor.php:48 inc/custom-post-types/question.php:330 inc/widgets/course-extra.php:30
 msgid "Type"
 msgstr "Gõ"
 
@@ -4302,29 +3966,27 @@ msgstr "Khóa học"
 msgid "New Order"
 msgstr "Đơn hàng mới"
 
-#: inc/emails/class-lp-email.php:1029
+#: inc/emails/class-lp-email.php:1038
 msgid "Recipient(s)"
 msgstr "Người nhận (một hoặc nhiều)"
 
-#: inc/admin/settings/class-lp-settings-emails.php:158
+#: inc/admin/settings/class-lp-settings-emails.php:159
 msgid "Footer text"
 msgstr "Văn bản chân trang"
 
-#: inc/admin/settings/class-lp-settings-emails.php:152
+#: inc/admin/settings/class-lp-settings-emails.php:153
 msgid "Header image"
 msgstr "Ảnh phần đầu trang"
 
-#: inc/lp-deprecated.php:2289
-#: templates/global/become-teacher-form/form-fields.php:32
+#: inc/lp-deprecated.php:2289 templates/global/become-teacher-form/form-fields.php:32
 msgid "Message"
 msgstr "Tin nhắn"
 
-#: inc/emails/class-lp-email.php:1038
+#: inc/emails/class-lp-email.php:1047
 msgid "Subject"
 msgstr "Tiêu đề:"
 
-#: inc/admin/settings/class-lp-settings-advanced.php:110
-#: inc/admin/views/setup/setup-stripe.php:3
+#: inc/admin/settings/class-lp-settings-advanced.php:110 inc/admin/views/setup/setup-stripe.php:3
 msgid "Enable"
 msgstr "Bật"
 
@@ -4332,12 +3994,7 @@ msgstr "Bật"
 msgid "Custom Base"
 msgstr "Mặc định riêng"
 
-#: inc/admin/views/quiz/modal-choose-items.php:55
-#: inc/custom-post-types/question.php:213 inc/custom-post-types/quiz.php:180
-#: inc/custom-post-types/quiz.php:243 inc/custom-post-types/quiz.php:465
-#: assets/js/dist/frontend/quiz.js:159 assets/js/dist/frontend/quiz.js:1979
-#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:21
-#: assets/src/apps/js/frontend/quiz/components/result/index.js:199
+#: inc/admin/views/quiz/modal-choose-items.php:55 inc/custom-post-types/question.php:213 inc/custom-post-types/quiz.php:180 inc/custom-post-types/quiz.php:243 inc/custom-post-types/quiz.php:465 assets/js/dist/frontend/quiz.js:159 assets/js/dist/frontend/quiz.js:1979 assets/src/apps/js/frontend/quiz/components/attempts/index.js:21 assets/src/apps/js/frontend/quiz/components/result/index.js:199
 msgid "Questions"
 msgstr "Câu hỏi"
 
@@ -4353,14 +4010,7 @@ msgstr "Nhập vào đây để tìm kiếm khóa học"
 msgid "Customer Note"
 msgstr "Lưu ý Khách hàng"
 
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:104
-#: inc/admin/views/meta-boxes/order/details.php:156
-#: inc/custom-post-types/order.php:653 templates/checkout/order-received.php:99
-#: templates/checkout/review-order.php:99
-#: templates/emails/order-items-table.php:118
-#: templates/emails/plain/order-items-table.php:67
-#: templates/order/order-details.php:26 templates/order/order-details.php:100
-#: templates/profile/tabs/orders/list.php:30
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:104 inc/admin/views/meta-boxes/order/details.php:156 inc/custom-post-types/order.php:653 templates/checkout/order-received.php:99 templates/checkout/review-order.php:99 templates/emails/order-items-table.php:118 templates/emails/plain/order-items-table.php:88 templates/order/order-details.php:26 templates/order/order-details.php:100 templates/profile/tabs/orders/list.php:30
 msgid "Total"
 msgstr "Tổng cộng"
 
@@ -4376,35 +4026,23 @@ msgstr "Không có đơn đặt hàng"
 msgid "Amount"
 msgstr "Số lượng"
 
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:73
-#: inc/admin/views/meta-boxes/order/details.php:155
-#: templates/emails/order-items-table.php:86
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:73 inc/admin/views/meta-boxes/order/details.php:155 templates/emails/order-items-table.php:86
 msgid "Quantity"
 msgstr "Số lượng"
 
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:72
-#: inc/admin/views/meta-boxes/order/details.php:154
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:72 inc/admin/views/meta-boxes/order/details.php:154
 msgid "Cost"
 msgstr "Chi phí"
 
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:71
-#: inc/admin/views/meta-boxes/order/details.php:153
-#: inc/custom-post-types/course.php:79
-#: inc/gateways/paypal/class-lp-gateway-paypal.php:428
-#: templates/checkout/order-received.php:52
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:71 inc/admin/views/meta-boxes/order/details.php:153 inc/custom-post-types/course.php:79 inc/gateways/paypal/class-lp-gateway-paypal.php:428 templates/checkout/order-received.php:52
 msgid "Item"
 msgstr "Sản phẩm"
 
-#: inc/custom-post-types/order.php:786
+#: inc/custom-post-types/order.php:788
 msgid "Pay via <strong>%s</strong>"
 msgstr "Trả tiền qua <strong>%s</strong>"
 
-#: inc/admin/class-lp-admin-assets.php:31
-#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:25
-#: inc/emails/guest/class-lp-email-completed-order-guest.php:29
-#: inc/emails/guest/class-lp-email-new-order-guest.php:25
-#: inc/emails/guest/class-lp-email-processing-order-guest.php:22
-#: inc/emails/types/class-lp-email-type-order-admin.php:47
+#: inc/admin/class-lp-admin-assets.php:31 inc/emails/guest/class-lp-email-cancelled-order-guest.php:25 inc/emails/guest/class-lp-email-completed-order-guest.php:29 inc/emails/guest/class-lp-email-new-order-guest.php:25 inc/emails/guest/class-lp-email-processing-order-guest.php:22 inc/emails/types/class-lp-email-type-order-admin.php:47
 msgid "Guest"
 msgstr "Khách"
 
@@ -4420,19 +4058,11 @@ msgstr "Di chuyển sang Thùng rác"
 msgid "Delete Permanently"
 msgstr "Xoá vĩnh viễn"
 
-#: inc/admin/class-lp-install-sample-data.php:149 inc/attributes/course.php:243
-#: inc/custom-post-types/abstract.php:703
-#: inc/custom-post-types/question.php:373
-#: templates/content-lesson/content.php:20 assets/js/dist/frontend/quiz.js:1552
-#: assets/src/apps/js/frontend/quiz/components/questions/question.js:87
+#: inc/admin/class-lp-install-sample-data.php:149 inc/attributes/course.php:243 inc/custom-post-types/abstract.php:703 inc/custom-post-types/question.php:373 templates/content-lesson/content.php:20 assets/js/dist/frontend/quiz.js:1552 assets/src/apps/js/frontend/quiz/components/questions/question.js:87
 msgid "Edit"
 msgstr "Sửa"
 
-#: inc/admin/views/meta-boxes/order/child-order.php:21
-#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:37
-#: inc/admin/views/meta-boxes/order/details.php:226
-#: inc/admin/views/meta-boxes/order/details.php:235
-#: inc/admin/views/meta-boxes/order/exports-invoice.php:78
+#: inc/admin/views/meta-boxes/order/child-order.php:21 inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:37 inc/admin/views/meta-boxes/order/details.php:226 inc/admin/views/meta-boxes/order/details.php:235 inc/admin/views/meta-boxes/order/exports-invoice.php:78
 msgid "Customer"
 msgstr "Khách hàng"
 
@@ -4440,26 +4070,15 @@ msgstr "Khách hàng"
 msgid "Order status"
 msgstr "Tình trạng đơn hàng"
 
-#: inc/admin/meta-box/fields/image-advanced.php:25
-#: inc/admin/meta-box/fields/image-advanced.php:38
-#: inc/admin/meta-box/fields/image.php:21 inc/admin/views/course/section.php:48
-#: inc/admin/views/question/fib-answer-editor.php:24
-#: inc/admin/views/question/option.php:22
-#: inc/admin/views/tools/database/html-clean-database.php:42
+#: inc/admin/meta-box/fields/image-advanced.php:25 inc/admin/meta-box/fields/image-advanced.php:38 inc/admin/meta-box/fields/image.php:21 inc/admin/views/course/section.php:48 inc/admin/views/question/fib-answer-editor.php:24 inc/admin/views/question/option.php:22 inc/admin/views/tools/database/html-clean-database.php:42
 msgid "Delete"
 msgstr "Xóa"
 
-#: inc/admin/views/tools/database/html-remove-database.php:23
-#: inc/admin/views/tools/database/html-remove-outdated-data.php:23
-#: templates/profile/tabs/settings/avatar.php:49
-#: assets/src/apps/js/admin/react/question/index.js:313
+#: inc/admin/views/tools/database/html-remove-database.php:23 inc/admin/views/tools/database/html-remove-outdated-data.php:23 templates/profile/tabs/settings/avatar.php:49 assets/src/apps/js/admin/react/question/index.js:313
 msgid "Remove"
 msgstr "Xoá"
 
-#: inc/admin/settings/class-lp-settings-advanced.php:72
-#: inc/admin/settings/class-lp-settings-courses.php:137
-#: inc/course/lp-course-functions.php:436 inc/custom-post-types/lesson.php:173
-#: inc/lp-core-functions.php:417 inc/lp-template-functions.php:1083
+#: inc/admin/settings/class-lp-settings-advanced.php:72 inc/admin/settings/class-lp-settings-courses.php:137 inc/course/lp-course-functions.php:436 inc/custom-post-types/lesson.php:173 inc/lp-core-functions.php:417 inc/lp-template-functions.php:1083
 msgid "Lesson"
 msgstr "bài học"
 
@@ -4467,8 +4086,7 @@ msgstr "bài học"
 msgid "No results"
 msgstr "Không có kết quả"
 
-#: inc/custom-post-types/course.php:112 inc/custom-post-types/lesson.php:177
-#: inc/custom-post-types/order.php:811 inc/custom-post-types/question.php:216
+#: inc/custom-post-types/course.php:112 inc/custom-post-types/lesson.php:177 inc/custom-post-types/order.php:813 inc/custom-post-types/question.php:216
 msgid "Add New"
 msgstr "Tạo mới"
 
@@ -4480,22 +4098,15 @@ msgstr "Nhập vào đây để tìm bài học"
 msgid "Cancel [ESC]"
 msgstr "Hủy [ESC]"
 
-#: inc/custom-post-types/course.php:686 inc/lp-template-functions.php:67
+#: inc/custom-post-types/course.php:678 inc/lp-template-functions.php:67
 msgid "Curriculum"
 msgstr "Chương trình giáo dục"
 
-#: inc/admin/class-lp-modal-search-items.php:61
-#: inc/admin/class-lp-modal-search-users.php:49
-#: inc/admin/views/course/modal-choose-items.php:66
-#: inc/admin/views/meta-boxes/order/details.php:268
-#: inc/admin/views/quiz/modal-choose-items.php:58
+#: inc/admin/class-lp-modal-search-items.php:61 inc/admin/class-lp-modal-search-users.php:49 inc/admin/views/course/modal-choose-items.php:66 inc/admin/views/meta-boxes/order/details.php:268 inc/admin/views/quiz/modal-choose-items.php:58
 msgid "Close"
 msgstr "Đóng"
 
-#: inc/admin/class-lp-modal-search-items.php:60
-#: inc/admin/class-lp-modal-search-users.php:48
-#: inc/admin/views/course/modal-choose-items.php:92
-#: inc/admin/views/quiz/modal-choose-items.php:83
+#: inc/admin/class-lp-modal-search-items.php:60 inc/admin/class-lp-modal-search-users.php:48 inc/admin/views/course/modal-choose-items.php:92 inc/admin/views/quiz/modal-choose-items.php:83
 msgid "Add"
 msgstr "Thêm"
 
@@ -4503,12 +4114,7 @@ msgstr "Thêm"
 msgid "Type here to search item"
 msgstr "Nhập vào đây để tìm kiếm mục"
 
-#: inc/admin/settings/class-lp-settings-profile.php:166
-#: inc/admin/sub-menus/class-lp-submenu-statistics.php:22
-#: inc/admin/sub-menus/class-lp-submenu-statistics.php:29
-#: inc/class-lp-gdpr.php:183 inc/custom-post-types/order.php:804
-#: inc/custom-post-types/order.php:805 inc/custom-post-types/order.php:809
-#: inc/user/class-lp-profile.php:260
+#: inc/admin/settings/class-lp-settings-profile.php:166 inc/admin/sub-menus/class-lp-submenu-statistics.php:22 inc/admin/sub-menus/class-lp-submenu-statistics.php:29 inc/class-lp-gdpr.php:183 inc/custom-post-types/order.php:806 inc/custom-post-types/order.php:807 inc/custom-post-types/order.php:811 inc/user/class-lp-profile.php:260
 msgid "Orders"
 msgstr "Đơn hàng"
 
@@ -4528,19 +4134,11 @@ msgstr "Tiện ích LearnPress"
 msgid "Results"
 msgstr "Kết quả"
 
-#: inc/admin/settings/class-lp-settings-advanced.php:79
-#: inc/admin/settings/class-lp-settings-courses.php:145
-#: inc/course/lp-course-functions.php:437
-#: inc/custom-post-types/question.php:329 inc/custom-post-types/quiz.php:92
-#: inc/lp-core-functions.php:418 inc/lp-template-functions.php:1073
-#: templates/profile/tabs/quizzes.php:37
+#: inc/admin/settings/class-lp-settings-advanced.php:79 inc/admin/settings/class-lp-settings-courses.php:145 inc/course/lp-course-functions.php:437 inc/custom-post-types/question.php:329 inc/custom-post-types/quiz.php:92 inc/lp-core-functions.php:418 inc/lp-template-functions.php:1073 templates/profile/tabs/quizzes.php:37
 msgid "Quiz"
 msgstr "Câu hỏi"
 
-#: inc/admin/class-lp-admin.php:305
-#: inc/admin/settings/class-lp-settings-profile.php:24
-#: inc/admin/views/meta-boxes/order/details.php:101
-#: inc/admin/views/setup/steps/pages.php:31
+#: inc/admin/class-lp-admin.php:305 inc/admin/settings/class-lp-settings-profile.php:24 inc/admin/views/meta-boxes/order/details.php:101 inc/admin/views/setup/steps/pages.php:31
 msgid "Profile"
 msgstr "Cá nhân"
 
@@ -4556,16 +4154,11 @@ msgstr "Phân số thập phân"
 msgid "Thousands Separator"
 msgstr "Dấu tách phần ngàn "
 
-#: inc/admin/settings/class-lp-settings-general.php:98
-#: inc/admin/views/setup/steps/currency.php:37
+#: inc/admin/settings/class-lp-settings-general.php:98 inc/admin/views/setup/steps/currency.php:37
 msgid "Currency position"
 msgstr "Vị trí tiền tệ"
 
-#: inc/admin/settings/class-lp-settings-general.php:85
-#: inc/admin/settings/class-lp-settings-general.php:90
-#: inc/admin/views/setup/setup-paypal.php:28
-#: inc/admin/views/setup/steps/currency.php:17
-#: inc/admin/views/setup/steps/currency.php:21
+#: inc/admin/settings/class-lp-settings-general.php:85 inc/admin/settings/class-lp-settings-general.php:90 inc/admin/views/setup/setup-paypal.php:28 inc/admin/views/setup/steps/currency.php:17 inc/admin/views/setup/steps/currency.php:21
 msgid "Currency"
 msgstr "Hiện tại"
 
@@ -4577,14 +4170,12 @@ msgstr "Trang hồ sơ người dùng"
 msgid "Number of courses displayed per page."
 msgstr "Số lượng khóa học hiển thị trên mỗi trang."
 
-#: inc/admin/meta-box/fields/course-permalink.php:16
-#: inc/admin/settings/class-lp-settings-courses.php:43
+#: inc/admin/meta-box/fields/course-permalink.php:16 inc/admin/settings/class-lp-settings-courses.php:43
 msgctxt "default-slug"
 msgid "courses"
 msgstr "Khóa học"
 
-#: inc/admin/settings/class-lp-settings-courses.php:29
-#: inc/custom-post-types/course.php:120
+#: inc/admin/settings/class-lp-settings-courses.php:29 inc/custom-post-types/course.php:120
 msgctxt "slug"
 msgid "courses"
 msgstr "các Khóa học"
@@ -4593,42 +4184,35 @@ msgstr "các Khóa học"
 msgid "Checkout page"
 msgstr "Trang thanh toán"
 
-#: inc/lp-core-functions.php:2401
+#: inc/lp-core-functions.php:2400
 msgid "Cart page"
 msgstr "Trang giỏ hàng"
 
-#: inc/lp-core-functions.php:2395
+#: inc/lp-core-functions.php:2394
 msgid "Using AJAX to add course to cart."
 msgstr "Sử dụng AJAX để thêm khóa học vào giỏ hàng."
 
-#: inc/lp-core-functions.php:2394
+#: inc/lp-core-functions.php:2393
 msgid "AJAX add to cart"
 msgstr "AJAX cài đặt cho giỏ hàng"
 
-#: inc/lp-core-functions.php:2388
+#: inc/lp-core-functions.php:2387
 msgid "Redirect to checkout immediately after adding course to cart."
 msgstr "Chuyển hướng đến kiểm tra ngay sau khi thêm khóa học vào giỏ hàng."
 
-#: inc/lp-core-functions.php:2387
+#: inc/lp-core-functions.php:2386
 msgid "Add to cart redirect"
 msgstr "Thêm chuyển hướng  giỏ hàng"
 
-#: inc/lp-core-functions.php:2378
+#: inc/lp-core-functions.php:2377
 msgid "Check this option to enable user purchase multiple courses at one time."
 msgstr "Chọn tùy chọn này để cho phép người dùng mua nhiều khóa học cùng một lúc."
 
-#: inc/lp-core-functions.php:2377
+#: inc/lp-core-functions.php:2376
 msgid "Enable cart"
 msgstr "cho phép giỏ hàng"
 
-#: inc/admin/lp-admin-functions.php:57
-#: inc/admin/meta-box/fields/course-permalink.php:27
-#: inc/admin/settings/class-lp-settings-advanced.php:65
-#: inc/admin/settings/class-lp-settings-courses.php:131
-#: inc/admin/views/statistics/orders.php:48 inc/admin/views/user/courses.php:33
-#: inc/custom-post-types/abstract.php:676 inc/custom-post-types/quiz.php:242
-#: templates/emails/order-items-table.php:85
-#: templates/order/order-details.php:25
+#: inc/admin/lp-admin-functions.php:57 inc/admin/meta-box/fields/course-permalink.php:27 inc/admin/settings/class-lp-settings-advanced.php:65 inc/admin/settings/class-lp-settings-courses.php:131 inc/admin/views/statistics/orders.php:48 inc/admin/views/user/courses.php:33 inc/custom-post-types/abstract.php:676 inc/custom-post-types/quiz.php:242 templates/emails/order-items-table.php:85 templates/order/order-details.php:25
 msgid "Course"
 msgstr "khóa học"
 
@@ -4640,92 +4224,47 @@ msgstr "Khóa học miễn phí / Khoá học có giá"
 msgid "Pending Courses / Publish Courses"
 msgstr "Khóa học chờ xử lý/ xuất bản "
 
-#: inc/admin/lp-admin-functions.php:1431
-#: inc/admin/views/statistics/orders.php:64 inc/class-lp-gdpr.php:463
-#: inc/user-item/class-lp-user-item-quiz.php:142
-#: inc/user-item/class-lp-user-item.php:806
-#: templates/content-lesson/button-complete.php:37
+#: inc/admin/lp-admin-functions.php:1431 inc/admin/views/statistics/orders.php:64 inc/class-lp-gdpr.php:463 inc/user-item/class-lp-user-item-quiz.php:142 inc/user-item/class-lp-user-item.php:802 templates/content-lesson/button-complete.php:37
 msgid "Completed"
 msgstr "Hoàn thành"
 
-#: inc/admin/lp-admin-functions.php:1230 inc/admin/lp-admin-functions.php:2363
-#: inc/admin/views/statistics/courses.php:46
-#: inc/admin/views/statistics/general.php:63 inc/course/abstract-course.php:817
-#: inc/custom-post-types/course.php:624 templates/order/order-details.php:43
+#: inc/admin/lp-admin-functions.php:1230 inc/admin/lp-admin-functions.php:2378 inc/admin/views/statistics/courses.php:46 inc/admin/views/statistics/general.php:63 inc/course/abstract-course.php:817 inc/custom-post-types/course.php:624 templates/order/order-details.php:43
 msgid "Free"
 msgstr "Miễn phí"
 
-#: inc/admin/lp-admin-functions.php:1225 inc/admin/lp-admin-functions.php:2358
-#: inc/admin/views/statistics/courses.php:45
-#: inc/admin/views/statistics/general.php:62
+#: inc/admin/lp-admin-functions.php:1225 inc/admin/lp-admin-functions.php:2373 inc/admin/views/statistics/courses.php:45 inc/admin/views/statistics/general.php:62
 msgid "Paid"
 msgstr "Đã thanh toán"
 
-#: inc/admin/lp-admin-functions.php:1220 inc/admin/lp-admin-functions.php:1436
-#: inc/admin/lp-admin-functions.php:2353
-#: inc/admin/views/statistics/courses.php:44
-#: inc/admin/views/statistics/general.php:61
-#: inc/admin/views/statistics/orders.php:65 inc/user/class-lp-profile.php:789
-#: templates/profile/tabs/courses.php:39
+#: inc/admin/lp-admin-functions.php:1220 inc/admin/lp-admin-functions.php:1436 inc/admin/lp-admin-functions.php:2368 inc/admin/views/statistics/courses.php:44 inc/admin/views/statistics/general.php:61 inc/admin/views/statistics/orders.php:65 inc/user/class-lp-profile.php:798 templates/profile/tabs/courses.php:39
 msgid "Pending"
 msgstr "Đang chờ"
 
-#: inc/admin/lp-admin-functions.php:1215 inc/admin/lp-admin-functions.php:2348
-#: inc/user/class-lp-profile.php:788 templates/profile/tabs/courses.php:38
+#: inc/admin/lp-admin-functions.php:1215 inc/admin/lp-admin-functions.php:2363 inc/user/class-lp-profile.php:797 templates/profile/tabs/courses.php:38
 msgid "Publish"
 msgstr "Công bố"
 
-#: inc/admin/lp-admin-functions.php:1026
-#: inc/admin/views/statistics/courses.php:8
-#: inc/admin/views/statistics/general.php:8
-#: inc/admin/views/statistics/orders.php:8
-#: inc/admin/views/statistics/users.php:8
-#: inc/admin/views/statistics/users.php:48 inc/custom-post-types/course.php:527
-#: inc/custom-post-types/course.php:544
-#: assets/js/dist/admin/pages/tools.js:1184
-#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:156
+#: inc/admin/lp-admin-functions.php:1026 inc/admin/views/statistics/courses.php:8 inc/admin/views/statistics/general.php:8 inc/admin/views/statistics/orders.php:8 inc/admin/views/statistics/users.php:8 inc/admin/views/statistics/users.php:48 inc/custom-post-types/course.php:527 inc/custom-post-types/course.php:544 assets/js/dist/admin/pages/tools.js:1184 assets/src/apps/js/admin/pages/tools/reset-data/course.js:156
 msgid "Students"
 msgstr "Sinh viên"
 
-#: inc/admin/lp-admin-functions.php:1021
-#: inc/admin/views/statistics/courses.php:9
-#: inc/admin/views/statistics/general.php:9
-#: inc/admin/views/statistics/orders.php:9
-#: inc/admin/views/statistics/users.php:9
-#: inc/admin/views/statistics/users.php:47
+#: inc/admin/lp-admin-functions.php:1021 inc/admin/views/statistics/courses.php:9 inc/admin/views/statistics/general.php:9 inc/admin/views/statistics/orders.php:9 inc/admin/views/statistics/users.php:9 inc/admin/views/statistics/users.php:47
 msgid "Instructors"
 msgstr "Giảng viên"
 
-#: inc/admin/lp-admin-actions.php:72 inc/admin/lp-admin-functions.php:1016
-#: inc/admin/lp-admin-functions.php:1210 inc/admin/lp-admin-functions.php:1426
-#: inc/admin/lp-admin-functions.php:2343
-#: inc/admin/views/statistics/courses.php:27
-#: inc/admin/views/statistics/courses.php:42
-#: inc/admin/views/statistics/general.php:43
-#: inc/admin/views/statistics/general.php:59
-#: inc/admin/views/statistics/orders.php:29
-#: inc/admin/views/statistics/orders.php:63
-#: inc/admin/views/statistics/users.php:30
-#: inc/admin/views/statistics/users.php:46 inc/lp-deprecated.php:370
-#: inc/lp-deprecated.php:402 inc/user/class-lp-profile.php:787
-#: inc/user/class-lp-profile.php:819 inc/user/class-lp-profile.php:853
-#: templates/profile/tabs/courses.php:29 templates/profile/tabs/courses.php:37
-#: templates/widgets/course-info.php:35
+#: inc/admin/lp-admin-functions.php:1016 inc/admin/lp-admin-functions.php:1210 inc/admin/lp-admin-functions.php:1426 inc/admin/lp-admin-functions.php:2358 inc/admin/views/statistics/courses.php:27 inc/admin/views/statistics/courses.php:42 inc/admin/views/statistics/general.php:43 inc/admin/views/statistics/general.php:59 inc/admin/views/statistics/orders.php:29 inc/admin/views/statistics/orders.php:63 inc/admin/views/statistics/users.php:30 inc/admin/views/statistics/users.php:46 inc/lp-deprecated.php:370 inc/lp-deprecated.php:402 inc/user/class-lp-profile.php:796 inc/user/class-lp-profile.php:828 inc/user/class-lp-profile.php:862 templates/profile/tabs/courses.php:29 templates/profile/tabs/courses.php:37 templates/widgets/course-info.php:35
 msgid "All"
 msgstr "Toàn bộ"
 
-#: inc/admin/settings/class-lp-settings-emails.php:25
-#: inc/admin/settings/class-lp-settings-emails.php:164
+#: inc/admin/settings/class-lp-settings-emails.php:25 inc/admin/settings/class-lp-settings-emails.php:165
 msgid "Emails"
 msgstr "Thư điện tử"
 
-#: inc/admin/class-lp-admin.php:242 inc/admin/class-lp-admin.php:306
-#: inc/admin/views/setup/steps/pages.php:40
+#: inc/admin/class-lp-admin.php:242 inc/admin/class-lp-admin.php:306 inc/admin/views/setup/steps/pages.php:40
 msgid "Checkout"
 msgstr "Kiểm tra"
 
-#: inc/admin/settings/class-lp-settings-payments.php:24
-#: inc/admin/settings/class-lp-settings-payments.php:120
+#: inc/admin/settings/class-lp-settings-payments.php:24 inc/admin/settings/class-lp-settings-payments.php:120
 msgid "Payments"
 msgstr "Thanh toán"
 
@@ -4733,19 +4272,11 @@ msgstr "Thanh toán"
 msgid "Pages"
 msgstr "Các trang"
 
-#: inc/admin/settings/class-lp-settings-courses.php:69
-#: inc/admin/settings/class-lp-settings-emails.php:64
-#: inc/admin/settings/class-lp-settings-general.php:16
-#: inc/admin/settings/class-lp-settings-payments.php:53
-#: inc/admin/settings/class-lp-settings-profile.php:59
-#: inc/admin/sub-menus/class-lp-submenu-statistics.php:26
-#: inc/admin/views/meta-boxes/course/settings.php:22
-#: inc/user/class-lp-profile.php:279
+#: inc/admin/settings/class-lp-settings-courses.php:69 inc/admin/settings/class-lp-settings-emails.php:64 inc/admin/settings/class-lp-settings-general.php:16 inc/admin/settings/class-lp-settings-payments.php:53 inc/admin/settings/class-lp-settings-profile.php:59 inc/admin/sub-menus/class-lp-submenu-statistics.php:26 inc/admin/views/meta-boxes/course/settings.php:22 inc/user/class-lp-profile.php:279
 msgid "General"
 msgstr "Tổng thể"
 
-#: inc/admin/lp-admin-functions.php:264
-#: inc/admin/meta-box/fields/select-page.php:24
+#: inc/admin/lp-admin-functions.php:264 inc/admin/meta-box/fields/select-page.php:24
 msgid "Select a page&hellip;"
 msgstr "Chọn một trang&hellip;"
 
@@ -4822,31 +4353,19 @@ msgstr "Không thể truy cập tập tin hệ thống."
 msgid "Invalid Data provided."
 msgstr "Dữ liệu không hợp lệ."
 
-#: inc/admin/class-lp-admin.php:304 inc/admin/lp-admin-actions.php:207
-#: inc/admin/settings/class-lp-settings-courses.php:13
-#: inc/admin/settings/class-lp-settings-profile.php:150
-#: inc/admin/sub-menus/class-lp-submenu-statistics.php:21
-#: inc/admin/sub-menus/class-lp-submenu-statistics.php:28
-#: inc/admin/views/setup/steps/pages.php:22
-#: inc/admin/views/tools/course/html-user.php:30
-#: inc/class-lp-page-controller.php:89 inc/custom-post-types/course.php:107
-#: inc/custom-post-types/course.php:109 inc/lp-template-functions.php:355
-#: inc/user/class-lp-profile.php:246 inc/user/class-lp-profile.php:586
+#: inc/admin/class-lp-admin.php:304 inc/admin/lp-admin-actions.php:211 inc/admin/settings/class-lp-settings-courses.php:13 inc/admin/settings/class-lp-settings-profile.php:150 inc/admin/sub-menus/class-lp-submenu-statistics.php:21 inc/admin/sub-menus/class-lp-submenu-statistics.php:28 inc/admin/views/setup/steps/pages.php:22 inc/admin/views/tools/course/html-user.php:30 inc/class-lp-page-controller.php:89 inc/custom-post-types/course.php:107 inc/custom-post-types/course.php:109 inc/lp-template-functions.php:355 inc/user/class-lp-profile.php:246 inc/user/class-lp-profile.php:595
 msgid "Courses"
 msgstr "khóa học"
 
-#: inc/admin/class-lp-plugin-install-list-table.php:510
-#: inc/admin/views/addons/html-loop-plugin.php:56
+#: inc/admin/class-lp-plugin-install-list-table.php:510 inc/admin/views/addons/html-loop-plugin.php:56
 msgid "<strong>Compatible</strong> with your version of WordPress"
 msgstr "<strong>Tương thích</strong> với phiên bản Wordpress của bạn."
 
-#: inc/admin/class-lp-plugin-install-list-table.php:508
-#: inc/admin/views/addons/html-loop-plugin.php:54
+#: inc/admin/class-lp-plugin-install-list-table.php:508 inc/admin/views/addons/html-loop-plugin.php:54
 msgid "<strong>Incompatible</strong> with your version of WordPress"
 msgstr "<strong>Không tương thích</strong> với phiên bản Wordpress của bạn."
 
-#: inc/admin/class-lp-plugin-install-list-table.php:506
-#: inc/admin/views/addons/html-loop-plugin.php:52
+#: inc/admin/class-lp-plugin-install-list-table.php:506 inc/admin/views/addons/html-loop-plugin.php:52
 msgid "Untested with your version of WordPress"
 msgstr "Chưa kiểm tra với phiên bản Wordpress của bạn"
 
@@ -4859,9 +4378,7 @@ msgctxt "Active plugin installs"
 msgid "1+ Million"
 msgstr "1+ triệu"
 
-#: inc/admin/class-lp-plugin-install-list-table.php:490
-#: inc/class-lp-datetime.php:209 inc/custom-post-types/order.php:745
-#: inc/order/class-lp-order.php:150 inc/user-item/class-lp-user-item.php:241
+#: inc/admin/class-lp-plugin-install-list-table.php:490 inc/class-lp-datetime.php:209 inc/custom-post-types/order.php:745 inc/order/class-lp-order.php:150 inc/user-item/class-lp-user-item.php:241
 msgid "%s ago"
 msgstr "%s ago"
 
@@ -4893,15 +4410,13 @@ msgstr "cho phép"
 
 #. translators: 1: Plugin name and version
 #. translators: 1: Plugin name and version
-#: inc/admin/class-lp-plugin-install-list-table.php:397
-#: inc/admin/helpers/class-lp-plugins-helper.php:248
+#: inc/admin/class-lp-plugin-install-list-table.php:397 inc/admin/helpers/class-lp-plugins-helper.php:248
 msgid "Update Now"
 msgstr "Cập nhật bây giờ"
 
 #. translators: 1: Plugin name and version
 #. translators: 1: Plugin name and version
-#: inc/admin/class-lp-plugin-install-list-table.php:397
-#: inc/admin/helpers/class-lp-plugins-helper.php:248
+#: inc/admin/class-lp-plugin-install-list-table.php:397 inc/admin/helpers/class-lp-plugins-helper.php:248
 msgid "Update %s now"
 msgstr "Cập nhật %s ngay"
 
@@ -4912,8 +4427,7 @@ msgstr "Cài đặt và Hoạt động"
 
 #. translators: 1: Plugin name and version.
 #. translators: 1: Plugin name and version.
-#: inc/admin/class-lp-plugin-install-list-table.php:390
-#: inc/admin/helpers/class-lp-plugins-helper.php:241
+#: inc/admin/class-lp-plugin-install-list-table.php:390 inc/admin/helpers/class-lp-plugins-helper.php:241
 msgid "Install %s now"
 msgstr "Cài đặt %s ngay"
 
@@ -4940,8 +4454,7 @@ msgstr "Hiệu suất"
 msgid "No plugin found."
 msgstr "Không tìm thấy trình cắm nào."
 
-#: inc/admin/sub-menus/class-lp-submenu-addons.php:14
-#: inc/class-lp-multi-language.php:32
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:14 inc/class-lp-multi-language.php:32
 msgid "Add-ons"
 msgstr "Tiện ích"
 
@@ -4954,9 +4467,7 @@ msgid "Statistics"
 msgstr "Thống kê"
 
 #. Plugin Name of the plugin
-#: inc/admin/class-lp-admin.php:133 inc/admin/class-lp-admin.php:137
-#: inc/admin/lp-admin-functions.php:1758
-#: inc/admin/settings/class-lp-settings-emails.php:160 inc/class-lp-gdpr.php:31
+#: inc/admin/class-lp-admin.php:133 inc/admin/class-lp-admin.php:137 inc/admin/lp-admin-functions.php:1758 inc/admin/settings/class-lp-settings-emails.php:161 inc/class-lp-gdpr.php:31
 msgid "LearnPress"
 msgstr "LearnPress"
 
@@ -4964,41 +4475,23 @@ msgstr "LearnPress"
 msgid "Learning Management System"
 msgstr "Hệ thống quản lý học tập"
 
-#: inc/admin/class-lp-admin-ajax.php:1010
-#: inc/admin/class-lp-admin-ajax.php:1031
-msgid "You do not have the permission to deactivate plugins on this site."
-msgstr "Bạn không có quyền để tắt plugin trên web này."
-
-#: inc/admin/class-lp-admin-ajax.php:994
-msgid "Unknown error when installing/activating Import/Export add-on. Please try again!"
-msgstr "Lỗi không xác định khi cài đặt / kích hoạt ứng dụng Xuất / Nhập. Vui lòng thử lại!"
-
-#: inc/admin/class-lp-admin-ajax.php:986
-msgid "View courses"
-msgstr "xem các khóa học"
-
-#: inc/admin/class-lp-admin-ajax.php:961 inc/admin/class-lp-admin.php:241
-#: inc/admin/views/meta-boxes/fields/date.php:35 inc/class-lp-assets.php:76
-#: inc/lp-core-functions.php:2169 inc/lp-core-functions.php:3186
-#: inc/order/class-lp-order.php:947 assets/js/dist/frontend/modal.js:174
-#: assets/src/apps/js/frontend/modal/index.js:44
+#: inc/admin/class-lp-admin.php:241 inc/admin/views/meta-boxes/fields/date.php:35 inc/class-lp-assets.php:76 inc/lp-core-functions.php:2168 inc/lp-core-functions.php:3185 inc/order/class-lp-order.php:945 assets/js/dist/frontend/modal.js:174 assets/src/apps/js/frontend/modal/index.js:44
 msgid "Cancel"
 msgstr "Huỷ"
 
-#: inc/admin/class-lp-admin-ajax.php:914 inc/admin/class-lp-admin-ajax.php:1098
+#: inc/admin/class-lp-admin-ajax.php:946 inc/admin/class-lp-admin-ajax.php:1139
 msgid "View Page"
 msgstr "Xem trang"
 
-#: inc/admin/class-lp-admin-ajax.php:913 inc/admin/class-lp-admin-ajax.php:1096
+#: inc/admin/class-lp-admin-ajax.php:945 inc/admin/class-lp-admin-ajax.php:1137
 msgid "Edit Page"
 msgstr "Sửa trang"
 
-#: inc/admin/class-lp-admin-ajax.php:680
+#: inc/admin/class-lp-admin-ajax.php:703
 msgid "Permission denied"
 msgstr "Quyền bị từ chối"
 
-#: inc/admin/class-lp-modal-search-items.php:232
-#: inc/admin/class-lp-modal-search-users.php:201
+#: inc/admin/class-lp-modal-search-items.php:232 inc/admin/class-lp-modal-search-users.php:201
 msgid "No item found"
 msgstr "Không tìm thấy mục"
 

@@ -6,7 +6,7 @@ defined( 'ABSPATH' ) || exit;
  * Description: The most advanced addons for Elementor with tons of widgets, Header builder, Footer builder, Mega menu builder, layout pack and powerful custom controls.
  * Plugin URI: https://products.wpmet.com/elementskit
  * Author: Wpmet
- * Version: 2.3.7
+ * Version: 2.5.1
  * Author URI: https://wpmet.com/
  *
  * Text Domain: elementskit-lite
@@ -28,7 +28,7 @@ final class ElementsKit_Lite{
 	 * @var string The plugin version.
 	 */
 	static function version(){
-		return '2.3.7';
+		return '2.5.1';
 	}
 
 	/**
@@ -238,6 +238,22 @@ final class ElementsKit_Lite{
 		return self::plugin_url() . 'libs/';
 	}
 
+    /**
+     * Active plugin's textdomain list
+     */
+	static function active_plugins(){
+		require_once(ABSPATH . 'wp-admin/includes/plugin.php');
+        $apl = get_option('active_plugins');
+        $plugins = get_plugins();
+        $filter_string = '';
+        foreach ($apl as $p){
+            if(isset($plugins[$p]) && isset($plugins[$p]['TextDomain'])){
+                $filter_string .= ',' . $plugins[$p]['TextDomain'];
+            }
+        }
+        return ltrim($filter_string, ',');
+	}
+
 	/**
 	 * Constructor
 	 *
@@ -252,7 +268,7 @@ final class ElementsKit_Lite{
 		require_once self::plugin_dir() . 'libs/rating/rating.php';
 		require_once self::plugin_dir() . 'libs/pro-awareness/pro-awareness.php'; // pro menu class file
 		require_once self::plugin_dir() . 'helpers/utils.php';
-		
+
 		// Load translation
 		add_action( 'init', array( $this, 'i18n' ) );
 		// Init Plugin

@@ -1,10 +1,21 @@
 <div class="elementskit-testimonial-slider ekit_testimonial_style_5 slick-slider arrow_inside <?php echo !empty($settings['ekit_testimonial_show_dot']) ? 'slick-dotted' : '' ?>" <?php echo $this->get_render_attribute_string('wrapper'); ?>>
 	<div class="swiper-container">
         <div class="slick-list swiper-wrapper">
-			<?php foreach ($testimonials as $testimonial): ?>
+			<?php
+			foreach ($testimonials as $testimonial):
+				$wrapTag = 'div';
+				$ratingTag = 'a';
+	
+				if ( !empty( $testimonial['link']['url'] ) ):
+					$wrapTag = 'a';
+					$ratingTag = 'span';
+					
+					$this->add_link_attributes( 'link-' . $testimonial['_id'], $testimonial['link'] );
+				endif;
+			?>
 				<div class="swiper-slide">
 					<div class="slick-slide">
-						<div class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-two  elementor-repeater-item-<?php echo esc_attr( $testimonial[ '_id' ] ); ?>">
+						<<?php echo esc_attr( $wrapTag ); ?> class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-two  elementor-repeater-item-<?php echo esc_attr( $testimonial[ '_id' ] ); ?>" <?php echo $this->get_render_attribute_string( 'link-' . $testimonial['_id'] ); ?>>
 							<div class="elementskit-commentor-header">
 								<?php if ($ekit_testimonial_rating_enable == 'yes') : ?>
 								<ul class="elementskit-stars">
@@ -16,7 +27,7 @@
 											$iconStart = 'eicon-star active';
 										}
 									?>
-									<li><a href="#"><i class="<?php esc_attr_e( $iconStart, 'elementskit-lite' );?>"></i></a></li>
+									<li><<?php echo esc_attr( $ratingTag ); ?>><i class="<?php esc_attr_e( $iconStart, 'elementskit-lite' );?>"></i></<?php echo esc_attr( $ratingTag ); ?>></li>
 
 									<?php }?>
 								</ul>
@@ -86,7 +97,7 @@
 								</div>
 								<?php endif;?>
 							</div>
-						</div>
+						</<?php echo esc_attr( $wrapTag ); ?>>
 					</div>
 				</div>
 			<?php endforeach; ?>

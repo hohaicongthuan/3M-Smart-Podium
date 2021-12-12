@@ -4,10 +4,16 @@
 		<?php
 			// start foreach loop
 			foreach ($testimonials as $testimonial):
+				$wrapTag = 'div';
+
+				if ( !empty( $testimonial['link']['url'] ) ):
+					$wrapTag = 'a';
+					$this->add_link_attributes( 'link-' . $testimonial['_id'], $testimonial['link'] );
+				endif;
 		?>
 			<div class="swiper-slide">
 				<div class="slick-slide">
-					<div class="elemntskit-testimonial-item">
+					<<?php echo esc_attr( $wrapTag ); ?> class="elemntskit-testimonial-item" <?php echo $this->get_render_attribute_string( 'link-' . $testimonial['_id'] ); ?>>
 						<div class="elementskit-single-testimonial-slider">
 							<div class="row">
 								<div class="col-lg-6 elementkit-testimonial-col">
@@ -58,7 +64,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</<?php echo esc_attr( $wrapTag ); ?>>
 				</div>
 			</div>
 		<?php endforeach; // end foreach loop ?>

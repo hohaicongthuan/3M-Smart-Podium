@@ -93,7 +93,7 @@ function wpsp_topbar(){
       </a>
       <div class="wpsp-head">
       <div class="wpsp-menuIcon"><span></span></div>
-      <h3 class="wpsp-customeMsg"><?php echo esc_html(" “Live as if you were to die tomorrow. Learn as if you were to live forever.” ","wpschoolpress");?></h3>
+      <h3 class="wpsp-customeMsg"><?php echo esc_html(" “Học, học nữa, học mãi.” - V. I. Lenin","wpschoolpress");?></h3>
 
       <div class="wpsp-righthead">
         <div class="wpsp-head-action"></div>
@@ -104,11 +104,11 @@ function wpsp_topbar(){
           </div>
           <div class="wpsp-dropdown">
             <ul>
-              <?php if($roles[0]=='administrator') {?> <li class='wpsp-back-wp'><a href='<?php echo esc_url( admin_url() ); ?>'><?php echo esc_html( 'Back to wp-admin', 'wpschoolpress' );?></a></li><?php }?>
+              <?php if($roles[0]=='administrator') {?> <li class='wpsp-back-wp'><a href='<?php echo esc_url( admin_url() ); ?>'><?php echo esc_html( 'Quay về wp-admin', 'wpschoolpress' );?></a></li><?php }?>
               <?php if($roles[0]!='administrator') {?><?php echo "<li class='wpsp-back-wp-editprofile'><a href='".esc_url(site_url('wp-admin/admin.php?page=sch-editprofile'))."'>".__('Edit Profile','wpschoolpress')."</a></li>"; }
 
-              echo "<li class='wpsp-back-wp-changepassword'><a href='".esc_url(site_url('wp-admin/admin.php?page=sch-changepassword'))."'>".__('Change Password','wpschoolpress')."</a></li>"; ?>
-              <li><a href='<?php echo esc_url(wp_logout_url());?>'><?php echo esc_html( 'Sign Out', 'wpschoolpress' );?></a></li>
+              echo "<li class='wpsp-back-wp-changepassword'><a href='".esc_url(site_url('wp-admin/admin.php?page=sch-changepassword'))."'>".__('Đổi Mật Khẩu','wpschoolpress')."</a></li>"; ?>
+              <li><a href='<?php echo esc_url(wp_logout_url());?>'><?php echo esc_html( 'Đăng Xuất', 'wpschoolpress' );?></a></li>
               <?php if ( !empty($schoolyear ) ) { ?>
                 <button class="btn"><?php echo esc_html( 'Academic year', 'wpschoolpress' );?> <span class="badge"> <?php echo esc_html($schoolyear); ?></span></button>
               <?php } ?>
@@ -189,7 +189,7 @@ function wpsp_sidebar(){
       $event_page="active";
       break;
       case 'transport':
-      $transport_page="active";
+      // $transport_page="active";
       break;
       case 'leavecalendar':
       $leave_page="active";
@@ -374,10 +374,13 @@ function wpsp_sidebar(){
             </a>
           </li>";
         }
+        //  echo "<li class='".esc_attr($transport_page)."'>
+        //     <a href='".esc_url(site_url('wp-admin/admin.php?page=sch-transport'))."'>
+        //       <i class='icon wpsp-school-bus'></i><span>".$sch_transport."</span>
+        //     </a>
+        //    </li>";
          echo "<li class='".esc_attr($transport_page)."'>
-            <a href='".esc_url(site_url('wp-admin/admin.php?page=sch-transport'))."'>
-              <i class='icon wpsp-school-bus'></i><span>".$sch_transport."</span>
-            </a>
+            <a href='https://localhost/moodle'>Đăng Nhập Moodle</a>
            </li>";
       echo "<li class='has-submenu ".((isset($settings_page_main)? esc_attr($settings_page_main) : '' ))."'>
           <a href='#'>
@@ -452,7 +455,7 @@ function wpsp_sidebar(){
         $event_page="active";
         break;
         case 'transport':
-        $transport_page="active";
+        // $transport_page="active";
         break;
         case 'leavecalendar':
         $leave_page="active";
@@ -717,7 +720,7 @@ foreach($courses as $key => $value) {
         $event_page="active";
         break;
         case 'transport':
-        $transport_page="active";
+        // $transport_page="active";
         break;
         case 'leavecalendar':
         $leave_page="active";
@@ -954,30 +957,30 @@ function wpsp_body_start()
   switch($result)
   {
     case 'dashboard':
-      $pagetitle = 'Dashboard';
+      $pagetitle = 'Bảng Tin';
       $pagetitle = $sch_dashboard;
       break;
     case 'messages':
-      $pagetitle = 'Messages';
+      $pagetitle = 'Tin Nhắn';
       $pagetitle = $sch_dashboard;
       $addurl = $base_url.'sch-message&tab=addmessage';
       break;
     case 'teacher':
-      $pagetitle = 'Teacher';
+      $pagetitle = 'Giảng Viên';
       $pagetitle = $sch_teacher;
       $addurl = $base_url.'sch-teacher&tab=addteacher';
       break;
     case 'student':
-      $pagetitle = 'Student';
+      $pagetitle = 'Học Viên';
       $pagetitle = $sch_student;
       $addurl = $base_url.'sch-student&tab=addstudent';
       break;
     case 'request':
-      $pagetitle = 'Registration Request';
+      $pagetitle = 'Yêu Cầu Đăng Ký';
       $pagetitle = $sch_registration;
       break;
     case 'parent':
-      $pagetitle = apply_filters( 'wpsp_parent_title_menu', esc_html__( 'Parents', 'wpschoolpress' ));
+      $pagetitle = apply_filters( 'wpsp_parent_title_menu', esc_html__( 'Phụ Huynh', 'wpschoolpress' ));
       $pagetitle = $sch_parent;
       $addurl = $base_url.'sch-student&tab=addstudent';
       break;
@@ -987,68 +990,68 @@ function wpsp_body_start()
     //  $addurl = $base_url.'sch-class&tab=addclass';
       break;
     case 'class':
-      $pagetitle = 'Class';
+      $pagetitle = 'Lớp Học';
       $pagetitle = $sch_classes;
       $addurl = $base_url.'sch-class&tab=addclass';
       break;
     case 'attendance':
-      $pagetitle = 'Attendance';
+      $pagetitle = 'Điểm Danh';
       $pagetitle = $sch_attendance;
       $addurl = $base_url.'sch-attendance';
       break;
     case 'teacherattendance':
-      $pagetitle = 'Teacher Attendance';
+      $pagetitle = 'Điểm Danh Giảng Viên';
       $pagetitle = $sch_teacher_attendance;
       $addurl = $base_url.'sch-teacherattendance';
       break;
     case 'subject':
-      $pagetitle = 'Subject';
+      $pagetitle = 'Môn Học';
       $pagetitle = $sch_subject;
       $addurl = $base_url.'sch-subject&tab=addsubject&classid=1';
       break;
     case 'exams':
-      $pagetitle = 'Exam';
+      $pagetitle = 'Kỳ Thi';
       $pagetitle = $sch_exams;
       $addurl = $base_url.'sch-exams&tab=addexam';
       break;
     case 'marks':
-      $pagetitle = 'Marks';
+      $pagetitle = 'Điểm';
       $pagetitle = $sch_marks;
       $addurl = $base_url.'sch-marks';
       break;
     case 'importhistory':
-      $pagetitle = 'Import History';
+      $pagetitle = 'Nhập Lịch Sử';
       $pagetitle = $sch_import_history;
       break;
     case 'notify':
-      $pagetitle = 'Notify';
+      $pagetitle = 'Thông Báo';
       $pagetitle = $sch_notfiy;
       $addurl = $base_url.'sch-notify&ac=add';
       break;
       case 'payment':
       if(isset($_GET['type']) && $_GET['type'] =='addpayment'):
-          $pagetitle = 'Payment';
+          $pagetitle = 'Thanh Toán';
           $pagetitle = $sch_payment;
       endif;
       break;
     case 'events':
-      $pagetitle = 'Events';
+      $pagetitle = 'Sự Kiện';
       $pagetitle = $sch_events;
       break;
     case 'transport':
-      $pagetitle = 'Transport';
-      $pagetitle = $sch_transport;
-      $breadcum = $base_url.'sch-transport';
+      // $pagetitle = 'Transport';
+      // $pagetitle = $sch_transport;
+      // $breadcum = $base_url.'sch-transport';
       //$addurl = $base_url.'sch-transport';
       //$addurl ='';
       break;
     case 'leavecalendar':
-      $pagetitle = 'Leave Calendar';
+      $pagetitle = 'Lịch Báo Nghỉ';
       $pagetitle = $sch_leavecalendar;
       $addurl = $base_url.'sch-transport';
       break;
     case 'timetable' :
-      $pagetitle = 'Timetable';
+      $pagetitle = 'Thời Khoá Biểu';
       $pagetitle = $sch_timetable;
       $breadcum = $base_url.'sch-timetable';
       $addurl = $base_url.'sch-timetable&ac=add';
@@ -1064,18 +1067,18 @@ function wpsp_body_start()
     //  $addurl = $base_url.'sch-settings&sc=WrkHours';
       break;
     case 'settings':
-      $pagetitle = 'Settings';
+      $pagetitle = 'Cài Đặt';
       $pagetitle = $sch_setting;
      // $addurl = $base_url.'sch-settings';
       break;
     case 'changepassword' :
-      $pagetitle = 'Change Password';
+      $pagetitle = 'Đổi Mật Khẩu';
       break;
        case 'editprofile' :
-    $pagetitle="Edit Profile";
+    $pagetitle="Sửa Hồ Sơ";
     break;
      case 'history' :
-    $pagetitle="History";
+    $pagetitle="Lịch Sử";
     break;
   }
   // echo $addurl;
@@ -1087,7 +1090,7 @@ function wpsp_body_start()
               }
    else if((isset($_GET['sc'])) && ($_GET['sc'] == 'WrkHours'))
    {
-   $pagetitle=esc_html("Working Hours", "wpschoolpress");
+   $pagetitle=esc_html("Giờ Làm Việc", "wpschoolpress");
    $pagetitle = esc_html($sch_workinghours);
               } else {
                esc_html($pagetitle);
@@ -1139,22 +1142,22 @@ if(isset($_GET['cid'])){
 
               if(($current_user_role == 'teacher')):
                 if($result == 'notify' || $result == 'settings' ){
-                  echo "<a class=' wpsp-btn wpsp-popclick' href='".esc_url($addurl)."'><i class='fa fa-plus-circle'></i> Create New</a>";
+                  echo "<a class=' wpsp-btn wpsp-popclick' href='".esc_url($addurl)."'><i class='fa fa-plus-circle'></i> Tạo Mới</a>";
                 }
               endif;
               if(($current_user_role=='administrator')):
                 if($result == 'teacherattendance' || $result == 'attendance' || $result == 'marks' || $_GET['tab'] == 'addteacher' || $_GET['tab'] == 'addstudent'  || $_GET['tab'] == 'addclass' || $_GET['tab'] == 'addsubject' || $result == 'leavecalendar' || $_GET['tab'] == 'addexam' || $_GET['ac'] == 'add' ||  $result == 'settings' || $result == 'messages'){} else{
-                    echo "<a class='wpsp-btn ".esc_attr($current_user_role)."' href='".esc_url($addurl)."'><i class='fa fa-plus-circle'></i> Create New</a>";
+                    echo "<a class='wpsp-btn ".esc_attr($current_user_role)."' href='".esc_url($addurl)."'><i class='fa fa-plus-circle'></i> Tạo Mới</a>";
                 }
               endif;
             endif;
             if(empty($addurl) && ($current_user_role == 'administrator') && ($result == 'notify' ||  $result == 'settings' || $result =='transport' )):
               if($result == 'settings'){
                 if((isset($_GET['sc'])) && ($_GET['sc'] == 'WrkHours')){} elseif((isset($_GET['sc'])) && ($_GET['sc'] == 'subField')) {
-                echo "<a class='wpsp-popclick wpsp-btn' data-pop='addFieldModal' id='AddFieldsButton'><i class='fa fa-plus-circle'></i> Create New</a>";
+                echo "<a class='wpsp-popclick wpsp-btn' data-pop='addFieldModal' id='AddFieldsButton'><i class='fa fa-plus-circle'></i> Tạo Mới</a>";
                 }
               } else{
-                echo "<a class='wpsp-btn wpsp-popclick' data-pop='ViewModal' id='AddNew'><i class='fa fa-plus-circle'></i> Create New</a>";
+                echo "<a class='wpsp-btn wpsp-popclick' data-pop='ViewModal' id='AddNew'><i class='fa fa-plus-circle'></i> Tạo Mới</a>";
               }
             endif;
         echo "</div>

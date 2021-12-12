@@ -1394,7 +1394,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
 		$this->add_control(
 			'ekit_pricing_heading_period_style',
 			[
-				'label' => esc_html__( 'Period Options', 'elementskit-lite' ),
+				'label' => esc_html__( 'Duration', 'elementskit-lite' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -1402,7 +1402,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
 		$this->add_control(
 			'ekit_pricing_period_text_color',
 			[
-				'label' =>esc_html__( 'Period Color', 'elementskit-lite' ),
+				'label' =>esc_html__( 'Text Color', 'elementskit-lite' ),
 				'type' => Controls_Manager::COLOR,
 				'default' => '',
 				'selectors' => [
@@ -1413,7 +1413,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
 		$this->add_control(
 			'ekit_pricing_period_text_color_hover',
 			[
-				'label' =>esc_html__( 'Period Hover Color', 'elementskit-lite' ),
+				'label' =>esc_html__( 'Text Hover Color', 'elementskit-lite' ),
 				'type' => Controls_Manager::COLOR,
 				'default' => '',
 				'selectors' => [
@@ -1426,7 +1426,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
             Group_Control_Typography::get_type(),
             [
                 'name' => 'ekit_pricing_period_typography_group',
-                'label' =>esc_html__( 'Period Typography', 'elementskit-lite' ),
+                'label' =>esc_html__( 'Typography', 'elementskit-lite' ),
                 'selector' => '{{WRAPPER}} .elementskit-single-pricing .elementskit-pricing-price-wraper.has-tag .elementskit-pricing-price sub.period',
             ]
         );
@@ -1465,7 +1465,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
 		$this->add_control(
 			'ekit_pricing_heading_currency_style',
 			[
-				'label' => esc_html__( 'Currency Symbol Options', 'elementskit-lite' ),
+				'label' => esc_html__( 'Currency Symbol', 'elementskit-lite' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -1475,7 +1475,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
             Group_Control_Typography::get_type(),
             [
                 'name' => 'ekit_pricing_currency_size',
-                'label' =>esc_html__( 'Period Typography', 'elementskit-lite' ),
+                'label' =>esc_html__( 'Typography', 'elementskit-lite' ),
                 'selector' => '{{WRAPPER}} .elementskit-single-pricing .elementskit-pricing-price-wraper.has-tag .elementskit-pricing-price sup.currency',
             ]
         );
@@ -2516,7 +2516,7 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
                 	<p class=" elementskit-pricing-subtitle"><?php echo esc_html($table_subtitle); ?></p>
 				<?php endif; ?>
             </div>
-			<?php if ($currency_icon != '' && $table_price !== '' && $table_duration !== '') { ?>
+			<?php if ($currency_icon != '' && $table_price !== '') { ?>
             <div class=" elementskit-pricing-price-wraper has-tag <?php echo esc_attr($price_order ? 'order-'. $price_order : ''); ?>">
                 <div class="elementskit-pricing-tag"></div>
                 <span class="elementskit-pricing-price">
@@ -2527,7 +2527,10 @@ class ElementsKit_Widget_Pricing extends Widget_Base {
 					<?php if($currency_position == 'after'): ?>
 						<sup class="currency"><?php echo esc_html($currency_icon); ?></sup>
 					<?php endif; ?>
-					<sub class="period"> <?php echo esc_html($table_duration); ?></sub>
+
+					<?php if ( $table_duration !== '' ): ?>
+					<sub class="period"><?php echo esc_html($table_duration); ?></sub>
+					<?php endif; ?>
 				</span>
             </div>
 			<?php } ?>

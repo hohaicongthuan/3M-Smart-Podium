@@ -2432,7 +2432,7 @@ textarea {
 }
 
 .select_date {
-    background-image: url(http://betatesting87.com/wpschoolpresstest/wp-content/plugins/wpschoolpress/img/svg/datepicker-icon.svg);
+    background-image: url("../img/svg/datepicker-icon.svg");
     background-repeat: no-repeat;
     background-position: calc(100% - 12px);
     background-size: 18px;

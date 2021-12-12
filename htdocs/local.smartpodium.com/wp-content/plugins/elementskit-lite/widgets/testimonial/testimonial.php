@@ -335,6 +335,16 @@ class ElementsKit_Widget_Testimonial extends Widget_Base {
 				'label_block' => true,
             ]
         );
+
+		$repeater->add_control(
+			'link',
+			[
+				'label'			=> esc_html__( 'Link', 'elementskit-lite' ),
+				'type'			=> Controls_Manager::URL,
+				'placeholder'	=> esc_url( 'https://wpmet.com', 'elementskit-lite' ),
+			]
+		);
+
         $repeater->add_control(
             'client_photo', [
 				'label' => esc_html__('Client Avatar', 'elementskit-lite'),
@@ -343,6 +353,7 @@ class ElementsKit_Widget_Testimonial extends Widget_Base {
 					'url' => Utils::get_placeholder_image_src(),
 					'id'    => -1
 				],
+				'separator'	=> 'before',
             ]
         );
         $repeater->add_control(
@@ -934,7 +945,7 @@ class ElementsKit_Widget_Testimonial extends Widget_Base {
 				'type'		 => Controls_Manager::COLOR,
 				'default'	 => '#fec42d',
 			    'selectors'	 => [
-				    '{{WRAPPER}} .elementskit-stars > li > a' => 'color: {{VALUE}};'
+				    '{{WRAPPER}} .elementskit-stars > li > a, {{WRAPPER}} .elementskit-stars > li > span' => 'color: {{VALUE}};'
 			    ],
 		    ]
 	    );
@@ -945,7 +956,7 @@ class ElementsKit_Widget_Testimonial extends Widget_Base {
 				'label'		=> esc_html__( 'Active Color', 'elementskit-lite' ),
 				'type'		=> Controls_Manager::COLOR,
 				'selectors'	=> [
-					'{{WRAPPER}} .elementskit-single-testimonial-slider:hover .elementskit-stars > li > a' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .elementskit-single-testimonial-slider:hover .elementskit-stars > li > a, {{WRAPPER}} .elementskit-single-testimonial-slider:hover .elementskit-stars > li > span' => 'color: {{VALUE}};',
 				],
 			]
 		);
@@ -957,7 +968,7 @@ class ElementsKit_Widget_Testimonial extends Widget_Base {
                 'type'          => Controls_Manager::SLIDER,
                 'size_units'    => ['px', 'em'],
                 'selectors' => [
-                    '{{WRAPPER}} .elementskit-stars > li > a' => 'font-size: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .elementskit-stars > li > a, {{WRAPPER}} .elementskit-stars > li > span' => 'font-size: {{SIZE}}{{UNIT}};',
                 ],
             ]
 		);
@@ -2231,7 +2242,8 @@ class ElementsKit_Widget_Testimonial extends Widget_Base {
 				'data-config'	=> wp_json_encode($config),
 			]
 		);
-
+		
+		$dir_common = Handler::get_dir() .'common/';
 
         $testimonials = isset($ekit_testimonial_data) ? $ekit_testimonial_data : [];
 		$style = isset($ekit_testimonial_style) ? $ekit_testimonial_style : 'default';

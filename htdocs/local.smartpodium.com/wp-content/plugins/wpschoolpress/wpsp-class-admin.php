@@ -571,31 +571,31 @@ function wpsp_admin_menu()
 		$wp_admin_bar->add_menu(array(
 			'parent' => false,
 			'id' => 'dashboard',
-			'title' => _('WPSchoolPress Dashboard') ,
+			'title' => _('Bảng Tin WPSchoolPress') ,
 			'href' => $wpsp_wpschooldashboard_url
 		));
 		$wp_admin_bar->add_menu(array(
 			'parent' => 'dashboard',
 			'id' => 'teacher',
-			'title' => _('Teacher') ,
+			'title' => _('Giảng Viên') ,
 			'href' => $wpsp_wpschoolteacher_url
 		));
 		$wp_admin_bar->add_menu(array(
 			'parent' => 'dashboard',
 			'id' => 'student',
-			'title' => _('Student') ,
+			'title' => _('Học Viên') ,
 			'href' => $wpsp_wpschoolstudent_url
 		));
 		$wp_admin_bar->add_menu(array(
 			'parent' => 'dashboard',
 			'id' => 'class',
-			'title' => _('Class') ,
+			'title' => _('Lớp') ,
 			'href' => $wpsp_wpschoolclass_url
 		));
 		$wp_admin_bar->add_menu(array(
 			'parent' => 'dashboard',
 			'id' => 'parent',
-			'title' => _('Parent') ,
+			'title' => _('Phụ Huynh') ,
 			'href' => $wpsp_wpschoolparent_url
 		));
 	}
