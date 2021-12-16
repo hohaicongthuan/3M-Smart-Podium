@@ -170,7 +170,7 @@ add_action('activated_plugin', 'wpsp_save_error');
 function wpsp_add_plugin_links($links)
 {
 	$plugin_links = array(
-		'<a href="'.esc_url('admin.php?page=WPSchoolPress').'"><strong style="color: #11967A; display: inline;">' . __('Settings', 'WPSchoolPress-123') . '</strong></a>'
+		'<a href="'.esc_url('admin.php?page=WPSchoolPress').'"><strong style="color: #11967A; display: inline;">' . __('Cài Đặt', 'WPSchoolPress-123') . '</strong></a>'
 	);
 	return array_merge($plugin_links, $links);
 }

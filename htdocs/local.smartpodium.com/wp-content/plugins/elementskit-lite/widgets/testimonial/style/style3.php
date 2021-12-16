@@ -4,11 +4,21 @@
 		<?php
 			foreach ($testimonials as $testimonial):
 				$clientPhoto = '';
+				$wrapTag = 'div';
+				$ratingTag = 'a';
+
+				if ( !empty( $testimonial['link']['url'] ) ):
+					$wrapTag = 'a';
+					$ratingTag = 'span';
+					
+					$this->add_link_attributes( 'link-' . $testimonial['_id'], $testimonial['link'] );
+				endif;
+				
 				if (isset($testimonial['client_photo']) && !empty($testimonial['client_photo']['url']) &&  sizeof($testimonial['client_photo']) > 0) {
 					$clientPhoto = isset($testimonial['client_photo']['url']) ? $testimonial['client_photo']['url'] : '';  } ?>
 					<div class="swiper-slide">
 						<div class="slick-slide">
-							<div class="elementskit-testimonial_card" style="background-image: url(<?php esc_attr_e($clientPhoto, 'elementskit-lite' );?>);">
+							<<?php echo esc_attr( $wrapTag ); ?> class="elementskit-testimonial_card" style="background-image: url(<?php esc_attr_e($clientPhoto, 'elementskit-lite' );?>);" <?php echo $this->get_render_attribute_string( 'link-' . $testimonial['_id'] ); ?>>
 								<?php if ($ekit_testimonial_rating_enable == 'yes') : ?>
 								<ul class="elementskit-stars">
 									<?php
@@ -19,7 +29,7 @@
 											$iconStart = 'eicon-star active';
 										}
 									?>
-									<li><a href="#"><i class="<?php esc_attr_e( $iconStart, 'elementskit-lite' );?>"></i></a></li>
+									<li><<?php echo esc_attr( $ratingTag ); ?>><i class="<?php esc_attr_e( $iconStart, 'elementskit-lite' );?>"></i></<?php echo esc_attr( $ratingTag ); ?>></li>
 
 									<?php }?>
 								</ul>
@@ -40,7 +50,7 @@
 									<span class="elementskit-author-des"><?php echo isset($testimonial['designation']) ? \ElementsKit_Lite\Utils::kspan($testimonial['designation']) : ''; ?></span>
 								</span>
 								<div class="xs-overlay elementor-repeater-item-<?php echo esc_attr( $testimonial[ '_id' ] ); ?>"></div>
-							</div><!-- .testimonial_card END -->
+							</<?php echo esc_attr( $wrapTag ); ?>><!-- .testimonial_card END -->
 						</div>
 					</div>
 			<?php endforeach; ?>

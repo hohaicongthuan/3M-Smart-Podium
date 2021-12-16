@@ -51,7 +51,7 @@ class Attr{
     }
 
     public function enqueue_scripts(){
-        wp_register_style( 'elementskit-admin-global', \ElementsKit_Lite::lib_url() . 'framework/assets/css/admin-global.css', \ElementsKit_Lite::version() );
+        wp_register_style( 'elementskit-admin-global', \ElementsKit_Lite::lib_url() . 'framework/assets/css/admin-global.css', false, \ElementsKit_Lite::version() );
         wp_enqueue_style( 'elementskit-admin-global' );
     }
 

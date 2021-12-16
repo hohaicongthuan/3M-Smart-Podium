@@ -1,10 +1,18 @@
 <div class="elementskit-testimonial-slider slick-slider arrow_inside <?php echo !empty($settings['ekit_testimonial_show_dot']) ? 'slick-dotted' : '' ?>" <?php echo $this->get_render_attribute_string('wrapper'); ?>>
 	<div class="swiper-container">
         <div class="slick-list swiper-wrapper">
-			<?php foreach ($testimonials as $testimonial): ?>
+			<?php
+				foreach ($testimonials as $testimonial):
+					$wrapTag = 'div';
+	
+					if ( !empty( $testimonial['link']['url'] ) ):
+						$wrapTag = 'a';
+						$this->add_link_attributes( 'link-' . $testimonial['_id'], $testimonial['link'] );
+					endif;
+			?>
 				<div class="swiper-slide">
 					<div class="slick-slide">
-						<div class="elementskit-testimonial-inner">
+						<<?php echo esc_attr( $wrapTag ); ?> class="elementskit-testimonial-inner" <?php echo $this->get_render_attribute_string( 'link-' . $testimonial['_id'] ); ?>>
 							<div class="elementskit-single-testimonial-slider ekit_testimonial_style_2">
 								<div class="elementskit-commentor-content">
 									<?php
@@ -51,7 +59,7 @@
 									</div>
 								<?php endif;?>
 							</div>
-						</div>
+						</<?php echo esc_attr( $wrapTag ); ?>>
 					</div>
 				</div>
 			<?php endforeach; ?>

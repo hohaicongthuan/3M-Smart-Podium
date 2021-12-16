@@ -1,0 +1,2811 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSchoolPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-06 07:58+0000\n"
+"PO-Revision-Date: 2021-11-07 10:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1\n"
+"X-Domain: wpschoolpress"
+
+#: lib/wpsp-ajaxworks-student.php:979
+msgid " Parent Profession:"
+msgstr " Nghề Nghiệp Phụ Huynh:"
+
+#: includes/wpsp-misc.php:405
+msgid "&#197;land Islands"
+msgstr ""
+
+#: pages/wpsp-editprofile.php:136
+msgid "(Please enter country code with mobile number)"
+msgstr "(Hãy nhập mã quốc gia ứng với số điện thoại)"
+
+#: includes/wpsp-parentForm.php:153 includes/wpsp-studentForm.php:145
+#: includes/wpsp-studentForm.php:503 includes/wpsp-studentProfile.php:166
+#: includes/wpsp-studentProfile.php:575 includes/wpsp-teacherForm.php:132
+#: includes/wpsp-teacherProfile.php:166 pages/wpsp-editprofile.php:469
+msgid "A +"
+msgstr "A +"
+
+#: includes/wpsp-parentForm.php:154 includes/wpsp-studentForm.php:146
+#: includes/wpsp-studentForm.php:504 includes/wpsp-studentProfile.php:167
+#: includes/wpsp-studentProfile.php:576 includes/wpsp-teacherForm.php:133
+#: includes/wpsp-teacherProfile.php:167
+msgid "A -"
+msgstr "A -"
+
+#: includes/wpsp-parentForm.php:157 includes/wpsp-studentForm.php:149
+#: includes/wpsp-studentForm.php:507 includes/wpsp-studentProfile.php:170
+#: includes/wpsp-studentProfile.php:579 includes/wpsp-teacherForm.php:136
+#: includes/wpsp-teacherProfile.php:170 pages/wpsp-editprofile.php:473
+msgid "AB +"
+msgstr "AB +"
+
+#: includes/wpsp-parentForm.php:158 includes/wpsp-studentForm.php:150
+#: includes/wpsp-studentForm.php:508 includes/wpsp-studentProfile.php:171
+#: includes/wpsp-studentProfile.php:580 includes/wpsp-teacherForm.php:137
+#: includes/wpsp-teacherProfile.php:171 pages/wpsp-editprofile.php:474
+msgid "AB -"
+msgstr "AB -"
+
+#: includes/wpsp-studentForm.php:594 includes/wpsp-teacherForm.php:258
+msgid "Account Information"
+msgstr "Thông Tin Tài Khoản"
+
+#: includes/wpsp-studentList.php:152 includes/wpsp-studentList.php:331
+#: includes/wpsp-teacherList.php:342 includes/wpsp-teacherList.php:418
+#: pages/wpsp-class.php:45 pages/wpsp-exams.php:62 pages/wpsp-exams.php:122
+#: pages/wpsp-leavecalendar.php:150 pages/wpsp-leavecalendar.php:187
+#: pages/wpsp-leavecalendar.php:249 pages/wpsp-messages.php:268
+#: pages/wpsp-notify.php:278 pages/wpsp-notify.php:314
+#: pages/wpsp-registration-request.php:56
+#: pages/wpsp-registration-request.php:101 pages/wpsp-settings.php:111
+#: pages/wpsp-settings.php:133 pages/wpsp-settings.php:316
+#: pages/wpsp-settings.php:344 pages/wpsp-subject.php:69
+#: pages/wpsp-subject.php:134 pages/wpsp-transport.php:26
+#: pages/wpsp-transport.php:72 pages/wpsp-transport.php:112
+#: pages/wpsp-transport.php:158
+msgid "Action"
+msgstr "Hành Động"
+
+#: pages/wpsp-teacher-attendance.php:26
+msgid "Add"
+msgstr "Thêm"
+
+#: includes/wpsp-classForm.php:45
+msgid "Add Class Information"
+msgstr "Thêm Thông Tin Lớp Học"
+
+#: includes/wpsp-examForm.php:16
+msgid "Add Exam Information"
+msgstr "Thêm Thông Tin Kỳ Thi"
+
+#: pages/wpsp-settings.php:304
+msgid "Add Hour"
+msgstr "Thêm Giờ"
+
+#: pages/wpsp-subject.php:18
+msgid "Add New Class"
+msgstr "Thêm Lớp Mới"
+
+#: pages/wpsp-exams.php:17
+msgid "Add New Exam"
+msgstr "Thêm Kỳ Thi Mới"
+
+#: pages/wpsp-student.php:13
+msgid "Add New Student"
+msgstr "Thêm Học Viên Mới"
+
+#: pages/wpsp-marks.php:128
+msgid "Add/Update"
+msgstr "Thêm/Cập Nhật"
+
+#: includes/wpsp-teacherList.php:28 pages/wpsp-editprofile.php:143
+#: pages/wpsp-settings.php:424
+msgid "Address"
+msgstr "Địa Chỉ"
+
+#: lib/wpsp-admin.php:16
+msgid "Advanced Plan"
+msgstr "Kế Hoạch Nâng Cao"
+
+#: includes/wpsp-misc.php:402
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: includes/wpsp-misc.php:408
+msgid "Albania"
+msgstr "Albania"
+
+#: includes/wpsp-misc.php:411
+msgid "Algeria"
+msgstr "Algeria"
+
+#: includes/wpsp-studentList.php:54 includes/wpsp-teacherList.php:118
+#: pages/wpsp-notify.php:21 pages/wpsp-notify.php:233
+#: pages/wpsp-registration-request.php:28 pages/wpsp-subject.php:50
+msgid "All"
+msgstr "Tất Cả"
+
+#: pages/wpsp-messages.php:727 pages/wpsp-notify.php:13
+#: pages/wpsp-notify.php:18 pages/wpsp-notify.php:188
+msgid "All Parents"
+msgstr "Tất Cả Phụ Huynh"
+
+#: pages/wpsp-leavecalendar.php:110
+msgid "All Saturday and Sunday"
+msgstr "Tất Cả Thứ Bảy và Chủ Nhật"
+
+#: pages/wpsp-messages.php:731 pages/wpsp-notify.php:12
+#: pages/wpsp-notify.php:17 pages/wpsp-notify.php:187
+msgid "All Students"
+msgstr "Tất Cả Học Viên"
+
+#: pages/wpsp-notify.php:11 pages/wpsp-notify.php:19 pages/wpsp-notify.php:189
+msgid "All Teachers"
+msgstr "Tất Cả Giảng Viên"
+
+#: pages/wpsp-leavecalendar.php:129
+msgid "All these dates are excluded for attendance calculation"
+msgstr "Tất cả những ngày này đã được loại ra trong khi tính toán điểm danh"
+
+#: pages/wpsp-notify.php:10 pages/wpsp-notify.php:16 pages/wpsp-notify.php:186
+msgid "All Users"
+msgstr "Tất Cả Người Dùng"
+
+#: pages/wpsp-payment.php:30 pages/wpsp-payment.php:155
+msgid "Amount"
+msgstr "Số Lượng"
+
+#: includes/wpsp-misc.php:414
+msgid "Andorra"
+msgstr "Andorra"
+
+#: includes/wpsp-misc.php:417
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/wpsp-misc.php:420
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: includes/wpsp-misc.php:423
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: includes/wpsp-misc.php:426
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: pages/wpsp-registration-request.php:42
+#: pages/wpsp-registration-request.php:87
+msgid "Approve"
+msgstr "Chấp Nhận"
+
+#: pages/wpsp-registration-request.php:131
+msgid "Are you sure want to disapprove?"
+msgstr "Bạn có chắc là không tán thành?"
+
+#: includes/wpsp-misc.php:429
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/wpsp-misc.php:432
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/wpsp-misc.php:435
+msgid "Aruba"
+msgstr "Aruba"
+
+#: pages/wpsp-marks.php:114
+msgid "Attach CSV"
+msgstr "Đính Kèm CSV"
+
+#: pages/wpsp-marks.php:117
+msgid "Attach CSV File"
+msgstr "Đính Kèm File CSV"
+
+#: includes/filter_menu.php:16 pages/wpsp-attendance.php:24
+msgid "Attendance"
+msgstr "Điểm Danh"
+
+#: includes/wpsp-attendanceView.php:9
+msgid "Attendance Overview"
+msgstr "Tổng Quan Điểm Danh"
+
+#: pages/wpsp-attendance.php:15
+msgid "Attendance Report"
+msgstr "Báo Cáo Điểm Danh"
+
+#: includes/wpsp-misc.php:438
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/wpsp-misc.php:441
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/wpsp-newTimetable.php:227
+msgid "Available Templates"
+msgstr "Các Mẫu Có Sẵn"
+
+#: includes/wpsp-misc.php:444
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: includes/wpsp-parentForm.php:155 includes/wpsp-studentForm.php:147
+#: includes/wpsp-studentForm.php:505 includes/wpsp-studentProfile.php:168
+#: includes/wpsp-studentProfile.php:577 includes/wpsp-teacherForm.php:134
+#: includes/wpsp-teacherProfile.php:168 pages/wpsp-editprofile.php:471
+msgid "B +"
+msgstr "B +"
+
+#: includes/wpsp-parentForm.php:156 includes/wpsp-studentForm.php:148
+#: includes/wpsp-studentForm.php:506 includes/wpsp-studentProfile.php:169
+#: includes/wpsp-studentProfile.php:578 includes/wpsp-teacherForm.php:135
+#: includes/wpsp-teacherProfile.php:169 pages/wpsp-editprofile.php:472
+msgid "B -"
+msgstr "B -"
+
+#: includes/wpsp-examForm.php:170 includes/wpsp-teacherProfile.php:236
+#: pages/wpsp-editprofile.php:359 pages/wpsp-notify.php:259
+#: pages/wpsp-settings.php:89
+msgid "Back"
+msgstr "Trở Lại"
+
+#: includes/wpsp-misc.php:447
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: includes/wpsp-misc.php:450
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: includes/wpsp-misc.php:453
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: includes/wpsp-misc.php:456
+msgid "Barbados"
+msgstr "Barbados"
+
+#: pages/wpsp-settings.php:313 pages/wpsp-settings.php:341
+msgid "Begin Time"
+msgstr "Thời Gian Bắt Đầu"
+
+#: includes/wpsp-misc.php:459
+msgid "Belarus"
+msgstr "Belarus"
+
+#: includes/wpsp-misc.php:465
+msgid "Belau"
+msgstr "Belau"
+
+#: includes/wpsp-misc.php:462
+msgid "Belgium"
+msgstr "Belgium"
+
+#: includes/wpsp-misc.php:468
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/wpsp-misc.php:471
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/wpsp-misc.php:474
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: includes/wpsp-misc.php:477
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: includes/wpsp-parentList.php:15 includes/wpsp-studentForm.php:131
+#: includes/wpsp-studentForm.php:489 includes/wpsp-studentList.php:17
+#: includes/wpsp-studentProfile.php:151 includes/wpsp-studentProfile.php:561
+#: includes/wpsp-teacherForm.php:119 includes/wpsp-teacherList.php:42
+#: includes/wpsp-teacherProfile.php:160 pages/wpsp-editprofile.php:117
+#: pages/wpsp-editprofile.php:331 pages/wpsp-student.php:159
+msgid "Blood Group"
+msgstr "Nhóm Máu"
+
+#: pages/wpsp-editprofile.php:464
+msgid "Blood Group (Optional)"
+msgstr "Nhóm Máu (Không Bắt Buộc)"
+
+#: includes/wpsp-misc.php:480
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: includes/wpsp-misc.php:483
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius and Saba"
+
+#: includes/wpsp-editsubjectForm.php:71 includes/wpsp-subjectForm.php:128
+#: pages/wpsp-subject.php:67 pages/wpsp-subject.php:132
+#: pages/wpsp-subject.php:216 pages/wpsp-subject.php:277
+msgid "Book Name"
+msgstr "Tên Sách"
+
+#: includes/wpsp-misc.php:486
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+#: includes/wpsp-misc.php:489
+msgid "Botswana"
+msgstr "Botswana"
+
+#: includes/wpsp-misc.php:492
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: includes/wpsp-misc.php:495
+msgid "Brazil"
+msgstr "Brazil"
+
+#: pages/wpsp-settings.php:298
+msgid "Break"
+msgstr "Giải Lao"
+
+#: includes/wpsp-misc.php:498
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: includes/wpsp-misc.php:501
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands"
+
+#: includes/wpsp-misc.php:504
+msgid "Brunei"
+msgstr "Brunei"
+
+#: includes/wpsp-misc.php:507
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: includes/wpsp-misc.php:510
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/wpsp-misc.php:513
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/wpsp-misc.php:516
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: includes/wpsp-misc.php:519
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: includes/wpsp-misc.php:522
+msgid "Canada"
+msgstr "Canada"
+
+#: pages/wpsp-registration-request.php:136
+msgid "Cancel"
+msgstr "Huỷ Bỏ"
+
+#: pages/wpsp-class.php:43
+msgid "Capacity"
+msgstr "Sức Chứa"
+
+#: includes/wpsp-misc.php:525
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: includes/wpsp-misc.php:528
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: includes/wpsp-misc.php:531
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+#: includes/wpsp-misc.php:534
+msgid "Chad"
+msgstr "Chad"
+
+#: pages/wpsp-changepassword.php:15
+msgid "Change Password"
+msgstr "Đổi Mật Khẩu"
+
+#: includes/wpsp-misc.php:537
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/wpsp-misc.php:540
+msgid "China"
+msgstr "China"
+
+#: includes/wpsp-createTimetable.php:254 includes/wpsp-newTimetable.php:224
+msgid "Choose Session Template"
+msgstr "Chọn Phiên Làm Việc Mẫu"
+
+#: includes/wpsp-misc.php:543
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: includes/wpsp-parentForm.php:68
+msgid "Chọn Học Viên"
+msgstr ""
+
+#: pages/wpsp-settings.php:432
+msgid "City"
+msgstr "Thành Phố"
+
+#: includes/wpsp-studentForm.php:195 includes/wpsp-studentForm.php:273
+#: includes/wpsp-studentProfile.php:221 includes/wpsp-studentProfile.php:289
+#: includes/wpsp-teacherForm.php:195 includes/wpsp-teacherProfile.php:126
+#: pages/wpsp-editprofile.php:153 pages/wpsp-editprofile.php:292
+msgid "City Name"
+msgstr "Tên Thành Phố"
+
+#: includes/wpsp-editTimetable.php:59 includes/wpsp-newTimetable.php:118
+#: includes/wpsp-studentForm.php:698 includes/wpsp-studentProfile.php:631
+#: includes/wpsp-subjectForm.php:39 pages/wpsp-leavecalendar.php:78
+#: pages/wpsp-leavecalendar.php:146 pages/wpsp-leavecalendar.php:184
+#: pages/wpsp-leavecalendar.php:246 pages/wpsp-marks.php:55
+#: pages/wpsp-messages.php:748 pages/wpsp-messages.php:760
+#: pages/wpsp-messages.php:771 pages/wpsp-settings.php:108
+#: pages/wpsp-settings.php:130 pages/wpsp-settings.php:160
+#: pages/wpsp-student.php:124
+msgid "Class"
+msgstr "Lớp"
+
+#: includes/wpsp-classForm.php:86
+msgid "Class Capacity"
+msgstr "Sức Chứa Của Lớp"
+
+#: includes/wpsp-classForm.php:137
+msgid "Class Ending on"
+msgstr "Lớp Kết Thúc Vào"
+
+#: pages/wpsp-dashboard.php:177 pages/wpsp-dashboard.php:442
+#: pages/wpsp-payment.php:32 pages/wpsp-payment.php:157
+msgid "Class Fee Status"
+msgstr "Tình Trạng Học Phí"
+
+#: includes/wpsp-classForm.php:165
+msgid "Class Fee Type"
+msgstr "Loại Học Phí"
+
+#: includes/filter_menu.php:27
+msgid "Class History"
+msgstr "Lịch Sử Lớp"
+
+#: pages/wpsp-settings.php:312 pages/wpsp-settings.php:340
+msgid "Class Hour"
+msgstr "Giờ Lớp"
+
+#: pages/wpsp-settings.php:270
+msgid "Class Hour Name"
+msgstr "Tên Giờ Lớp"
+
+#: pages/wpsp-settings.php:239
+msgid "Class Hour Name Already exists."
+msgstr "Tên Giờ Lớp Đã Tồn Tại."
+
+#: pages/wpsp-settings.php:260
+msgid "Class hours"
+msgstr "Giờ Lớp"
+
+#: pages/wpsp-class.php:29
+msgid "Class List"
+msgstr "Danh Sách Lớp"
+
+#: includes/wpsp-classForm.php:151
+msgid "Class Location"
+msgstr "Địa Điểm Lớp"
+
+#: includes/wpsp-classForm.php:56 includes/wpsp-examForm.php:48
+#: pages/wpsp-class.php:40 pages/wpsp-class.php:147
+#: pages/wpsp-dashboard.php:440 pages/wpsp-exams.php:117
+#: pages/wpsp-exams.php:167 pages/wpsp-history.php:40 pages/wpsp-history.php:92
+#: pages/wpsp-payment.php:28 pages/wpsp-payment.php:153
+#: pages/wpsp-subject.php:208
+msgid "Class Name"
+msgstr "Tên Lớp"
+
+#: includes/wpsp-classForm.php:71 pages/wpsp-class.php:39
+#: pages/wpsp-class.php:146
+msgid "Class Number"
+msgstr "Mã Số Lớp"
+
+#: includes/wpsp-classForm.php:123
+msgid "Class Starting on"
+msgstr "Lớp Bắt Đầu Vào"
+
+#: includes/wpsp-studentList.php:149 includes/wpsp-studentList.php:328
+msgid "Class Status"
+msgstr "Tình Trạng Lớp"
+
+#: includes/wpsp-classForm.php:99
+msgid "Class Teacher"
+msgstr "Giảng Viên Của Lớp"
+
+#: pages/wpsp-dashboard.php:441 pages/wpsp-payment.php:29
+#: pages/wpsp-payment.php:154
+msgid "Class Teacher Name"
+msgstr "Tên Giảng Viên"
+
+#: pages/wpsp-settings.php:63
+msgid "Class:"
+msgstr "Lớp:"
+
+#: pages/wpsp-class.php:138
+msgid "Classe Details"
+msgstr "Chi Tiết Về Lớp"
+
+#: includes/filter_menu.php:10
+msgid "Classes"
+msgstr "Lớp Học"
+
+#: pages/wpsp-importhistory.php:46
+msgid "Click to undo"
+msgstr "Click để làm lại"
+
+#: includes/wpsp-misc.php:546
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+#: includes/wpsp-misc.php:549
+msgid "Colombia"
+msgstr "Colombia"
+
+#: pages/wpsp-events.php:84
+msgid "Color"
+msgstr "Màu Sắc"
+
+#: includes/wpsp-misc.php:552
+msgid "Comoros"
+msgstr "Comoros"
+
+#: pages/wpsp-messages.php:162
+msgid "Compose"
+msgstr "Biên Soạn"
+
+#: pages/wpsp-changepassword.php:40
+msgid "Confirm  New Password"
+msgstr "Xác Nhận Mật Khẩu Mới"
+
+#: includes/wpsp-studentForm.php:474 includes/wpsp-studentForm.php:645
+#: includes/wpsp-studentProfile.php:502 includes/wpsp-teacherForm.php:303
+msgid "Confirm Password"
+msgstr "Xác Nhận Mật Khẩu"
+
+#: pages/wpsp-registration-request.php:130
+msgid "Confirmation Needed"
+msgstr "Cần Xác Nhận"
+
+#: includes/wpsp-misc.php:555
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: includes/wpsp-misc.php:558
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: includes/wpsp-misc.php:561
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: includes/wpsp-misc.php:564
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/wpsp-studentForm.php:211 includes/wpsp-studentForm.php:290
+#: includes/wpsp-studentList.php:12 includes/wpsp-studentProfile.php:228
+#: includes/wpsp-studentProfile.php:304 includes/wpsp-teacherForm.php:210
+#: includes/wpsp-teacherList.php:24 includes/wpsp-teacherProfile.php:133
+#: pages/wpsp-editprofile.php:159 pages/wpsp-editprofile.php:300
+#: pages/wpsp-settings.php:449
+msgid "Country"
+msgstr "Quốc Gia"
+
+#: includes/wpsp-misc.php:567
+msgid "Croatia"
+msgstr "Croatia"
+
+#: includes/wpsp-misc.php:570
+msgid "Cuba"
+msgstr "Cuba"
+
+#: includes/wpsp-misc.php:573
+msgid "Cura&Ccedil;ao"
+msgstr "Cura&Ccedil;ao"
+
+#: includes/wpsp-studentForm.php:179 includes/wpsp-studentList.php:14
+#: includes/wpsp-studentProfile.php:207 includes/wpsp-teacherProfile.php:118
+#: pages/wpsp-editprofile.php:147 pages/wpsp-editprofile.php:284
+msgid "Current Address"
+msgstr "Địa Chỉ Hiện Tại"
+
+#: pages/wpsp-changepassword.php:22
+msgid "Current Password"
+msgstr "Mật Khẩu Hiện Tại"
+
+#: includes/wpsp-teacherForm.php:356 includes/wpsp-teacherProfile.php:222
+msgid "Current Position"
+msgstr "Vị Trí Hiện Tại"
+
+#: includes/wpsp-misc.php:576
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: includes/wpsp-misc.php:579
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: pages/wpsp-class.php:18
+msgid "Cập Nhật Lớp"
+msgstr ""
+
+#: includes/filter_menu.php:4 pages/wpsp-paymentdetail.php:16
+msgid "Dashboard"
+msgstr "Bảng Tin"
+
+#: pages/wpsp-settings.php:563
+msgid "Dashboard to Dashboard Message Addons : "
+msgstr "Những Addon Bảng Tin đến Bảng Tin Tin Nhắn: "
+
+#: pages/wpsp-editprofile.php:501
+msgid "Data Saved Successfully."
+msgstr "Dữ Liệu Lưu Thành Công."
+
+#: pages/wpsp-attendance.php:62 pages/wpsp-dashboard.php:713
+#: pages/wpsp-messages.php:267 pages/wpsp-notify.php:277
+#: pages/wpsp-notify.php:313 pages/wpsp-payment.php:31
+#: pages/wpsp-payment.php:156 pages/wpsp-teacher-attendance.php:21
+msgid "Date"
+msgstr "Ngày"
+
+#: pages/wpsp-settings.php:483
+msgid "Date Format"
+msgstr "Định Dạng Ngày"
+
+#: includes/wpsp-studentList.php:18 includes/wpsp-teacherList.php:30
+msgid "Date Of Birth"
+msgstr "Ngày Sinh"
+
+#: includes/wpsp-studentForm.php:114 includes/wpsp-studentProfile.php:144
+#: includes/wpsp-teacherForm.php:104 includes/wpsp-teacherProfile.php:103
+#: pages/wpsp-editprofile.php:111 pages/wpsp-editprofile.php:272
+#: pages/wpsp-student.php:132
+msgid "Date of Birth"
+msgstr "Ngày Sinh"
+
+#: includes/wpsp-studentList.php:19 includes/wpsp-teacherList.php:32
+msgid "Date Of Join"
+msgstr "Ngày Tham Gia"
+
+#: pages/wpsp-student.php:136
+msgid "Date of Join"
+msgstr "Ngày Tham Gia"
+
+#: pages/wpsp-registration-request.php:55
+#: pages/wpsp-registration-request.php:100
+msgid "Date Of Registration"
+msgstr "Ngày Đăng Ký"
+
+#: includes/wpsp-teacherList.php:34
+msgid "Date Of Releaving"
+msgstr "Ngày Rời Đi"
+
+#: pages/wpsp-settings.php:488
+msgid "dd-mm-yyyy"
+msgstr "dd-mm-yyyy"
+
+#: pages/wpsp-events.php:86
+msgid "Default"
+msgstr "Mặc Định"
+
+#: includes/wpsp-teacherList.php:304 pages/wpsp-messages.php:216
+msgid "Delete"
+msgstr "Xoá"
+
+#: includes/wpsp-misc.php:582
+msgid "Denmark"
+msgstr "Denmark"
+
+#: pages/wpsp-events.php:68 pages/wpsp-notify.php:248 pages/wpsp-notify.php:274
+#: pages/wpsp-notify.php:310
+msgid "Description"
+msgstr "Mô Tả"
+
+#: pages/wpsp-events.php:171
+msgid "Description :"
+msgstr "Mô Tả: "
+
+#: pages/wpsp-registration-request.php:43
+#: pages/wpsp-registration-request.php:88
+msgid "Disapprove"
+msgstr "Không Tán Thành"
+
+#: includes/wpsp-misc.php:585
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: includes/wpsp-misc.php:588
+msgid "Dominica"
+msgstr "Dominica"
+
+#: includes/wpsp-misc.php:591
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: includes/wpsp-createTimetable.php:62 includes/wpsp-editTimetable.php:15
+#: includes/wpsp-newTimetable.php:60
+msgid "Drag and Drop Subjects"
+msgstr "Kéo Thả Môn Học"
+
+#: pages/wpsp-transport.php:21 pages/wpsp-transport.php:67
+#: pages/wpsp-transport.php:107 pages/wpsp-transport.php:153
+msgid "Driver Name"
+msgstr "Tên Tài Xế"
+
+#: pages/wpsp-transport.php:22 pages/wpsp-transport.php:68
+#: pages/wpsp-transport.php:108 pages/wpsp-transport.php:154
+msgid "Driver Phone"
+msgstr "SĐT Tài Xế"
+
+#: includes/wpsp-misc.php:594
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: pages/wpsp-subject.php:22
+msgid "Edit Class"
+msgstr "Chỉnh Sửa Lớp"
+
+#: wpsp-layout.php:108
+msgid "Edit Profile"
+msgstr "Chỉnh Sửa Hồ Sơ"
+
+#: includes/wpsp-editsubjectForm.php:24
+msgid "Edit Subject Details"
+msgstr "Sửa Chi Tiết Môn Học"
+
+#: includes/wpsp-parentForm.php:53 includes/wpsp-parentList.php:12
+#: includes/wpsp-studentForm.php:547 includes/wpsp-studentProfile.php:518
+#: pages/wpsp-editprofile.php:445
+msgid "Education"
+msgstr "Giáo Dục"
+
+#: includes/wpsp-misc.php:597
+msgid "Egypt"
+msgstr "Egypt"
+
+#: includes/wpsp-misc.php:600
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lib/wpsp-admin.php:46 pages/wpsp-notify.php:22 pages/wpsp-notify.php:228
+#: pages/wpsp-registration-request.php:53
+#: pages/wpsp-registration-request.php:98 pages/wpsp-student.php:151
+msgid "Email"
+msgstr "Email"
+
+#: includes/wpsp-studentForm.php:515 includes/wpsp-studentForm.php:605
+#: includes/wpsp-studentProfile.php:457 includes/wpsp-teacherForm.php:266
+#: includes/wpsp-teacherProfile.php:109 pages/wpsp-settings.php:415
+msgid "Email Address"
+msgstr "Địa Chỉ Email"
+
+#: includes/wpsp-teacherList.php:12
+msgid "Emp. Code"
+msgstr "Mã Nhân Viên"
+
+#: includes/wpsp-teacherForm.php:370 includes/wpsp-teacherList.php:332
+#: includes/wpsp-teacherList.php:408 includes/wpsp-teacherProfile.php:228
+msgid "Employee Code"
+msgstr "Mã Nhân Viên"
+
+#: pages/wpsp-settings.php:509
+msgid "Enable SMS Notification"
+msgstr "Bật Thông Báo SMS"
+
+#: pages/wpsp-dashboard.php:736
+msgid "End"
+msgstr "Kết Thúc"
+
+#: pages/wpsp-events.php:49 pages/wpsp-exams.php:120 pages/wpsp-exams.php:170
+#: pages/wpsp-history.php:43 pages/wpsp-history.php:95
+#: pages/wpsp-leavecalendar.php:98
+msgid "End Date"
+msgstr "Ngày Kết Thúc"
+
+#: pages/wpsp-events.php:56 pages/wpsp-settings.php:314
+#: pages/wpsp-settings.php:342
+msgid "End Time"
+msgstr "Thời Gian Kết Thúc"
+
+#: includes/filter_menu.php:29
+msgid "Enrolled Classes"
+msgstr "Những Lớp Đã Tham Gia"
+
+#: pages/wpsp-marks.php:157
+msgid "Enter Marks"
+msgstr "Nhập Điểm"
+
+#: includes/wpsp-createTimetable.php:271 includes/wpsp-newTimetable.php:251
+msgid "Enter No.of Sessions"
+msgstr "Nhập Số Phiên"
+
+#: includes/wpsp-misc.php:603
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: includes/wpsp-misc.php:606
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: includes/wpsp-misc.php:609
+msgid "Estonia"
+msgstr "Estonia"
+
+#: includes/wpsp-misc.php:612
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: pages/wpsp-dashboard.php:734
+msgid "Event Name"
+msgstr "Tên Sự Kiện"
+
+#: includes/filter_menu.php:19
+msgid "Events"
+msgstr "Sự Kiện"
+
+#: pages/wpsp-dashboard.php:622 pages/wpsp-dashboard.php:714
+#: pages/wpsp-marks.php:68
+msgid "Exam"
+msgstr "Kỳ Thi"
+
+#: includes/wpsp-examForm.php:122
+msgid "Exam End date"
+msgstr "Ngày Kết Thúc Thi"
+
+#: includes/wpsp-examForm.php:90 pages/wpsp-exams.php:116
+#: pages/wpsp-exams.php:166
+msgid "Exam Name"
+msgstr "Tên Kỳ Thi"
+
+#: includes/wpsp-examForm.php:106
+msgid "Exam Start Date"
+msgstr "Ngày Bắt Đầu Thi"
+
+#: includes/filter_menu.php:14
+msgid "Exams"
+msgstr "Kỳ Thi"
+
+#: includes/wpsp-studentList.php:99 includes/wpsp-teacherList.php:242
+msgid "Export"
+msgstr "Xuất"
+
+#: pages/wpsp-events.php:76
+msgid "External(Show to all)"
+msgstr "Bên Ngoài (Hiện tất cả)"
+
+#: pages/wpsp-subject.php:66 pages/wpsp-subject.php:131
+#: pages/wpsp-subject.php:215 pages/wpsp-subject.php:276
+msgid "Faculty"
+msgstr "Khoa"
+
+#: includes/wpsp-misc.php:615
+msgid "Falkland Islands"
+msgstr "Falkland Islands"
+
+#: includes/wpsp-misc.php:618
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: pages/wpsp-settings.php:465
+msgid "Fax"
+msgstr "Fax"
+
+#: pages/wpsp-dashboard.php:178 pages/wpsp-dashboard.php:443
+msgid "Fees For"
+msgstr "Chi Phí Cho"
+
+#: includes/wpsp-studentForm.php:50 includes/wpsp-studentForm.php:385
+#: includes/wpsp-studentProfile.php:75 includes/wpsp-studentProfile.php:398
+#: includes/wpsp-teacherForm.php:42 includes/wpsp-teacherProfile.php:67
+#: pages/wpsp-editprofile.php:79 pages/wpsp-editprofile.php:231
+#: pages/wpsp-editprofile.php:414
+msgid "Female"
+msgstr "Nữ"
+
+#: pages/wpsp-settings.php:199
+msgid "Field"
+msgstr "Lĩnh Vực"
+
+#: pages/wpsp-settings.php:110 pages/wpsp-settings.php:132
+msgid "Fields"
+msgstr "Lĩnh Vực"
+
+#: includes/wpsp-misc.php:621
+msgid "Fiji"
+msgstr "Fiji"
+
+#: includes/wpsp-misc.php:624
+msgid "Finland"
+msgstr "Finland"
+
+#: includes/wpsp-parentList.php:7 includes/wpsp-studentForm.php:65
+#: includes/wpsp-studentForm.php:398 includes/wpsp-studentProfile.php:96
+#: includes/wpsp-studentProfile.php:410 includes/wpsp-teacherForm.php:55
+#: includes/wpsp-teacherList.php:14 includes/wpsp-teacherProfile.php:78
+#: pages/wpsp-editprofile.php:91 pages/wpsp-editprofile.php:247
+#: pages/wpsp-editprofile.php:426
+msgid "First Name"
+msgstr "Tên"
+
+#: includes/wpsp-parentForm.php:18
+msgid "Firstname"
+msgstr "Tên"
+
+#: includes/wpsp-login.php:106
+msgid "Forgot password?"
+msgstr "Quên Mật Khẩu?"
+
+#: includes/wpsp-misc.php:627
+msgid "France"
+msgstr "France"
+
+#: includes/wpsp-misc.php:630
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: includes/wpsp-misc.php:633
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: includes/wpsp-misc.php:636
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: pages/wpsp-leavecalendar.php:115
+msgid "Friday"
+msgstr "Thứ Sáu"
+
+#: pages/wpsp-messages.php:191 pages/wpsp-messages.php:195
+#: pages/wpsp-settings.php:278
+msgid "From"
+msgstr "Từ"
+
+#: pages/wpsp-settings.php:556
+msgid "Front End Registration Addons: "
+msgstr "Những addons đăng ký front-end: "
+
+#: includes/wpsp-studentList.php:142 includes/wpsp-studentList.php:321
+#: pages/wpsp-registration-request.php:52
+#: pages/wpsp-registration-request.php:97 pages/wpsp-teacher.php:58
+#: pages/wpsp-teacher.php:110
+msgid "Full Name"
+msgstr "Họ Và Tên"
+
+#: includes/wpsp-misc.php:639
+msgid "Gabon"
+msgstr "Gabon"
+
+#: includes/wpsp-misc.php:642
+msgid "Gambia"
+msgstr "Gambia"
+
+#: includes/wpsp-parentList.php:13 includes/wpsp-studentForm.php:41
+#: includes/wpsp-studentForm.php:376 includes/wpsp-studentList.php:13
+#: includes/wpsp-studentProfile.php:67 includes/wpsp-studentProfile.php:390
+#: includes/wpsp-teacherForm.php:34 includes/wpsp-teacherList.php:26
+#: includes/wpsp-teacherList.php:40 includes/wpsp-teacherProfile.php:60
+#: pages/wpsp-editprofile.php:71 pages/wpsp-editprofile.php:222
+#: pages/wpsp-editprofile.php:406 pages/wpsp-student.php:128
+msgid "Gender"
+msgstr "Giới Tính"
+
+#: includes/filter_menu.php:22
+msgid "General Settings"
+msgstr "Cài Đặt Chung"
+
+#: pages/wpsp-leavecalendar.php:30
+msgid "Generate Leave days for a class"
+msgstr "Tạo ngày nghỉ phép cho lớp"
+
+#: includes/wpsp-misc.php:645
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/wpsp-misc.php:648
+msgid "Germany"
+msgstr "Germany"
+
+#: includes/wpsp-misc.php:651
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/wpsp-misc.php:654
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: pages/wpsp-dashboard.php:576
+msgid "Giảng Viên"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:93
+msgid "Giới Tính"
+msgstr ""
+
+#: pages/wpsp-marks.php:175 pages/wpsp-settings.php:499
+msgid "Grade"
+msgstr "Điểm"
+
+#: includes/wpsp-misc.php:657
+msgid "Greece"
+msgstr "Greece"
+
+#: includes/wpsp-misc.php:660
+msgid "Greenland"
+msgstr "Greenland"
+
+#: includes/wpsp-misc.php:663
+msgid "Grenada"
+msgstr "Grenada"
+
+#: includes/wpsp-misc.php:666
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: includes/wpsp-misc.php:669
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/wpsp-misc.php:672
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/wpsp-misc.php:675
+msgid "Guinea"
+msgstr "Guinea"
+
+#: includes/wpsp-misc.php:678
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: includes/wpsp-misc.php:681
+msgid "Guyana"
+msgstr "Guyana"
+
+#: includes/wpsp-misc.php:684
+msgid "Haiti"
+msgstr "Haiti"
+
+#: includes/wpsp-misc.php:687
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Island and McDonald Islands"
+
+#: includes/wpsp-misc.php:690
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/wpsp-misc.php:693
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: pages/wpsp-notify.php:227
+msgid "How to notify?"
+msgstr "Làm thế nào để thông báo?"
+
+#. URI of the plugin
+msgid "http://wpschoolpress.com"
+msgstr "http://wpschoolpress.com"
+
+#: includes/wpsp-misc.php:696
+msgid "Hungary"
+msgstr "Hungary"
+
+#: pages/wpsp-dashboard.php:570
+msgid "Học Viên"
+msgstr ""
+
+#: includes/wpsp-misc.php:699
+msgid "Iceland"
+msgstr "Iceland"
+
+#: pages/wpsp-history.php:39 pages/wpsp-history.php:91
+msgid "ID"
+msgstr "ID"
+
+#. $item =  apply_filters( 'wpsp_setting_licensing_title_item',array());
+#: pages/wpsp-settings.php:542
+msgid "Import Export"
+msgstr "Nhập Xuất"
+
+#: includes/filter_menu.php:26
+msgid "Import History"
+msgstr "Nhập Lịch Sử"
+
+#: pages/wpsp-importhistory.php:24 pages/wpsp-importhistory.php:56
+msgid "Imported Date"
+msgstr "Ngày Đã Nhập"
+
+#: pages/wpsp-messages.php:168
+msgid "Inbox"
+msgstr "Hộp Thư Đến"
+
+#: pages/wpsp-messages.php:194
+msgid "Inbox Items"
+msgstr "Các Mục Trong Hộp Thư Đến"
+
+#: includes/wpsp-teacherList.php:336 includes/wpsp-teacherList.php:412
+msgid "Incharge Class"
+msgstr "Lớp Phụ Trách"
+
+#: pages/wpsp-teacher.php:59 pages/wpsp-teacher.php:111
+msgid "Incharge of Class"
+msgstr "Phụ Trách Lớp"
+
+#: includes/wpsp-newTimetable.php:257
+msgid "Include breaks and lunch <br> E.g 8 + 3 = 11 Sessions"
+msgstr "Bao gồm giải lao và nghỉ trưa <br> vd: 8 + 3 = 11 phiên"
+
+#: includes/wpsp-misc.php:702
+msgid "India"
+msgstr "India"
+
+#: includes/wpsp-misc.php:705
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: pages/wpsp-settings.php:362
+msgid "Info"
+msgstr "Thông Tin"
+
+#: pages/wpsp-events.php:77
+msgid "Internal(Show to teachers only)"
+msgstr "Nội Bộ (Chỉ hiện cho giảng viên)"
+
+#: pages/wpsp-settings.php:235
+msgid "Invalid Class Time."
+msgstr "Thời Gian Lớp Không Hợp Lệ"
+
+#: includes/wpsp-misc.php:708
+msgid "Iran"
+msgstr "Iran"
+
+#: includes/wpsp-misc.php:711
+msgid "Iraq"
+msgstr "Iraq"
+
+#: includes/wpsp-misc.php:717
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: includes/wpsp-misc.php:720
+msgid "Israel"
+msgstr "Israel"
+
+#: includes/wpsp-misc.php:723
+msgid "Italy"
+msgstr "Italy"
+
+#: includes/wpsp-misc.php:726
+msgid "Ivory Coast"
+msgstr "Ivory Coast"
+
+#: includes/wpsp-misc.php:729
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: includes/wpsp-misc.php:732
+msgid "Japan"
+msgstr "Japan"
+
+#: includes/wpsp-misc.php:735
+msgid "Jersey"
+msgstr "Jersey"
+
+#: includes/wpsp-studentForm.php:682 includes/wpsp-studentProfile.php:609
+#: includes/wpsp-teacherForm.php:332 pages/wpsp-history.php:44
+#: pages/wpsp-history.php:96
+msgid "Joining Date"
+msgstr "Ngày Tham Gia"
+
+#: includes/wpsp-teacherProfile.php:201
+msgid "Joining Date (mm/dd/yyyy)"
+msgstr "Ngày Tham Gia (mm/dd/yyyy)"
+
+#: includes/wpsp-misc.php:738
+msgid "Jordan"
+msgstr "Jordan"
+
+#: includes/wpsp-misc.php:741
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: includes/wpsp-misc.php:744
+msgid "Kenya"
+msgstr "Kenya"
+
+#: includes/wpsp-parentForm.php:104
+msgid "Khác"
+msgstr ""
+
+#: includes/wpsp-misc.php:747
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/wpsp-misc.php:750
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: includes/wpsp-misc.php:753
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: pages/wpsp-dashboard.php:609 pages/wpsp-dashboard.php:643
+#: pages/wpsp-dashboard.php:689
+msgid "Kỳ Thi"
+msgstr ""
+
+#: includes/wpsp-misc.php:756
+msgid "Laos"
+msgstr "Laos"
+
+#: includes/wpsp-parentList.php:9 includes/wpsp-studentForm.php:97
+#: includes/wpsp-studentForm.php:426 includes/wpsp-studentProfile.php:129
+#: includes/wpsp-studentProfile.php:438 includes/wpsp-teacherForm.php:88
+#: includes/wpsp-teacherList.php:18 includes/wpsp-teacherProfile.php:94
+#: pages/wpsp-editprofile.php:105 pages/wpsp-editprofile.php:262
+#: pages/wpsp-editprofile.php:438
+msgid "Last Name"
+msgstr "Họ"
+
+#: includes/wpsp-parentForm.php:30
+msgid "Lastname"
+msgstr "Họ"
+
+#: includes/wpsp-misc.php:759
+msgid "Latvia"
+msgstr "Latvia"
+
+#: pages/wpsp-messages.php:239
+msgid "Leave a Reply"
+msgstr "Trả Lời"
+
+#: includes/filter_menu.php:25 pages/wpsp-leavecalendar.php:240
+msgid "Leave Calender"
+msgstr "Lịch Nghỉ Phép"
+
+#: includes/wpsp-teacherForm.php:344
+msgid "Leaving Date"
+msgstr "Ngày Nghỉ Phép"
+
+#: includes/wpsp-teacherProfile.php:208
+msgid "Leaving Date (mm/dd/yyyy)"
+msgstr "Ngày Nghỉ Phép (mm/dd/yyyy)"
+
+#: includes/wpsp-misc.php:762
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: includes/wpsp-misc.php:765
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: includes/wpsp-misc.php:768
+msgid "Liberia"
+msgstr "Liberia"
+
+#: includes/wpsp-misc.php:771
+msgid "Libya"
+msgstr "Libya"
+
+#: pages/wpsp-settings.php:364
+msgid "Licensing"
+msgstr "Cấp Phép"
+
+#: includes/wpsp-misc.php:774
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: pages/wpsp-subject.php:267
+msgid "List of Subjects"
+msgstr "Danh sách Môn Học"
+
+#: includes/wpsp-misc.php:777
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: pages/wpsp-class.php:44 pages/wpsp-class.php:150
+msgid "Location"
+msgstr "Địa Điểm"
+
+#: includes/wpsp-login.php:105
+msgid "login"
+msgstr "Đăng Nhập"
+
+#: includes/wpsp-misc.php:780
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: pages/wpsp-dashboard.php:605
+msgid "Lịch Hoạt Động"
+msgstr ""
+
+#: pages/wpsp-dashboard.php:589
+msgid "Lớp Học"
+msgstr ""
+
+#: includes/wpsp-misc.php:783
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., China"
+
+#: includes/wpsp-misc.php:786
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: includes/wpsp-misc.php:789
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: includes/wpsp-misc.php:792
+msgid "Malawi"
+msgstr "Malawi"
+
+#: includes/wpsp-misc.php:795
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: includes/wpsp-misc.php:798
+msgid "Maldives"
+msgstr "Maldives"
+
+#: includes/wpsp-studentForm.php:46 includes/wpsp-studentForm.php:381
+#: includes/wpsp-studentProfile.php:71 includes/wpsp-studentProfile.php:394
+#: includes/wpsp-teacherForm.php:38 includes/wpsp-teacherProfile.php:63
+#: pages/wpsp-editprofile.php:75 pages/wpsp-editprofile.php:227
+#: pages/wpsp-editprofile.php:410
+msgid "Male"
+msgstr "Nam"
+
+#: includes/wpsp-misc.php:801
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/wpsp-misc.php:804
+msgid "Malta"
+msgstr "Malta"
+
+#: pages/wpsp-marks.php:169
+msgid "Mark"
+msgstr "Điểm"
+
+#: includes/filter_menu.php:13 pages/wpsp-marks.php:172
+msgid "Marks"
+msgstr "Điểm"
+
+#: pages/wpsp-marks.php:155
+msgid "Marks Already Entered update here!"
+msgstr "Điểm Đã Nhập Sẽ Cập Nhật Ở Đây!"
+
+#: pages/wpsp-settings.php:495
+msgid "Marks Type"
+msgstr "Loại Điểm"
+
+#: includes/wpsp-misc.php:807
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: includes/wpsp-misc.php:810
+msgid "Martinique"
+msgstr "Martinique"
+
+#: includes/wpsp-misc.php:813
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: includes/wpsp-misc.php:816
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: includes/wpsp-misc.php:819
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lib/wpsp-admin.php:50 pages/wpsp-messages.php:794
+msgid "Message"
+msgstr "Tin Nhắn"
+
+#: includes/filter_menu.php:8
+msgid "Messages"
+msgstr "Tin Nhắn"
+
+#: includes/wpsp-misc.php:822
+msgid "Mexico"
+msgstr "Mexico"
+
+#: includes/wpsp-misc.php:825
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: includes/wpsp-parentList.php:8 includes/wpsp-studentForm.php:81
+#: includes/wpsp-studentForm.php:412 includes/wpsp-studentProfile.php:113
+#: includes/wpsp-studentProfile.php:424 includes/wpsp-teacherForm.php:72
+#: includes/wpsp-teacherList.php:16 includes/wpsp-teacherProfile.php:88
+#: pages/wpsp-editprofile.php:99 pages/wpsp-editprofile.php:256
+#: pages/wpsp-editprofile.php:432
+msgid "Middle Name"
+msgstr "Tên Lót"
+
+#: includes/wpsp-parentForm.php:24
+msgid "Middlename"
+msgstr "Tên Lót"
+
+#: pages/wpsp-settings.php:486
+msgid "mm/dd/yyyy"
+msgstr "mm/dd/yyyy"
+
+#: includes/wpsp-misc.php:828
+msgid "Moldova"
+msgstr "Moldova"
+
+#: includes/wpsp-misc.php:831
+msgid "Monaco"
+msgstr "Monaco"
+
+#: pages/wpsp-leavecalendar.php:111
+msgid "Monday"
+msgstr "Thứ Hai"
+
+#: includes/wpsp-misc.php:834
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: includes/wpsp-misc.php:837
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: includes/wpsp-misc.php:840
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/wpsp-misc.php:843
+msgid "Morocco"
+msgstr "Morocco"
+
+#: includes/wpsp-misc.php:846
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: pages/wpsp-settings.php:572
+msgid "Multi-class Add-on :"
+msgstr "Add-on Liên Lớp: "
+
+#: includes/wpsp-misc.php:849
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: pages/wpsp-dashboard.php:174 pages/wpsp-dashboard.php:439
+msgid "Mã Học Viên"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:45
+msgid "Mật Khẩu"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:96
+msgid "Nam"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:334 includes/wpsp-teacherList.php:410
+#: lib/wpsp-admin.php:42 pages/wpsp-marks.php:168 pages/wpsp-notify.php:176
+#: pages/wpsp-notify.php:273 pages/wpsp-notify.php:309
+msgid "Name"
+msgstr "Tên"
+
+#: includes/wpsp-misc.php:852
+msgid "Namibia"
+msgstr "Namibia"
+
+#: includes/wpsp-misc.php:855
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/wpsp-misc.php:858
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/wpsp-misc.php:861
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: includes/wpsp-misc.php:864
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+#: includes/wpsp-misc.php:867
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: pages/wpsp-messages.php:399
+msgid "New Message"
+msgstr "Tin Nhắn Mới"
+
+#: includes/wpsp-parentForm.php:10
+msgid "New Parent entry"
+msgstr "Phụ Huynh Mới"
+
+#: pages/wpsp-changepassword.php:31
+msgid "New Password"
+msgstr "Mật Khẩu Mới"
+
+#: includes/wpsp-subjectForm.php:19
+msgid "New Subject Entry"
+msgstr "Môn Học Mới"
+
+#: includes/wpsp-newTimetable.php:228
+msgid "New Template"
+msgstr "Mẫu Mới"
+
+#: includes/wpsp-newTimetable.php:205
+msgid "New Timetable"
+msgstr "Thời Khoá Biểu Mới"
+
+#: includes/wpsp-misc.php:870
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: includes/wpsp-teacherProfile.php:182
+msgid "Next"
+msgstr "Tiếp Theo"
+
+#: pages/wpsp-dashboard.php:610
+msgid "Nghỉ Lễ"
+msgstr ""
+
+#: pages/wpsp-dashboard.php:642 pages/wpsp-dashboard.php:688
+msgid "Ngày"
+msgstr ""
+
+#: pages/wpsp-exams.php:59
+msgid "Ngày Bắt Đầu"
+msgstr ""
+
+#: pages/wpsp-exams.php:60
+msgid "Ngày Kết Thúc"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:57
+msgid "Ngày Sinh"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:148
+msgid "Nhóm Máu"
+msgstr ""
+
+#: includes/wpsp-misc.php:873
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: includes/wpsp-misc.php:876
+msgid "Niger"
+msgstr "Niger"
+
+#: includes/wpsp-misc.php:879
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: includes/wpsp-misc.php:882
+msgid "Niue"
+msgstr "Niue"
+
+#: pages/wpsp-settings.php:85
+msgid "No data retrived!"
+msgstr "Không truy xuất được dữ liệu!"
+
+#: pages/wpsp-marks.php:208 pages/wpsp-marks.php:316
+msgid "No Students to retrive"
+msgstr "Không có dữ liệu học viên"
+
+#: pages/wpsp-marks.php:276
+msgid "No Students to retrive3"
+msgstr "Không có dữ liệu học viên"
+
+#: includes/wpsp-attendanceView.php:53
+msgid "No. of Absents (Today)"
+msgstr "Số buổi Vắng (Hôm nay)"
+
+#: includes/wpsp-attendanceView.php:86
+msgid "No. of Absents (Today):"
+msgstr "Số buổi Vắng (Hôm nay): "
+
+#: includes/wpsp-attendanceView.php:62 includes/wpsp-attendanceView.php:95
+msgid "No. of days not entered:"
+msgstr "Số ngày không nhập: "
+
+#: includes/wpsp-attendanceView.php:58 includes/wpsp-attendanceView.php:91
+msgid "No. of Working Days:"
+msgstr "Số ngày làm việc: "
+
+#: includes/wpsp-misc.php:885
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: includes/wpsp-misc.php:888
+msgid "North Korea"
+msgstr "North Korea"
+
+#: includes/wpsp-misc.php:891
+msgid "Norway"
+msgstr "Norway"
+
+#: includes/wpsp-attendanceView.php:109
+msgid "Not Applicable(Date is marked as leave)"
+msgstr "Không thể Áp Dụng (Ngày này là ngày nghỉ)"
+
+#: pages/wpsp-dashboard.php:534
+msgid "Not Paid"
+msgstr "Chưa Thanh Toán"
+
+#: includes/wpsp-attendanceView.php:109
+msgid "Not yet Entered"
+msgstr "Chưa Nhập"
+
+#: pages/wpsp-notify.php:154
+msgid "Notification Successfully Send!"
+msgstr "Thông Báo Đã Gửi Thành Công!"
+
+#: includes/filter_menu.php:20
+msgid "Notify"
+msgstr "Thông Báo"
+
+#: pages/wpsp-notify.php:219
+msgid "Notify Type"
+msgstr "Loại Thông Báo"
+
+#: pages/wpsp-settings.php:498
+msgid "Number"
+msgstr "Số"
+
+#: pages/wpsp-leavecalendar.php:148 pages/wpsp-leavecalendar.php:186
+#: pages/wpsp-leavecalendar.php:248
+msgid "Number of leave days"
+msgstr "Số Ngày Nghỉ Phép"
+
+#: pages/wpsp-importhistory.php:26 pages/wpsp-importhistory.php:58
+msgid "Number Of Rows"
+msgstr "Số Hàng"
+
+#: pages/wpsp-class.php:42 pages/wpsp-class.php:149
+msgid "Number of Students"
+msgstr "Số Học Viên"
+
+#: includes/wpsp-parentForm.php:100
+msgid "Nữ"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:151 includes/wpsp-studentForm.php:143
+#: includes/wpsp-studentForm.php:501 includes/wpsp-studentProfile.php:164
+#: includes/wpsp-studentProfile.php:573 includes/wpsp-teacherForm.php:130
+#: includes/wpsp-teacherProfile.php:164 pages/wpsp-editprofile.php:467
+msgid "O +"
+msgstr "O +"
+
+#: includes/wpsp-parentForm.php:152 includes/wpsp-studentForm.php:144
+#: includes/wpsp-studentForm.php:502 includes/wpsp-studentProfile.php:165
+#: includes/wpsp-studentProfile.php:574 includes/wpsp-teacherForm.php:131
+#: includes/wpsp-teacherProfile.php:165 pages/wpsp-editprofile.php:468
+msgid "O -"
+msgstr "O -"
+
+#: includes/wpsp-misc.php:894
+msgid "Oman"
+msgstr "Oman"
+
+#: pages/wpsp-settings.php:582
+msgid "Online Fee Payment Addons :"
+msgstr "Online Fee Payment Addons: "
+
+#: includes/wpsp-teacherProfile.php:53 pages/wpsp-editprofile.php:59
+#: pages/wpsp-editprofile.php:215 pages/wpsp-editprofile.php:394
+msgid "Only JPEG and JPG supported, * Max 3 MB Upload"
+msgstr "Chỉ hỗ trợ file JPEG và JPG, * tải lên tối đa 3 MB"
+
+#: pages/wpsp-settings.php:391
+msgid "Only JPEG, JPG and PNG supported, * Max 3 MB Upload"
+msgstr "Chỉ hỗ trợ file JPEG, JPG và PNG, * tải lên tối đa 3 MB"
+
+#: includes/wpsp-studentForm.php:54 includes/wpsp-studentForm.php:389
+#: includes/wpsp-studentProfile.php:79 includes/wpsp-studentProfile.php:402
+#: includes/wpsp-teacherForm.php:46 includes/wpsp-teacherProfile.php:71
+#: pages/wpsp-editprofile.php:83
+msgid "Other"
+msgstr "Khác"
+
+#: pages/wpsp-editprofile.php:235 pages/wpsp-editprofile.php:418
+msgid "Others"
+msgstr "Khác"
+
+#: includes/wpsp-misc.php:897
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: includes/wpsp-misc.php:900
+msgid "Palestinian Territory"
+msgstr "Palestinian Territory"
+
+#: includes/wpsp-misc.php:903
+msgid "Panama"
+msgstr "Panama"
+
+#: includes/wpsp-misc.php:906
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: includes/wpsp-misc.php:909
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: includes/wpsp-studentList.php:143 includes/wpsp-studentList.php:322
+msgid "Parent"
+msgstr "Phụ Huynh"
+
+#: includes/wpsp-studentForm.php:343 includes/wpsp-studentProfile.php:358
+msgid "Parent Detail"
+msgstr "Chi Tiết Phụ Huynh"
+
+#: includes/wpsp-parentList.php:11 includes/wpsp-parentList.php:175
+#: includes/wpsp-parentList.php:220
+msgid "Parent Email ID"
+msgstr "ID Email Phụ Huynh"
+
+#: lib/wpsp-ajaxworks-student.php:978
+msgid "Parent Email:"
+msgstr "Email Phụ Huynh"
+
+#: includes/wpsp-studentList.php:16
+msgid "Parent First Name"
+msgstr "Tên Phụ Huynh"
+
+#: lib/wpsp-ajaxworks-student.php:975
+msgid "Parent Gender:"
+msgstr "Giới Tính"
+
+#: includes/wpsp-parentList.php:173 includes/wpsp-parentList.php:218
+#: pages/wpsp-student.php:216
+msgid "Parent Name"
+msgstr "Tên Phụ Huynh"
+
+#: lib/wpsp-ajaxworks-student.php:972
+msgid "Parent Name:"
+msgstr "Tên Phụ Huynh"
+
+#: includes/filter_menu.php:7 pages/wpsp-messages.php:771
+msgid "Parents"
+msgstr "Phụ Huynh"
+
+#: includes/wpsp-login.php:103 includes/wpsp-studentForm.php:458
+#: includes/wpsp-studentForm.php:632 includes/wpsp-studentProfile.php:487
+#: includes/wpsp-teacherForm.php:290
+msgid "Password"
+msgstr "Mật Khẩu"
+
+#: pages/wpsp-dashboard.php:179 pages/wpsp-dashboard.php:445
+#: pages/wpsp-dashboard.php:536
+msgid "Pay Now"
+msgstr "Thanh Toán Ngay"
+
+#: includes/filter_menu.php:28 pages/wpsp-paymentdetail.php:14
+#: pages/wpsp-paymentdetail.php:17
+msgid "Payment"
+msgstr "Thanh Toán"
+
+#: pages/wpsp-payment.php:19 pages/wpsp-payment.php:144
+msgid "Payment Details"
+msgstr "Chi Tiết Thanh Toán"
+
+#: includes/wpsp-studentList.php:146 includes/wpsp-studentList.php:325
+msgid "Payment Status"
+msgstr "Trạng Thái Thanh Toán"
+
+#: includes/wpsp-parentForm.php:116 includes/wpsp-studentForm.php:265
+#: includes/wpsp-studentList.php:15 includes/wpsp-studentProfile.php:273
+#: pages/wpsp-student.php:140 pages/wpsp-student.php:217
+msgid "Permanent Address"
+msgstr "Địa Chỉ Thường Trú"
+
+#: pages/wpsp-student.php:144
+msgid "Permanent Country"
+msgstr "Quốc Gia"
+
+#: pages/wpsp-student.php:147
+msgid "Permanent Zipcode"
+msgstr "Mã ZIP"
+
+#: includes/wpsp-studentForm.php:9 includes/wpsp-studentProfile.php:36
+#: includes/wpsp-teacherForm.php:9 includes/wpsp-teacherProfile.php:36
+#: pages/wpsp-editprofile.php:40 pages/wpsp-editprofile.php:195
+#: pages/wpsp-editprofile.php:375
+msgid "Personal Details"
+msgstr "Chi Tiết Cá Nhân"
+
+#: includes/wpsp-misc.php:912
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/wpsp-misc.php:915
+msgid "Philippines"
+msgstr "Philippines"
+
+#: includes/wpsp-studentForm.php:531 includes/wpsp-studentList.php:151
+#: includes/wpsp-studentList.php:330 includes/wpsp-studentProfile.php:546
+#: includes/wpsp-teacherForm.php:143 includes/wpsp-teacherList.php:340
+#: includes/wpsp-teacherList.php:416 pages/wpsp-editprofile.php:457
+#: pages/wpsp-settings.php:407 pages/wpsp-teacher.php:61
+#: pages/wpsp-teacher.php:113
+msgid "Phone"
+msgstr "Điện Thoại"
+
+#: includes/wpsp-studentForm.php:157 includes/wpsp-studentList.php:20
+#: includes/wpsp-studentProfile.php:178 includes/wpsp-teacherList.php:36
+#: includes/wpsp-teacherProfile.php:153 pages/wpsp-editprofile.php:133
+#: pages/wpsp-editprofile.php:323 pages/wpsp-student.php:155
+msgid "Phone Number"
+msgstr "SĐT"
+
+#: wpsp-layout.php:980 pages/wpsp-dashboard.php:582
+msgid "Phụ Huynh"
+msgstr ""
+
+#: includes/wpsp-studentForm.php:244 includes/wpsp-studentForm.php:312
+#: includes/wpsp-studentProfile.php:260 includes/wpsp-studentProfile.php:329
+#: includes/wpsp-teacherForm.php:234 includes/wpsp-teacherProfile.php:145
+#: pages/wpsp-editprofile.php:175 pages/wpsp-editprofile.php:314
+msgid "Pin Code"
+msgstr "Mã PIN"
+
+#: includes/wpsp-misc.php:918
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: pages/wpsp-settings.php:233
+msgid "Please fill all values."
+msgstr "Hãy điền hết các giá trị."
+
+#: pages/wpsp-settings.php:530
+msgid ""
+"Please Purchase This <a href=\"https://wpschoolpress.com/downloads/sms-add-"
+"on-wpschoolpress/\" target=\"_blank\">Add-on</a>"
+msgstr ""
+
+#: includes/wpsp-subjectForm.php:114
+msgid "Please Select Teacher"
+msgstr "Hãy Chọn Giảng Viên"
+
+#: includes/wpsp-teacherProfile.php:54 pages/wpsp-editprofile.php:60
+#: pages/wpsp-editprofile.php:216 pages/wpsp-editprofile.php:395
+#: pages/wpsp-settings.php:392
+msgid "Please Upload Profile Image"
+msgstr "Hãy Tải Lên Ảnh Hồ Sơ"
+
+#: includes/wpsp-misc.php:921
+msgid "Poland"
+msgstr "Poland"
+
+#: includes/wpsp-misc.php:924
+msgid "Portugal"
+msgstr "Portugal"
+
+#: includes/wpsp-teacherList.php:44
+msgid "Position"
+msgstr "Ví Trí"
+
+#: includes/wpsp-login.php:110
+msgid "Powered by"
+msgstr "Được cung cấp bởi"
+
+#: includes/wpsp-studentList.php:69 includes/wpsp-teacherList.php:149
+#: includes/wpsp-teacherList.php:190
+msgid "Print"
+msgstr "In"
+
+#: includes/wpsp-parentForm.php:108 includes/wpsp-parentList.php:14
+#: includes/wpsp-studentForm.php:563 includes/wpsp-studentProfile.php:532
+#: pages/wpsp-editprofile.php:451
+msgid "Profession"
+msgstr "Nghề Nghiệp"
+
+#: includes/wpsp-studentForm.php:24 includes/wpsp-studentForm.php:358
+#: includes/wpsp-studentProfile.php:50 includes/wpsp-teacherForm.php:21
+#: includes/wpsp-teacherProfile.php:44 pages/wpsp-editprofile.php:48
+#: pages/wpsp-editprofile.php:203 pages/wpsp-editprofile.php:383
+msgid "Profile Image"
+msgstr "Ảnh Hồ Sơ"
+
+#: pages/wpsp-notify.php:25
+msgid "Push Notification (Android & IOS)"
+msgstr "Thông Báo Đầy (Android & iOS)"
+
+#: includes/wpsp-misc.php:927
+msgid "Qatar"
+msgstr "Qatar"
+
+#: includes/wpsp-teacherForm.php:158 includes/wpsp-teacherList.php:38
+#: includes/wpsp-teacherProfile.php:177 pages/wpsp-editprofile.php:350
+msgid "Qualification"
+msgstr "Bằng Cấp"
+
+#: includes/wpsp-parentForm.php:120
+msgid "Quốc Tịch"
+msgstr ""
+
+#: pages/wpsp-messages.php:591 pages/wpsp-notify.php:183
+#: pages/wpsp-notify.php:275 pages/wpsp-notify.php:311
+msgid "Receiver"
+msgstr "Người Nhận"
+
+#: includes/wpsp-login.php:107
+msgid "Register"
+msgstr "Đăng Ký"
+
+#: includes/filter_menu.php:9
+msgid "Registration Request"
+msgstr "Yêu Cầu Đăng Ký"
+
+#: pages/wpsp-marks.php:177
+msgid "Remarks"
+msgstr "Nhận Xét"
+
+#: includes/wpsp-misc.php:714
+msgid "Republic of Ireland"
+msgstr "Republic of Ireland"
+
+#: includes/wpsp-misc.php:930
+msgid "Reunion"
+msgstr "Reunion"
+
+#: pages/wpsp-payment.php:27 pages/wpsp-payment.php:152
+msgid "Roll No"
+msgstr "Số Thứ Tự"
+
+#: includes/wpsp-studentList.php:141 includes/wpsp-studentList.php:320
+#: pages/wpsp-student.php:120 pages/wpsp-student.php:214
+msgid "Roll No."
+msgstr "Số Thứ Tự"
+
+#: includes/wpsp-studentForm.php:736 includes/wpsp-studentList.php:7
+#: includes/wpsp-studentProfile.php:692
+msgid "Roll Number"
+msgstr "Số Thứ Tự"
+
+#: pages/wpsp-marks.php:167
+msgid "RollNo."
+msgstr "Số Thứ Tự"
+
+#: includes/wpsp-misc.php:933
+msgid "Romania"
+msgstr "Romania"
+
+#: pages/wpsp-transport.php:23 pages/wpsp-transport.php:69
+#: pages/wpsp-transport.php:109 pages/wpsp-transport.php:155
+msgid "Route Fees"
+msgstr "Phí Tuyến Đường"
+
+#: includes/wpsp-misc.php:936
+msgid "Russia"
+msgstr "Russia"
+
+#: includes/wpsp-misc.php:939
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: includes/wpsp-misc.php:969
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: includes/wpsp-misc.php:942
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint Barth&eacute;lemy"
+
+#: includes/wpsp-misc.php:945
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: includes/wpsp-misc.php:948
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: includes/wpsp-misc.php:951
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: includes/wpsp-misc.php:957
+msgid "Saint Martin (Dutch part)"
+msgstr "Saint Martin (Dutch part)"
+
+#: includes/wpsp-misc.php:954
+msgid "Saint Martin (French part)"
+msgstr "Saint Martin (French part)"
+
+#: includes/wpsp-misc.php:960
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: includes/wpsp-misc.php:963
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+#: includes/wpsp-misc.php:966
+msgid "San Marino"
+msgstr "San Marino"
+
+#: pages/wpsp-leavecalendar.php:116
+msgid "Saturday"
+msgstr "Thứ Bảy"
+
+#: includes/wpsp-misc.php:972
+msgid "Saudi Arabia"
+msgstr "Ả Rập Saudi"
+
+#: pages/wpsp-events.php:93 pages/wpsp-settings.php:514
+#: pages/wpsp-settings.php:597
+msgid "Save"
+msgstr "Lưu"
+
+#: includes/wpsp-studentForm.php:673 includes/wpsp-studentProfile.php:598
+#: includes/wpsp-teacherForm.php:324 includes/wpsp-teacherProfile.php:195
+msgid "School Details"
+msgstr "Thông tin chi tiết về Trường học "
+
+#: pages/wpsp-settings.php:379
+msgid "School Logo"
+msgstr "Logo Trường học"
+
+#: pages/wpsp-settings.php:399
+msgid "School Name"
+msgstr "Tên Trường học"
+
+#: pages/wpsp-leavecalendar.php:247
+msgid "School Yea"
+msgstr "Năm học"
+
+#: pages/wpsp-leavecalendar.php:147 pages/wpsp-leavecalendar.php:185
+msgid "School Year"
+msgstr "Năm học"
+
+#: includes/wpsp-teacherList.php:302 pages/wpsp-messages.php:215
+#: pages/wpsp-registration-request.php:41
+msgid "Select Action"
+msgstr "Chọn Hành động"
+
+#: includes/wpsp-studentProfile.php:163 includes/wpsp-teacherForm.php:129
+#: includes/wpsp-teacherProfile.php:163 pages/wpsp-editprofile.php:119
+#: pages/wpsp-editprofile.php:335 pages/wpsp-editprofile.php:466
+msgid "Select Blood Group"
+msgstr "Chọn Nhóm Máu"
+
+#: includes/wpsp-createTimetable.php:234 includes/wpsp-createTimetable.php:290
+#: includes/wpsp-newTimetable.php:210 includes/wpsp-newTimetable.php:213
+#: pages/wpsp-attendance.php:31 pages/wpsp-leavecalendar.php:80
+#: pages/wpsp-marks.php:58 pages/wpsp-settings.php:170
+msgid "Select Class"
+msgstr "Chọn Lớp"
+
+#: includes/wpsp-parentList.php:35 includes/wpsp-studentList.php:46
+#: includes/wpsp-teacherList.php:114 pages/wpsp-subject.php:47
+msgid "Select Class Name"
+msgstr "Chọn Tên Lớp"
+
+#: includes/wpsp-studentList.php:106 includes/wpsp-teacherList.php:257
+msgid "Select Columns to Export"
+msgstr "Chọn Các Cột Muốn Xuất"
+
+#: includes/wpsp-studentList.php:76 includes/wpsp-teacherList.php:158
+#: includes/wpsp-teacherList.php:199
+msgid "Select Columns to Print"
+msgstr "Chọn Các Cột Muốn In"
+
+#: includes/wpsp-teacherProfile.php:136 pages/wpsp-editprofile.php:303
+#: pages/wpsp-settings.php:452
+msgid "Select Country"
+msgstr "Chọn Quốc Gia"
+
+#: pages/wpsp-leavecalendar.php:109
+msgid "Select Day"
+msgstr "Chọn Ngày"
+
+#: pages/wpsp-marks.php:78
+msgid "Select Exam"
+msgstr "Chọn Bài Kiểm Tra "
+
+#: pages/wpsp-messages.php:595 pages/wpsp-messages.php:711
+#: pages/wpsp-messages.php:714
+msgid "Select Group"
+msgstr "Chọn Nhóm"
+
+#: pages/wpsp-messages.php:675
+msgid "Select Parents"
+msgstr "Chọn Phụ Huynh"
+
+#: pages/wpsp-registration-request.php:19
+msgid "Select Role:"
+msgstr "Chọn Vai Trò"
+
+#: includes/wpsp-newTimetable.php:234
+msgid "Select Session"
+msgstr "Chọn Phiên Làm Việc"
+
+#: pages/wpsp-messages.php:646
+msgid "Select Students"
+msgstr "Chọn Sinh Viên"
+
+#: pages/wpsp-marks.php:107 pages/wpsp-settings.php:192
+msgid "Select Subject"
+msgstr "Chọn Môn Học"
+
+#: pages/wpsp-messages.php:599 pages/wpsp-messages.php:620
+msgid "Select Teacher"
+msgstr "Chọn Giảng Viên"
+
+#: includes/wpsp-createTimetable.php:25
+msgid "Select time for Sessions"
+msgstr "Chọn giờ cho Phiên Làm Việc"
+
+#: pages/wpsp-settings.php:507
+msgid "Send SMS to parent when student absent"
+msgstr "Gửi SMS cho phụ huynh khi sinh viên vắng mặt"
+
+#: includes/wpsp-misc.php:975
+msgid "Senegal"
+msgstr "Senegal"
+
+#: pages/wpsp-messages.php:173
+msgid "Sent"
+msgstr "Đã Gửi"
+
+#: pages/wpsp-messages.php:197
+msgid "Sent Items"
+msgstr "Đính Kèm Đã Gửi"
+
+#: includes/wpsp-misc.php:978
+msgid "Serbia"
+msgstr "Serbia"
+
+#: includes/filter_menu.php:23 lib/wpsp-admin-options.php:18
+msgid "Settings"
+msgstr "Cài Đặt"
+
+#: includes/wpsp-misc.php:981
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: includes/wpsp-misc.php:984
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: includes/wpsp-misc.php:987
+msgid "Singapore"
+msgstr "Singapore"
+
+#: includes/wpsp-misc.php:990
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: includes/wpsp-misc.php:993
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: pages/wpsp-notify.php:23 pages/wpsp-notify.php:231
+#: pages/wpsp-settings.php:363
+msgid "SMS"
+msgstr "SMS"
+
+#: pages/wpsp-settings.php:550
+msgid "SMS Addons: "
+msgstr "Thiết lập bổ sung cho SMS:"
+
+#: pages/wpsp-settings.php:505
+msgid "SMS Setting"
+msgstr "Thiết lập SMS"
+
+#: includes/wpsp-misc.php:996
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: includes/wpsp-misc.php:999
+msgid "Somalia"
+msgstr "Somalia"
+
+#: pages/wpsp-student.php:172
+msgid "Sorry! No data retrieved"
+msgstr "Xin lỗi! Không có dữ liệu"
+
+#: includes/wpsp-misc.php:1002
+msgid "South Africa"
+msgstr "South Africa"
+
+#: includes/wpsp-misc.php:1005
+msgid "South Georgia/Sandwich Islands"
+msgstr "South Georgia/Sandwich Islands"
+
+#: includes/wpsp-misc.php:1008
+msgid "South Korea"
+msgstr "South Korea"
+
+#: includes/wpsp-misc.php:1011
+msgid "South Sudan"
+msgstr "South Sudan"
+
+#: includes/wpsp-misc.php:1014
+msgid "Spain"
+msgstr "Spain"
+
+#: includes/wpsp-studentList.php:319
+msgid "Sr. No"
+msgstr "Số Thứ Tự"
+
+#: includes/wpsp-teacherList.php:326 includes/wpsp-teacherList.php:403
+msgid "Sr. No."
+msgstr "Sô Thứ Tự"
+
+#: includes/wpsp-misc.php:1017
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: pages/wpsp-dashboard.php:735
+msgid "Start"
+msgstr "Bắt Đầu"
+
+#: pages/wpsp-events.php:36 pages/wpsp-exams.php:119 pages/wpsp-exams.php:169
+#: pages/wpsp-history.php:42 pages/wpsp-history.php:94
+#: pages/wpsp-leavecalendar.php:91
+msgid "Start Date"
+msgstr "Ngày Bắt Đầu"
+
+#: pages/wpsp-events.php:43
+msgid "Start Time"
+msgstr "Thời Gian Bắt Đầu"
+
+#: pages/wpsp-settings.php:441
+msgid "State"
+msgstr "Tỉnh/Thành Phố"
+
+#: includes/wpsp-studentList.php:144 includes/wpsp-studentList.php:323
+msgid "Street Address"
+msgstr "Địa Chỉ"
+
+#: includes/wpsp-teacherForm.php:179
+msgid "Street Address "
+msgstr "Địa Chỉ"
+
+#: includes/wpsp-studentList.php:8
+msgid "Student First Name"
+msgstr "Tên"
+
+#: includes/wpsp-studentList.php:10
+msgid "Student Last Name"
+msgstr "Họ"
+
+#: includes/wpsp-studentList.php:9
+msgid "Student Middle Name"
+msgstr "Tên Đêm"
+
+#: includes/wpsp-parentList.php:10 pages/wpsp-payment.php:26
+#: pages/wpsp-payment.php:151 pages/wpsp-student.php:215
+msgid "Student Name"
+msgstr "Tên"
+
+#: includes/filter_menu.php:6 pages/wpsp-messages.php:748
+msgid "Students"
+msgstr "Sinh Viên"
+
+#: includes/filter_menu.php:17
+msgid "Students Attendance"
+msgstr "Sinh Viên Có Mặt"
+
+#: includes/wpsp-editsubjectForm.php:42 pages/wpsp-marks.php:85
+#: pages/wpsp-messages.php:266 pages/wpsp-settings.php:109
+#: pages/wpsp-settings.php:131 pages/wpsp-settings.php:182
+msgid "Subject"
+msgstr "Môn Học"
+
+#: includes/wpsp-editsubjectForm.php:51 includes/wpsp-subjectForm.php:86
+#: pages/wpsp-subject.php:64 pages/wpsp-subject.php:129
+#: pages/wpsp-subject.php:213 pages/wpsp-subject.php:274
+msgid "Subject Code"
+msgstr "Mã Môn Học"
+
+#: includes/filter_menu.php:12
+msgid "Subject Mark Fields"
+msgstr "Dữ liệu Điểm Môn Học"
+
+#: includes/wpsp-examForm.php:138 includes/wpsp-subjectForm.php:77
+#: pages/wpsp-exams.php:118 pages/wpsp-exams.php:168 pages/wpsp-subject.php:65
+#: pages/wpsp-subject.php:130 pages/wpsp-subject.php:214
+#: pages/wpsp-subject.php:275
+msgid "Subject Name"
+msgstr "Tên Môn Học"
+
+#: includes/wpsp-subjectForm.php:103
+msgid "Subject Teacher"
+msgstr "Giảng Viên Môn Học"
+
+#: includes/wpsp-editsubjectForm.php:55
+msgid "Subject Teacher (Incharge)"
+msgstr "Giảng Viển Môn Học (Phụ Trách)"
+
+#: pages/wpsp-settings.php:66
+msgid "Subject:"
+msgstr ""
+
+#: includes/filter_menu.php:11 pages/wpsp-messages.php:786
+msgid "Subjects"
+msgstr "Các Môn Học"
+
+#: includes/wpsp-teacherList.php:338 includes/wpsp-teacherList.php:414
+#: pages/wpsp-teacher.php:60 pages/wpsp-teacher.php:112
+msgid "Subjects Handling"
+msgstr "Môn Học Phụ Trách"
+
+#: includes/wpsp-examForm.php:18
+msgid "Submit"
+msgstr "Đăng ký"
+
+#: lib/wpsp-admin.php:30
+msgid ""
+"Subscribers can update new features right from their plugin dashboard. "
+"Kindly, make sure that you have license code above. If not contact us."
+msgstr ""
+
+#: pages/wpsp-editprofile.php:500 pages/wpsp-notify.php:153
+msgid "Success"
+msgstr "Thành Công"
+
+#: includes/wpsp-misc.php:1020
+msgid "Sudan"
+msgstr "Sudan"
+
+#: pages/wpsp-leavecalendar.php:117
+msgid "Sunday"
+msgstr "Chủ Nhật"
+
+#: includes/wpsp-misc.php:1023
+msgid "Suriname"
+msgstr "Suriname"
+
+#: includes/wpsp-misc.php:1026
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+#: includes/wpsp-misc.php:1029
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: includes/wpsp-misc.php:1032
+msgid "Sweden"
+msgstr "Sweden"
+
+#: includes/wpsp-misc.php:1035
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: includes/wpsp-misc.php:1038
+msgid "Syria"
+msgstr "Syria"
+
+#: includes/wpsp-parentForm.php:142
+msgid "Số Điện Thoại"
+msgstr ""
+
+#: pages/wpsp-dashboard.php:608
+msgid "Sự Kiện"
+msgstr ""
+
+#: includes/wpsp-misc.php:1041
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: includes/wpsp-misc.php:1044
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: includes/wpsp-misc.php:1047
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: pages/wpsp-history.php:41 pages/wpsp-history.php:93
+msgid "Teacher"
+msgstr "Giảng Viên"
+
+#: includes/wpsp-teacherList.php:20
+msgid "Teacher Email"
+msgstr "Email Giảng Viên"
+
+#: pages/wpsp-class.php:41 pages/wpsp-class.php:148
+msgid "Teacher Incharge"
+msgstr "Giảng Viên Đứng Lớp"
+
+#: includes/filter_menu.php:5 pages/wpsp-messages.php:760
+msgid "Teachers"
+msgstr "Giảng Viên"
+
+#: includes/filter_menu.php:18
+msgid "Teachers Attendance"
+msgstr "Điểm Danh Giảng Viên"
+
+#: pages/wpsp-teacher.php:51
+msgid "Teachers Details"
+msgstr "Thông tin chi tiết Giảng Viên"
+
+#: pages/wpsp-settings.php:297
+msgid "Teaching"
+msgstr "Đang Đứng Lớp"
+
+#: includes/wpsp-misc.php:1050
+msgid "Thailand"
+msgstr "Thái Lan"
+
+#: pages/wpsp-leavecalendar.php:131
+msgid "This is for attendance calculation purpose only"
+msgstr "Chỉ dành cho mục đích tính toán điểm danh"
+
+#: pages/wpsp-leavecalendar.php:114
+msgid "Thursday"
+msgstr "Thứ Năm"
+
+#: pages/wpsp-class.php:15
+msgid "Thêm Lớp Mới"
+msgstr ""
+
+#: includes/filter_menu.php:15 pages/wpsp-exams.php:159
+msgid "Time Table"
+msgstr "Thời Gian Biểu"
+
+#: includes/wpsp-misc.php:1053
+msgid "Timor-Leste"
+msgstr "Đông Ti-mo"
+
+#: pages/wpsp-events.php:62
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: pages/wpsp-messages.php:198 pages/wpsp-messages.php:202
+#: pages/wpsp-settings.php:286
+msgid "To"
+msgstr "Đến"
+
+#: includes/wpsp-studentList.php:72 includes/wpsp-studentList.php:101
+#: includes/wpsp-teacherList.php:152 includes/wpsp-teacherList.php:193
+#: includes/wpsp-teacherList.php:248
+msgid "Toggle Dropdown"
+msgstr "Xổ Ra"
+
+#: includes/wpsp-misc.php:1056
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/wpsp-misc.php:1059
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/wpsp-misc.php:1062
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/filter_menu.php:21
+msgid "Transport"
+msgstr "Vận Chuyển"
+
+#: pages/wpsp-messages.php:177
+msgid "Trash"
+msgstr "Rác"
+
+#: pages/wpsp-messages.php:201
+msgid "Trash Items"
+msgstr "Vật Phẩm Rác"
+
+#: includes/wpsp-misc.php:1065
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+#: pages/wpsp-leavecalendar.php:112
+msgid "Tuesday"
+msgstr "Thứ Ba"
+
+#: includes/wpsp-misc.php:1068
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: includes/wpsp-misc.php:1071
+msgid "Turkey"
+msgstr "Turkey"
+
+#: includes/wpsp-misc.php:1074
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: includes/wpsp-misc.php:1077
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+#: includes/wpsp-misc.php:1080
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: pages/wpsp-events.php:74 pages/wpsp-importhistory.php:25
+#: pages/wpsp-importhistory.php:57 pages/wpsp-notify.php:276
+#: pages/wpsp-notify.php:312 pages/wpsp-settings.php:294
+#: pages/wpsp-settings.php:315 pages/wpsp-settings.php:343
+msgid "Type"
+msgstr "Loại"
+
+#: pages/wpsp-dashboard.php:176
+msgid "Tên Giảng Viên Của Lớp"
+msgstr ""
+
+#: pages/wpsp-dashboard.php:173 pages/wpsp-dashboard.php:438
+msgid "Tên Học Viên"
+msgstr ""
+
+#: pages/wpsp-exams.php:56
+msgid "Tên Kỳ Thi"
+msgstr ""
+
+#: pages/wpsp-dashboard.php:175 pages/wpsp-exams.php:57
+msgid "Tên Lớp"
+msgstr ""
+
+#: pages/wpsp-exams.php:58
+msgid "Tên Môn Học"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:37
+msgid "Tên Đăng Nhập"
+msgstr ""
+
+#: includes/wpsp-misc.php:1083
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/wpsp-misc.php:1086
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: pages/wpsp-importhistory.php:28 pages/wpsp-importhistory.php:60
+msgid "Undo"
+msgstr "Hoàn Tác"
+
+#: includes/wpsp-misc.php:1089
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: includes/wpsp-misc.php:1092
+msgid "United Kingdom (UK)"
+msgstr "United Kingdom (UK)"
+
+#: includes/wpsp-misc.php:1095
+msgid "United States (US)"
+msgstr "United States (US)"
+
+#: includes/wpsp-examForm.php:18 includes/wpsp-teacherProfile.php:235
+#: pages/wpsp-editprofile.php:181 pages/wpsp-editprofile.php:358
+msgid "Update"
+msgstr "Cập Nhật"
+
+#: includes/wpsp-classForm.php:45
+msgid "Update Class Information"
+msgstr "Cập Nhật Thông Tin Lớp Học"
+
+#: pages/wpsp-exams.php:20
+msgid "Update Exam"
+msgstr "Cập Nhật Kỳ Kiểm Tra"
+
+#: includes/wpsp-examForm.php:16
+msgid "Update Exam Information"
+msgstr "Cập Nhật Thông Tin Kỳ Kiểm Tra"
+
+#: pages/wpsp-student.php:16
+msgid "Update Student"
+msgstr "Cập Nhật Người Học"
+
+#: pages/wpsp-marks.php:130
+msgid "Upload CSV"
+msgstr "Tải lên CSV"
+
+#: includes/wpsp-misc.php:1098
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: pages/wpsp-leavecalendar.php:128
+msgid "Use this form only once for a class to generate all weekly off dates"
+msgstr "Dùng biểu mấu này cho mỗi lớp để tạo ngày nghỉ cố định mỗi tuần"
+
+#: pages/wpsp-registration-request.php:54
+#: pages/wpsp-registration-request.php:99
+msgid "User Role"
+msgstr "Vai Trò Người Dùng"
+
+#: includes/wpsp-studentForm.php:442 includes/wpsp-studentForm.php:619
+#: includes/wpsp-studentProfile.php:472 includes/wpsp-teacherForm.php:278
+msgid "Username"
+msgstr "Tên Đăng Nhập"
+
+#: includes/wpsp-login.php:101
+msgid "Username or Email"
+msgstr "Tên Đăng Nhập hoặc Email"
+
+#: includes/wpsp-misc.php:1101
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: includes/wpsp-misc.php:1104
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/wpsp-misc.php:1107
+msgid "Vatican"
+msgstr "Vatican"
+
+#: pages/wpsp-transport.php:19 pages/wpsp-transport.php:65
+#: pages/wpsp-transport.php:105 pages/wpsp-transport.php:151
+msgid "Vehicle Name"
+msgstr "Tên Xe"
+
+#: pages/wpsp-transport.php:20 pages/wpsp-transport.php:66
+#: pages/wpsp-transport.php:106 pages/wpsp-transport.php:152
+msgid "Vehicle Number"
+msgstr "Biển Số Xe"
+
+#: pages/wpsp-transport.php:24 pages/wpsp-transport.php:70
+#: pages/wpsp-transport.php:110 pages/wpsp-transport.php:156
+msgid "Vehicle Route"
+msgstr "Tuyến Đường"
+
+#: includes/wpsp-misc.php:1110
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: includes/wpsp-misc.php:1113
+msgid "Vietnam"
+msgstr "Việt Nam"
+
+#: pages/wpsp-teacher-attendance.php:28
+msgid "View"
+msgstr "Xem"
+
+#: pages/wpsp-attendance.php:145
+msgid "View Attendance Report"
+msgstr "Xem Báo Cáo Điểm Danh"
+
+#: pages/wpsp-marks.php:132
+msgid "View Marks"
+msgstr "Xem Điểm"
+
+#: pages/wpsp-messages.php:205
+msgid "View Message"
+msgstr "Xem Tin Nhắn"
+
+#: includes/wpsp-misc.php:1116
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: pages/wpsp-notify.php:24
+msgid "Web Notification"
+msgstr "Thông báo từ trang Web"
+
+#: pages/wpsp-settings.php:473
+msgid "Website"
+msgstr "Trang Web"
+
+#: pages/wpsp-leavecalendar.php:113
+msgid "Wednesday"
+msgstr "Thứ tư"
+
+#: includes/wpsp-viewTimetable.php:35
+msgid "Week"
+msgstr "Tuần"
+
+#: pages/wpsp-leavecalendar.php:107
+msgid "Weekly off "
+msgstr "Ngày nghỉ cố định"
+
+#: includes/wpsp-misc.php:1119
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: includes/wpsp-misc.php:1122
+msgid "Western Samoa"
+msgstr "Western Samoa"
+
+#: pages/wpsp-notify.php:206
+msgid "Whom to notify?"
+msgstr "Thông báo đến ai?"
+
+#: includes/filter_menu.php:24 includes/wpsp-teacherForm.php:384
+#: includes/wpsp-teacherList.php:46 includes/wpsp-teacherProfile.php:215
+msgid "Working Hours"
+msgstr "Sớ giờ làm việc"
+
+#. Name of the plugin
+#: wpsp-class-admin.php:35 wpsp-layout.php:50
+msgid "WPSchoolPress"
+msgstr ""
+
+#: lib/wpsp-admin-addons.php:8
+msgid "WPSchoolpress Add-Ons"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WPSchoolpress is a school management system plugin that makes school "
+"activities transparent to parents. For more information please visit our "
+"website."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPSchoolPress Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "wpschoolpress.com"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:49
+msgid "Xác Nhận Mật Khẩu"
+msgstr ""
+
+#: includes/wpsp-misc.php:1125
+msgid "Yemen"
+msgstr "Yemen"
+
+#: pages/wpsp-leavecalendar.php:130
+msgid "You can delete any date if you have a school on that date"
+msgstr "Bạn có thể xóa ngày bất kỳ nếu bạn có tiết học vào ngày đó"
+
+#: pages/wpsp-marks.php:416
+msgid "Your Marks"
+msgstr "Điểm của bạn"
+
+#: pages/wpsp-settings.php:487
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: includes/wpsp-misc.php:1128
+msgid "Zambia"
+msgstr "Zambia"
+
+#: includes/wpsp-misc.php:1131
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: includes/wpsp-studentList.php:11 includes/wpsp-teacherList.php:22
+msgid "Zip Code"
+msgstr "Mã bưu điện"
+
+#: includes/wpsp-parentForm.php:136
+msgid "Zipcode"
+msgstr "Mã bưu điện"
+
+#: includes/wpsp-parentForm.php:41
+msgid "Địa Chỉ Email"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:112
+msgid "Địa Chỉ Ở Hiện Tại"
+msgstr ""
+
+#: wpsp-layout.php:110
+msgid "Đổi Mật Khẩu"
+msgstr ""
+
+#: includes/wpsp-parentForm.php:61
+msgid "Ảnh Đại Diện"
+msgstr ""

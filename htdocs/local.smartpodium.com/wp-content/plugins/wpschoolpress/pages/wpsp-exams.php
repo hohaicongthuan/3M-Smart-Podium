@@ -53,11 +53,11 @@ wpsp_header();
 					<thead>
 						<tr>
 							<th class="nosort">#</th>
-							<th><?php esc_html_e( 'Exam Name', 'wpschoolpress' );?></th>
-							<th><?php esc_html_e( 'Class Name', 'wpschoolpress' );?></th>
-							<th><?php esc_html_e( 'Subject Name', 'wpschoolpress' );?></th>
-							<th><?php esc_html_e( 'Start Date', 'wpschoolpress' );?></th>
-							<th><?php esc_html_e( 'End Date', 'wpschoolpress' );?></th>
+							<th><?php esc_html_e( 'Tên Kỳ Thi', 'wpschoolpress' );?></th>
+							<th><?php esc_html_e( 'Tên Lớp', 'wpschoolpress' );?></th>
+							<th><?php esc_html_e( 'Tên Môn Học', 'wpschoolpress' );?></th>
+							<th><?php esc_html_e( 'Ngày Bắt Đầu', 'wpschoolpress' );?></th>
+							<th><?php esc_html_e( 'Ngày Kết Thúc', 'wpschoolpress' );?></th>
 						<?php	if($current_user_role=='administrator'){?>
 							<th class="nosort"><?php esc_html_e( 'Action', 'wpschoolpress' );?></th>
 						<?php }?>

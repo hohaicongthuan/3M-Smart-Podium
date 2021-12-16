@@ -170,10 +170,10 @@ if($paymenconfirmationid > 0)
 <table class="wpsp-table <?php echo $nonemenu;?>" id="status-table" cellspacing="0" width="100%" style="width:100%;margin-bottom: 30px !important;">
 			<thead>
 				<tr>
-					<th><?php esc_html_e( 'Student Name', 'wpschoolpress' ); ?></th>
-                    <th><?php esc_html_e( 'Roll No', 'wpschoolpress' ); ?></th>
-                    <th><?php esc_html_e( 'Class Name', 'wpschoolpress' ); ?></th>
-                    <th><?php esc_html_e( 'Class Teacher Name', 'wpschoolpress' ); ?></th>
+					<th><?php esc_html_e( 'Tên Học Viên', 'wpschoolpress' ); ?></th>
+                    <th><?php esc_html_e( 'Mã Học Viên', 'wpschoolpress' ); ?></th>
+                    <th><?php esc_html_e( 'Tên Lớp', 'wpschoolpress' ); ?></th>
+                    <th><?php esc_html_e( 'Tên Giảng Viên Của Lớp', 'wpschoolpress' ); ?></th>
                     <th><?php esc_html_e( 'Class Fee Status', 'wpschoolpress' ); ?></th>
                     <th><?php esc_html_e( 'Fees For', 'wpschoolpress' ); ?></th>
                     <th><?php esc_html_e( 'Pay Now', 'wpschoolpress' ); ?></th>
@@ -435,8 +435,8 @@ if($paymenconfirmationid > 0){
 						<table class="wpsp-table <?php echo $nonemenu; ?>" id="status-table" cellspacing="0" width="100%" style="width:100%;margin-bottom: 30px !important;">
 							<thead>
 								<tr>
-                                <th><?php esc_html_e( 'Student Name', 'wpschoolpress' ); ?></th>
-                                <th><?php esc_html_e( 'Roll No', 'wpschoolpress' ); ?></th>
+                                <th><?php esc_html_e( 'Tên Học Viên', 'wpschoolpress' ); ?></th>
+                                <th><?php esc_html_e( 'Mã Học Viên', 'wpschoolpress' ); ?></th>
                                 <th><?php esc_html_e( 'Class Name', 'wpschoolpress' ); ?></th>
                                 <th><?php esc_html_e( 'Class Teacher Name', 'wpschoolpress' ); ?></th>
                                 <th><?php esc_html_e( 'Class Fee Status', 'wpschoolpress' ); ?></th>
@@ -567,26 +567,26 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 	<?php  } ?>
 	<div class="wpsp-col-sm-3 wpsp-col-xs-6">
 		<a class="wpsp-colorBox" <?php if($current_user_role == 'parent' || $current_user_role == 'student'){ }else {?> href="<?php echo wpsp_admin_url();?>sch-student" <?php } ?> >
-			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_student_title_menu',esc_html__('Students','wpschoolpress')); ?></span>
+			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_student_title_menu',esc_html__('Học Viên','wpschoolpress')); ?></span>
 			<h4 class="wpsp-colorBox-head"><?php echo isset( $usercount->countstudent ) ?  intval($usercount->countstudent) : 0; ?><sup>+</sup></h4>
 		</a>
 	</div>
 	<div class="wpsp-col-sm-3 wpsp-col-xs-6">
 		<a class="wpsp-colorBox wpsp-orangebox wpsp-teacherInfo" <?php if($current_user_role == 'parent'  || $current_user_role == 'student'){ }else {?> href="<?php echo wpsp_admin_url();?>sch-teacher" <?php } ?>>
-			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_teacher_title_menu',esc_html__('Teachers','wpschoolpress')); ?></span>
+			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_teacher_title_menu',esc_html__('Giảng Viên','wpschoolpress')); ?></span>
 			<h4 class="wpsp-colorBox-head"><?php echo isset($teachercount->countteacher)  ?  intval($teachercount->countteacher) : 0; ?><sup>+</sup></h4>
 		</a>
 	</div>
 	<div class="wpsp-col-sm-3 wpsp-col-xs-6">
 		<a class="wpsp-colorBox wpsp-yellowbox wpsp-parentsInfo"<?php if($current_user_role == 'parent'  || $current_user_role == 'student'){ }else {?>  href="<?php echo wpsp_admin_url();?>sch-parent" <?php } ?>>
-			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_parent_title_menu',esc_html__('Parents','wpschoolpress')); ?></span>
+			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_parent_title_menu',esc_html__('Phụ Huynh','wpschoolpress')); ?></span>
 			<h4 class="wpsp-colorBox-head"><?php echo isset($parentscount->countparents) ?  intval($parentscount->countparents) : 0; ?><sup>+</sup></h4>
 		</a>
 	</div>
 
 	<div class="wpsp-col-sm-3 wpsp-col-xs-6">
 		<a class="wpsp-colorBox wpsp-greenbox wpsp-classInfo" <?php if($current_user_role == 'parent'  || $current_user_role == 'student'){ }else {?> href="<?php echo wpsp_admin_url();?>sch-class" <?php } ?>>
-			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_classes_title_menu',esc_html__('Classes','wpschoolpress'));?></span>
+			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_classes_title_menu',esc_html__('Lớp Học','wpschoolpress'));?></span>
 			<h4 class="wpsp-colorBox-head"><?php echo isset(  $users_count->clcount ) ?  intval($users_count->clcount) : 0; ?><sup>+</sup></h4>
 		</a>
 	</div>
@@ -602,12 +602,12 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 			<div class="wpsp-card">
 				<div class="wpsp-card-head">
 					<div class="wpsp-left">
-						<h3 class="wpsp-card-title"><?php esc_html_e( 'Activities Calender', 'wpschoolpress' )?></h3>
+						<h3 class="wpsp-card-title"><?php esc_html_e( 'Lịch Hoạt Động', 'wpschoolpress' )?></h3>
 					</div>
 					<ul class="wpsp-cards-indicators wpsp-right">
-						<li><span class="wpsp-indic wpsp-blue-indic"></span> <?php esc_html_e( 'Events', 'wpschoolpress' ); ?></li>
-						<li><span class="wpsp-indic wpsp-red-indic"></span> <?php esc_html_e( 'Exams', 'wpschoolpress' ); ?></li>
-						<li><span class="wpsp-indic wpsp-green-indic"></span> <?php esc_html_e( 'Holidays', 'wpschoolpress' );?></li>
+						<li><span class="wpsp-indic wpsp-blue-indic"></span> <?php esc_html_e( 'Sự Kiện', 'wpschoolpress' ); ?></li>
+						<li><span class="wpsp-indic wpsp-red-indic"></span> <?php esc_html_e( 'Kỳ Thi', 'wpschoolpress' ); ?></li>
+						<li><span class="wpsp-indic wpsp-green-indic"></span> <?php esc_html_e( 'Nghỉ Lễ', 'wpschoolpress' );?></li>
 					</ul>
 				</div>
 
@@ -639,8 +639,8 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 					<table class="wpsp-table">
 						<thead>
 							<tr>
-								<th><?php esc_html_e( 'Date', 'wpschoolpress' );?></th>
-								<th><?php esc_html_e( 'Exam', 'wpschoolpress' );?></th>
+								<th><?php esc_html_e( 'Ngày', 'wpschoolpress' );?></th>
+								<th><?php esc_html_e( 'Kỳ Thi', 'wpschoolpress' );?></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -685,8 +685,8 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 					<table class="wpsp-table">
 						<thead>
 							<tr>
-								<th><?php esc_html_e( 'Date', 'wpschoolpress' );?></th>
-								<th><?php esc_html_e( 'Exam', 'wpschoolpress' );?></th>
+								<th><?php esc_html_e( 'Ngày', 'wpschoolpress' );?></th>
+								<th><?php esc_html_e( 'Kỳ Thi', 'wpschoolpress' );?></th>
 							</tr>
 						</thead>
 						<tbody>

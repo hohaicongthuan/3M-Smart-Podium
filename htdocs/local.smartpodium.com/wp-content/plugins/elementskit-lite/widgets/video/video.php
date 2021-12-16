@@ -145,8 +145,8 @@ class ElementsKit_Widget_Video extends Widget_Base {
                 'type'      => Controls_Manager::SELECT,
                 'default'   => 'youtube',
                 'options'   => [
-                      'youtube'=> esc_html__( 'youtube', 'elementskit-lite' ),
-                      'vimeo'=> esc_html__( 'vimeo', 'elementskit-lite' ),
+                      'youtube'=> esc_html__( 'Youtube', 'elementskit-lite' ),
+                      'vimeo'=> esc_html__( 'Vimeo', 'elementskit-lite' ),
                 ]
             ]
         );
@@ -154,11 +154,11 @@ class ElementsKit_Widget_Video extends Widget_Base {
 		$this->add_control(
 			'ekit_video_popup_url',
 			[
-				'label' => esc_html__( 'URL to embed', 'elementskit-lite' ),
+				'label' => esc_html__( 'URL to Embed', 'elementskit-lite' ),
 				'type' => Controls_Manager::TEXT,
 				'input_type' => 'url',
-				'placeholder' => esc_html( 'https://www.youtube.com/watch?v=1MTkZPys7mU' ),
-				'default' => esc_html('https://www.youtube.com/watch?v=1MTkZPys7mU'),
+				'placeholder' => esc_url( 'https://www.youtube.com/watch?v=VhBl3dHT5SY' ),
+				'default' => esc_url( 'https://www.youtube.com/watch?v=VhBl3dHT5SY' ),
 				'dynamic' => [
 					'active' => true,
 				],
@@ -193,11 +193,11 @@ class ElementsKit_Widget_Video extends Widget_Base {
 			'ekit_video_popup_auto_play',
 			[
 				'label' => esc_html__( 'Auto Play', 'elementskit-lite' ),
+				'description' => esc_html__( 'Unmuted videos will not auto play in some browsers.', 'elementskit-lite'),
 				'type' => Controls_Manager::SWITCHER,
 				'label_on' => esc_html__( 'Yes', 'elementskit-lite' ),
 				'label_off' => esc_html__( 'No', 'elementskit-lite' ),
 				'return_value' => '1',
-				'default' => 'yes',
 			]
 		);
 
@@ -209,7 +209,6 @@ class ElementsKit_Widget_Video extends Widget_Base {
 				'label_on' => esc_html__( 'Yes', 'elementskit-lite' ),
 				'label_off' => esc_html__( 'No', 'elementskit-lite' ),
 				'return_value' => '1',
-				'default' => 'no',
 			]
 		);
 
@@ -834,13 +833,24 @@ class ElementsKit_Widget_Video extends Widget_Base {
 		extract($settings);
 
 		$player_control = isset( $ekit_video_popup_video_player_control )  && $ekit_video_popup_video_player_control == '1'  ? 1 : 0;
-		$url_components = parse_url($ekit_video_popup_url);
-		parse_str($url_components['query'], $url_params);
 
+		// Fallback Video URL for YouTube
+		if ( empty($ekit_video_popup_url) ) {
+			$ekit_video_popup_url = 'https://www.youtube.com/watch?v=VhBl3dHT5SY';
+		}
 
+		$ekit_video_popup_url = Embed::get_embed_url( $ekit_video_popup_url ); // Support for short links like: https://youtu.be/VhBl3dHT5SY
+		$video_properties = Embed::get_video_properties( $ekit_video_popup_url ); // Get only the video id.
 
-		$ekit_video_popup_url = $ekit_video_popup_url."?autoplay={$ekit_video_popup_auto_play}&playlist={$url_params['v']}&loop={$ekit_video_popup_video_loop}&controls={$player_control}&mute={$ekit_video_popup_video_mute}&start={$ekit_video_popup_start_time}&end={$ekit_video_popup_end_time}&version=3";
+		$video_id = '';
+		if( !empty($video_properties['video_id']) ) {
+			$video_id = $video_properties['video_id'];
+		}
+
+		$is_autoplay = (int) $ekit_video_popup_auto_play;
+		$is_muted = (int) $ekit_video_popup_video_mute;
 		
+		$ekit_video_popup_url = $ekit_video_popup_url."?autoplay={$is_autoplay}&playlist={$video_id}&loop={$ekit_video_popup_video_loop}&controls={$player_control}&mute={$is_muted}&start={$ekit_video_popup_start_time}&end={$ekit_video_popup_end_time}&version=3";
 		?>
 			<div class="video-content">
                 <a href="<?php echo esc_url($ekit_video_popup_url); ?>" class="ekit-video-popup ekit-video-popup-btn <?php echo esc_attr($ekit_video_popup_button_style == 'icon' ? 'ekit_icon_button': '') ?> <?php echo esc_attr($ekit_video_popup_video_glow=="yes"?"glow-btn":''); ?>">
@@ -863,5 +873,4 @@ class ElementsKit_Widget_Video extends Widget_Base {
             </div>
 		<?php
 	}
-
 }

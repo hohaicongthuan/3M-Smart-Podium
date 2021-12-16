@@ -12,10 +12,10 @@ wpsp_header();
 			$filename	=	'';
 			$header	=	'Classes';
 			if( isset($_GET['tab'] ) && sanitize_text_field($_GET['tab']) == 'addclass' ) {
-				$header	=	$label	=	__( 'Add New Class', 'wpschoolpress');
+				$header	=	$label	=	__( 'Thêm Lớp Mới', 'wpschoolpress');
 				$filename	=	WPSP_PLUGIN_PATH .'includes/wpsp-classForm.php';
 			}elseif((isset($_GET['id']) && is_numeric($_GET['id'])))  {
-				$header	=	$label	=	__( 'Update Class', 'wpschoolpress');
+				$header	=	$label	=	__( 'Cập Nhật Lớp', 'wpschoolpress');
 				$filename	=	WPSP_PLUGIN_PATH .'includes/wpsp-classForm.php';
 			}
 		?>

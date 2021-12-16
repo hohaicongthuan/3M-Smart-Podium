@@ -28,8 +28,8 @@ $(document).ready(function() {
     var e = $(this).attr("id"),
       a = document.getElementById(e).files[0].size,
       s = $(this).val();
-    a > 3145728 && ($("#test").html("File Size should be less than 3 MB, Please select another file"), $(this).val(""));
-    var t = s.substring(s.lastIndexOf(".") + 1); - 1 == $.inArray(t, ["jpg", "jpeg"]) && ($("#test").html("Please select either jpg or jpeg file"), $(this).val("")),
+    a > 3145728 && ($("#test").html("Kích thước file phải nhỏ hơn 3 MB, xin hãy chọn file khác"), $(this).val(""));
+    var t = s.substring(s.lastIndexOf(".") + 1); - 1 == $.inArray(t, ["jpg", "jpeg"]) && ($("#test").html("Xin hãy chọn file jpg hoặc jpeg"), $(this).val("")),
       function(e) {
         if (e.files) {
           var a = new FileReader;
@@ -55,10 +55,10 @@ $(document).ready(function() {
       }
     },
     messages: {
-      s_fname: "Please enter first Name",
-      s_address: "Please enter current address",
-      s_lname: "Please enter last Name",
-      s_rollno: "Please enter Roll Number"
+      s_fname: "Nhập Tên",
+      s_address: "Nhập Địa Chỉ Hiện Tại",
+      s_lname: "Nhập Họ",
+      s_rollno: "Nhập Mã Học Viên"
     },
     submitHandler: function(e) {
       document.getElementById("StudentEditForm");
@@ -115,7 +115,7 @@ $(document).ready(function() {
         },
         success: function(e) {
           if ($("#parentform").removeAttr("disabled"), "success0" == e) {
-            $(".wpsp-popup-return-data").html("Parent updated successfully !"), $("#SuccessModal").css("display", "block"), $("#SavingModal").css("display", "none"), $("#SuccessModal").addClass("wpsp-popVisible");
+            $(".wpsp-popup-return-data").html("Cập Nhật Phụ Huynh Thành Công!"), $("#SuccessModal").css("display", "block"), $("#SavingModal").css("display", "none"), $("#SuccessModal").addClass("wpsp-popVisible");
             var a = $("#wpsp_locationginal").val() + "admin.php?page=sch-editprofile";
             setTimeout(function() {
               window.location.href = a
@@ -166,23 +166,23 @@ $(document).ready(function() {
       whours: "required"
     },
     messages: {
-      firstname: "Please Enter Teacher Name",
-      Address: "Please Enter current Address",
-      lastname: "Please Enter Last Name",
+      firstname: "Nhập Tên Giảng Viên",
+      Address: "Nhập Địa Chỉ Hiện Tại",
+      lastname: "Nhập Họ",
       Username: {
-        required: "Please enter a username",
-        minlength: "Username must consist of at least 5 characters"
+        required: "Nhập Tên Đăng Nhập",
+        minlength: "Tên Đăng Nhập Phải Có Ít Nhất 5 Ký Tự"
       },
       Password: {
-        required: "Please provide a password",
-        minlength: "Password must be at least 5 characters long"
+        required: "Nhập Mật Khẩu",
+        minlength: "Mật Khẩu Phải Có Ít Nhất 5 Ký Tự"
       },
       Confirm_password: {
-        required: "Please provide a password",
-        minlength: "Password must be at least 5 characters long",
-        equalTo: "Please enter the same password as above"
+        required: "Nhập Mật Khẩu",
+        minlength: "Mật Khẩu Phải Có Ít Nhất 5 Ký Tự",
+        equalTo: "Nhập Mật Khẩu Tương Tự Như Trên"
       },
-      Email: "Please enter a valid email address"
+      Email: "Nhập địa chỉ email hợp lệ"
     },
     submitHandler: function(e) {
       document.getElementById("TeacherEditForm");
@@ -203,7 +203,7 @@ $(document).ready(function() {
         },
         success: function(e) {
           if ("success0" == e) {
-            $(".wpsp-popup-return-data").html("Teacher updated successfully !"), $("#SuccessModal").css("display", "block"), $("#SavingModal").css("display", "none"), $("#SuccessModal").addClass("wpsp-popVisible");
+            $(".wpsp-popup-return-data").html("Cập Nhật Giảng Viên Thành Công!"), $("#SuccessModal").css("display", "block"), $("#SavingModal").css("display", "none"), $("#SuccessModal").addClass("wpsp-popVisible");
             var a = $("#wpsp_locationginal").val() + "/admin.php?page=sch-editprofile";
             setTimeout(function() {
               window.location.href = a

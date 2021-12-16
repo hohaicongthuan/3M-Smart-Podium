@@ -64,7 +64,9 @@ export const slideUp = (element, duration = 300) => {
 };
 
 export const slideToggle = (element, duration) => {
-    window.getComputedStyle(element).display === "none" ? slideDown(element, duration) : slideUp(element, duration);
+    window.getComputedStyle(element).display === "none"
+        ? slideDown(element, duration)
+        : slideUp(element, duration);
 };
 
 export const fadeIn = (element, _options = {}) => {
@@ -92,6 +94,10 @@ export const fadeIn = (element, _options = {}) => {
 };
 
 export const fadeOut = (element, _options = {}) => {
+    if (element.style.display === "none") {
+        return;
+    }
+
     const options = {
         duration: 300,
         display: null,
@@ -117,10 +123,12 @@ export const fadeOut = (element, _options = {}) => {
 };
 
 export const fadeToggle = (element, options) => {
-    window.getComputedStyle(element).display === "none" ? fadeIn(element, options) : fadeOut(element, options);
+    window.getComputedStyle(element).display === "none"
+        ? fadeIn(element, options)
+        : fadeOut(element, options);
 };
 
-export const offset = (element) => {
+export const offset = element => {
     if (!element.getClientRects().length) {
         return { top: 0, left: 0 };
     }
@@ -134,15 +142,19 @@ export const offset = (element) => {
     };
 };
 
-export const visible = (element) => {
+export const visible = element => {
     if (!element) {
         return false;
     }
 
-    return !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length);
+    return !!(
+        element.offsetWidth ||
+        element.offsetHeight ||
+        element.getClientRects().length
+    );
 };
 
-export const getSiblings = (e) => {
+export const getSiblings = e => {
     // for collecting siblings
     const siblings = [];
 
@@ -167,13 +179,17 @@ export const getSiblings = (e) => {
 };
 
 // Returns true if it is a DOM element
-export const isElement = (o) => {
+export const isElement = o => {
     return typeof HTMLElement === "object"
         ? o instanceof HTMLElement // DOM2
-        : o && typeof o === "object" && o !== null && o.nodeType === 1 && typeof o.nodeName === "string";
+        : o &&
+              typeof o === "object" &&
+              o !== null &&
+              o.nodeType === 1 &&
+              typeof o.nodeName === "string";
 };
 
-export const isSelectorValid = ((dummyElement) => (selector) => {
+export const isSelectorValid = (dummyElement => selector => {
     try {
         dummyElement.querySelector(selector);
     } catch {

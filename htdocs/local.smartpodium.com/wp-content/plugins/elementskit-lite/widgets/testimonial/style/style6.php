@@ -1,10 +1,21 @@
 <div  class="elementskit-testimonial-slider ekit_testimonial_style_6 slick-slider arrow_inside <?php echo !empty($settings['ekit_testimonial_show_dot']) ? 'slick-dotted' : '' ?>" <?php echo $this->get_render_attribute_string('wrapper'); ?>>
 	<div class="swiper-container">
 		<div class="slick-list swiper-wrapper">
-			<?php foreach ($testimonials as $testimonial): ?>
+			<?php
+			foreach ($testimonials as $testimonial):
+				$wrapTag = 'div';
+				$ratingTag = 'a';
+	
+				if ( !empty( $testimonial['link']['url'] ) ):
+					$wrapTag = 'a';
+					$ratingTag = 'span';
+
+					$this->add_link_attributes( 'link-' . $testimonial['_id'], $testimonial['link'] );
+				endif;
+			?>
 				<div class="swiper-slide">
 					<div class="slick-slide">
-						<div class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-three elementor-repeater-item-<?php echo esc_attr( $testimonial[ '_id' ] ); ?>">
+						<<?php echo esc_attr( $wrapTag ); ?> class="elementskit-single-testimonial-slider elementskit-testimonial-slider-block-style elementskit-testimonial-slider-block-style-three elementor-repeater-item-<?php echo esc_attr( $testimonial[ '_id' ] ); ?>" <?php echo $this->get_render_attribute_string( 'link-' . $testimonial['_id'] ); ?>>
 							<?php if(isset($ekit_testimonial_wartermark_enable) && ($ekit_testimonial_wartermark_enable == 'yes')):?>
 							<div class="elementskit-watermark-icon elementskit-icon-content <?php if($ekit_testimonial_wartermark_mask_show_badge == 'yes') : ?> commentor-badge <?php endif; ?>">
 								<?php
@@ -63,7 +74,7 @@
 												$iconStart = 'eicon-star active';
 											}
 										?>
-										<li><a href="#"><i class="<?php esc_attr_e( $iconStart, 'elementskit-lite' );?>"></i></a></li>
+										<li><<?php echo esc_attr( $ratingTag ); ?>><i class="<?php esc_attr_e( $iconStart, 'elementskit-lite' );?>"></i></<?php echo esc_attr( $ratingTag ); ?>></li>
 
 										<?php }?>
 									</ul>
@@ -71,7 +82,7 @@
 									<p><?php echo isset($testimonial['review']) ? \ElementsKit_Lite\Utils::kses($testimonial['review']) : ''; ?></p>
 								</div>
 							<?php endif;  ?>
-						</div>
+						</<?php echo esc_attr( $wrapTag ); ?>>
 					</div>
 				</div>
 			<?php endforeach; ?>

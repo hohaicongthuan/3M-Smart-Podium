@@ -10,7 +10,7 @@
         $plugins = \ElementsKit_Lite\Libs\Framework\Attr::instance()->utils->get_option('settings', []);
         ?>
         <div class="attr-col-lg-4">
-            <div class="ekit-onboard-single-plugin">
+            <div class="ekit-onboard-single-plugin badge--featured">
                 <label>
                     <img class="ekit-onboard-single-plugin--logo" src="<?php echo self::get_url(); ?>assets/images/onboard/shopengine-logo.png" alt="ShopEngine">
                     <p class="ekit-onboard-single-plugin--description"><?php echo esc_html__('Completely customize your  WooCommerce WordPress', 'elementskit-lite'); ?></p>

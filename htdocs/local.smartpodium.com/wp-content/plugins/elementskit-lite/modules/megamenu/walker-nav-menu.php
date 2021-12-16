@@ -306,7 +306,7 @@ class ElementsKit_Menu_Walker extends \Walker_Nav_Menu
                 if($item_meta['menu_enable'] == 1 && class_exists( 'Elementor\Plugin' ) ){
                     $builder_post_title = 'dynamic-content-megamenu-menuitem' . $item->ID;
                     $builder_post = get_page_by_title($builder_post_title, OBJECT, 'elementskit_content');
-                    $output .= '<ul class="elementskit-megamenu-panel">';
+                    $output .= '<div class="elementskit-megamenu-panel">';
                     if($builder_post != null){
                         $elementor = \Elementor\Plugin::instance();
                         $output .= $elementor->frontend->get_builder_content_for_display( $builder_post->ID );
@@ -314,7 +314,7 @@ class ElementsKit_Menu_Walker extends \Walker_Nav_Menu
                         $output .= esc_html__('No content found', 'elementskit-lite');
                     }
 
-                    $output .= '</ul>';
+                    $output .= '</div>';
                 }
             }
             $output .= "</li>\n";

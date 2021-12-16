@@ -70,14 +70,9 @@ class Plugin{
         Compatibility\Conflicts\Init::instance();
 
         $is_pro_active = in_array('elementskit/elementskit.php', apply_filters('active_plugins', get_option('active_plugins')));
-
-        $filter_string = ''; // elementskit,metform-pro
-        $filter_string .= ((!$is_pro_active) ? '' : ',elementskit');
-        $filter_string .= (!class_exists('\MetForm\Plugin') ? '' : ',metform');
-        $filter_string .= (!class_exists('\MetForm_Pro\Plugin') ? '' : ',metform-pro');
-
-
-        if(Libs\Framework\Classes\Utils::instance()->get_settings('ekit_user_consent_for_banner', 'yes') == 'yes'){
+        
+        if(is_admin() && Libs\Framework\Classes\Utils::instance()->get_settings('ekit_user_consent_for_banner', 'yes') == 'yes'){
+            $filter_string = \ElementsKit_Lite::active_plugins();
             /**
              * Show WPMET stories widget in dashboard
              */
@@ -223,9 +218,9 @@ class Plugin{
             return;
         }
 
-        wp_register_style( 'fontawesome', \ElementsKit_Lite::widget_url() . 'init/assets/css/font-awesome.min.css', \ElementsKit_Lite::version() );
-        wp_register_style( 'elementskit-font-css-admin', \ElementsKit_Lite::module_url() . 'elementskit-icon-pack/assets/css/ekiticons.css', \ElementsKit_Lite::version() );
-        wp_register_style( 'elementskit-init-css-admin', \ElementsKit_Lite::lib_url() . 'framework/assets/css/admin-style.css', \ElementsKit_Lite::version() );
+        wp_register_style( 'fontawesome', \ElementsKit_Lite::widget_url() . 'init/assets/css/font-awesome.min.css', false, \ElementsKit_Lite::version() );
+        wp_register_style( 'elementskit-font-css-admin', \ElementsKit_Lite::module_url() . 'elementskit-icon-pack/assets/css/ekiticons.css', false, \ElementsKit_Lite::version() );
+        wp_register_style( 'elementskit-init-css-admin', \ElementsKit_Lite::lib_url() . 'framework/assets/css/admin-style.css', false, \ElementsKit_Lite::version() );
 
         wp_enqueue_style( 'fontawesome' );
         wp_enqueue_style( 'elementskit-font-css-admin' );
