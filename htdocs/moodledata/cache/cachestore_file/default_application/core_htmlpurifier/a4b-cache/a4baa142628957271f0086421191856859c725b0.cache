@@ -1,0 +1,14 @@
+s:1058:"<p>Module file cho phép giảng viên dùng file như một nguồn học khi dạy. Nếu được, file sẽ hiển thị trong giao diện của khóa học; nếu không, học viên sẽ được gợi ý để tải nó về. File có thể bao gồm các file hỗ trợ, ví dụ các hình ảnh có thể được lồng ghép trong một trang HTML.</p>
+
+<p>Lưu ý rằng học viên cần có phần mềm phù hợp trên máy tính để mở được file.</p>
+
+<p>File có thể được dùng</p>
+
+<ul>
+<li>Để chia sẻ các bài thuyết trình trên lớp.</li>
+<li>Để thêm các trang web nhỏ như là một nguồn học.</li>
+<li>Để gửi các file nháp liên quan tới các chương trình phần mềm, nhằm mục đích cho học viên chỉnh sửa và nộp lại chúng để đánh giá, chấm điểm.</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/311/vi/mod/resource/view" class="helplinkpopup"><i class="icon fa fa-info-circle fa-fw iconhelp icon-pre"></i>Trợ giúp thêm</a></div>
+";
